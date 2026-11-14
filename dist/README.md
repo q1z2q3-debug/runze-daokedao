@@ -185,3 +185,17 @@
 40 https://dev.to/q1z2q3debug/hexagram-40-jie-the-cook-who-did-not-change-his-blade-for-nineteen-years-ojj
 
 下经三十四卦自咸、恒起。累计已发 40 卦 / 40 篇。
+
+批次五：第四十一至五十卦（损、益、夬、姤、萃、升、困、井、革、鼎），2026-11-14，10 篇，均核验 200。
+41 https://dev.to/q1z2q3debug/hexagram-41-sun-four-good-verdicts-on-a-subtraction-4kb
+42 https://dev.to/q1z2q3debug/hexagram-42-yi-the-character-is-a-vessel-that-has-already-overflowed-4001
+43 https://dev.to/q1z2q3debug/hexagram-43-guai-the-jade-with-one-notch-in-it-1m9l
+44 https://dev.to/q1z2q3debug/hexagram-44-gou-the-arrival-that-does-not-knock-2h4d
+45 https://dev.to/q1z2q3debug/hexagram-45-cui-the-grass-that-came-up-as-a-patch-57k5
+46 https://dev.to/q1z2q3debug/hexagram-46-sheng-a-measuring-scoop-not-a-climber-2527
+47 https://dev.to/q1z2q3debug/hexagram-47-kun-a-tree-shut-inside-a-frame-1epo
+48 https://dev.to/q1z2q3debug/hexagram-48-jing-the-one-thing-a-community-cannot-move-1kd4
+49 https://dev.to/q1z2q3debug/hexagram-49-ge-a-hide-with-the-hair-scraped-off-it-4l13
+50 https://dev.to/q1z2q3debug/hexagram-50-ding-the-hexagram-is-a-drawing-of-a-bronze-vessel-1lp7
+
+累计已发 50 卦 / 50 篇。
