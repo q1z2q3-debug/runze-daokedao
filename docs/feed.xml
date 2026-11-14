@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-Hans">
-<title>润泽说 道可道</title><subtitle>四部经典，一副取景</subtitle>
+<title>润泽说 道可道</title><subtitle>五部经典，一副取景</subtitle>
 <link href="https://q1z2q3-debug.github.io/runze-daokedao/feed.xml" rel="self"/><link href="https://q1z2q3-debug.github.io/runze-daokedao/"/>
 <id>https://q1z2q3-debug.github.io/runze-daokedao/</id><updated>2026-11-14T00:00:00+08:00</updated>
 <author><name>润泽</name><uri>https://q1z2q3-debug.github.io/runze-daokedao/</uri></author>
@@ -12,5 +12,7 @@
 <id>https://q1z2q3-debug.github.io/runze-daokedao/books/xinjing.html</id><updated>2026-11-14T00:00:00+08:00</updated>
 <summary>以「佛说A—即非A—是名A」为标尺，字源溯源、古义勘正、逐句拆解、跨典互证；心经的般若观照与天台止观同源而门径有别，可互参，不可等同。</summary></entry><entry><title>润泽说 道可道之庄子</title><link href="https://q1z2q3-debug.github.io/runze-daokedao/books/zhuangzi.html"/>
 <id>https://q1z2q3-debug.github.io/runze-daokedao/books/zhuangzi.html</id><updated>2026-11-14T00:00:00+08:00</updated>
-<summary>全书主脉是一对分辨：合是人为的分类、命名、制度，和是差异各得其位、彼此不害；庄子所破的是把合当成和，所守的是和。</summary></entry>
+<summary>全书主脉是一对分辨：合是人为的分类、命名、制度，和是差异各得其位、彼此不害；庄子所破的是把合当成和，所守的是和。</summary></entry><entry><title>润泽说 道可道之金刚经</title><link href="https://q1z2q3-debug.github.io/runze-daokedao/books/jingang.html"/>
+<id>https://q1z2q3-debug.github.io/runze-daokedao/books/jingang.html</id><updated>2026-11-14T00:00:00+08:00</updated>
+<summary>只做一件事：把「佛说 A — 即非 A — 是名 A」这把尺子逐分递下去。「即非」不是否定，是不执；读作「其实没有这回事」即落断灭空。</summary></entry>
 </feed>

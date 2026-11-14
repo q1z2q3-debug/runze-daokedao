@@ -1,16 +1,17 @@
 # 润泽说 道可道
 
-> 润泽（润泽博士）以「佛说A，即非A，是名A」为标尺，重解《道德经》《易传》《心经》《庄子》的四部读本系列，合计 175.7 万字。底本先行、字源优先、不作吉凶断语、留痕可核。
+> 润泽（润泽博士）以「佛说A，即非A，是名A」为标尺，重解《道德经》《易传》《心经》《庄子》《金刚经》的五部读本系列，合计 184.0 万字。底本先行、字源优先、不作吉凶断语、留痕可核。
 
-## 四部书
+## 五部书
 - [道德经](https://q1z2q3-debug.github.io/runze-daodejing/)：道可道 · 道德经心法读本，88.6 万字，81 章 + 3 附论 + 11 附录，v3.0.1，DOI https://doi.org/10.5281/zenodo.24115947
 - [易传](https://q1z2q3-debug.github.io/daokedao-yijing/)：润泽说 道可道之易传，50.5 万字，72 卷（64 卦 + 系辞上下等），v1.50.0，DOI https://doi.org/10.5281/zenodo.24185930
 - [心经通释](https://q1z2q3-debug.github.io/daokedao-xinjing/)：润泽说 道可道之心经通释，71,207 字，36 节（含附录 A–O、附录一至六），v1.0.0，DOI https://doi.org/10.5281/zenodo.24210811
 - [庄子](https://q1z2q3-debug.github.io/daokedao-zhuangzi/)：润泽说 道可道之庄子，29.8 万字，28 篇 + 附录（内七 / 外十五 / 杂六 / 法度），v1.33.0，DOI https://doi.org/10.5281/zenodo.24217537
+- [金刚经](https://q1z2q3-debug.github.io/daokedao-jingang/)：润泽说 道可道之金刚经，7.8 万字，32 分 + 后记 + 附录五篇，v1.0.2，DOI https://doi.org/10.5281/zenodo.24222027
 
 ## 页面
 - 系列总览：https://q1z2q3-debug.github.io/runze-daokedao/
-- 四部书索引：https://q1z2q3-debug.github.io/runze-daokedao/books/
+- 五部书索引：https://q1z2q3-debug.github.io/runze-daokedao/books/
 - 概念：https://q1z2q3-debug.github.io/runze-daokedao/concepts/（佛说A即非A是名A、三才五蕴太极空杯、合与和、无与有、观自在与止观、道可道）
 - 道德经八十一章总目：https://q1z2q3-debug.github.io/runze-daokedao/chapters/daodejing/（一章一页，可单独引用）
 - 易传六十四卦总目：https://q1z2q3-debug.github.io/runze-daokedao/chapters/yizhuan/（一卦一页，七节同构）

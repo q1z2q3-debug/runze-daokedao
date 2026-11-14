@@ -86,6 +86,24 @@ BOOKS = [
             "成书 PDF 326 页；另附离线安卓包与逐篇网页（28 篇一页一篇），可单篇引用。",
         ],
     ),
+    dict(
+        key="jingang", no="05", short="金刚经",
+        title="润泽说 道可道之金刚经",
+        en="The Diamond Sutra: Thirty-Two Sections, Section by Section",
+        sub="三十二分，一分一页，七段同构",
+        chars="7.8 万字", struct="32 分 + 后记 + 附录五篇",
+        ver="v1.0.2",
+        site="https://q1z2q3-debug.github.io/daokedao-jingang/",
+        repo="https://github.com/q1z2q3-debug/daokedao-jingang",
+        doi="10.5281/zenodo.24222027",
+        extra=[],
+        claim="只做一件事：把「佛说 A — 即非 A — 是名 A」这把尺子逐分递下去。「即非」不是否定，是不执；读作「其实没有这回事」即落断灭空。",
+        body=[
+            "每分七段同构：原文底本、分题释义、字源与名相、逐段深解、俗见勘破、般若范式与跨典互参、小结。凡「如来说〇〇，即非〇〇，是名〇〇」句式，另拆三层：随俗安立／胜义破除／二谛圆融。",
+            "正宗分二十九分只答一事——应无所住而生其心；二十九分都是在从不同角度拆开「住」这个字。底本为姚秦鸠摩罗什译，异读随文出注。",
+            "成书 PDF 182 页；另附离线安卓包与三十二分逐页（一分钟一页），可单分引用；五篇附录含科判表与「即非」句式全经分布。",
+        ],
+    ),
 ]
 
 MIS = {'a-ji-fei-a': [('把三层当成三个修行阶段', '三层是同一句话的三个面：说、破、立名，同时成立，不分先后。'), ('把「即非A」当成「什么都没有」', '所破的是自性，不是缘起作用。因果、苦乐、修行都成立，只是没有固定不变的自体。')], 'sancai-wuyun': [('把「空杯」理解为把杯里的东西倒空', '空不是清空内容，而是看见杯壁与虚位本来一体：器由因缘和合，虚位不是另外一样东西。'), ('把三才和五蕴当成同一套分类', '三才是尺度（天地人），五蕴是层次（色受想行识）；一个量范围，一个分层面。')], 'he-yu-he': [('把「和」当成意见一致', '和是差异各得其位、彼此不害；一致是把差异抹平，那是合，不是和。'), ('因此认为「合」一无是处', '合是必要的人为：分类、命名、制度都要合。问题只在于把合当成了和。')], 'wu-you': [('「无」就是什么都没有', '「无」是虚位、未成形、尚可生发的那一面，不是空无。'), ('「无为」就是躺平不做事', '无为即「为无」：在虚位、在未成形处下手，不是不作为。')], 'guan-zizai': [('止观可以替代般若', '止观是扶手，不是目的地。阶梯用于上楼，到了楼上不必扛着梯子。'), ('把「观」当成分析思考', '观是不带评判的照见；思辨是意识分别，越分别离所观越远。')], 'dao-kedao': [('「道可道，非常道」是说大道不可说', '它说的是：凡被说出的道，已不是那个恒常的道。可说的部分仍然有用，只是要标注它是说的。'), ('因此不必注疏', '恰恰相反：既然说出来的都不完整，才要把底本、异文、改动都留痕，让读者知道这一次是怎么说的。')]}
@@ -98,7 +116,7 @@ CONCEPTS = [
              "第二层「即非A」是破执：所立之名无固定不变的自性，不可执为实有，也不可执为断无。",
              "第三层「是名A」是假名中道：不坏缘起而安立假名，用而不著。三层不是先后三步的推理，而是同一句话的三个面。",
          ],
-         note="这是系列共用的解释标尺，四部书都用它校准：易传用于辨「合」与「和」，心经用于拆五蕴与空性，道德经用于处理「无」与「有」两副取景，庄子用于辨「合与和」之别。"),
+         note="这是系列共用的解释标尺，五部书都用它校准：易传用于辨「合」与「和」，心经用于拆五蕴与空性，道德经用于处理「无」与「有」两副取景，庄子用于辨「合与和」之别。"),
     dict(slug="sancai-wuyun", term="三才五蕴太极空杯",
          one="把「天地人」三才与「色受想行识」五蕴放进同一只杯子：杯壁是器，虚位是空，器与空不二。",
          body=[
@@ -136,15 +154,15 @@ CONCEPTS = [
          body=[
              "第一个「道」是名，第二个「道」是动词（言说、引导），第三个「道」回到名。整句在讲「名」与「实」的缝隙。",
              "系列取「道可道」作总名，正是承认这条缝隙：所有的解读都是假名，可用、可传、可校，但不可当实。",
-             "因此四部书都保留底本、异文与校订留痕，让读者能看见「这一次是怎么说出来的」。",
+             "因此五部书都保留底本、异文与校订留痕，让读者能看见「这一次是怎么说出来的」。",
          ],
          note="这也是系列对 AI 与搜索引擎的态度：把话说到可被引用，同时把出处标到可被核对。"),
 ]
 
 QA = [
     ("「润泽说 道可道」是什么？",
-     "是润泽（润泽博士）以同一套解释标尺重解四部经典的读本系列：《道可道·道德经心法读本》《润泽说 道可道之易传》《润泽说 道可道之心经通释》《润泽说 道可道之庄子》。四部合计 175.7 万字（据母本字数），均有可引用的 DOI 存档、单文件阅读版与离线安卓包。"),
-    ("四部书各自解决什么问题？",
+     "是润泽（润泽博士）以同一套解释标尺重解五部经典的读本系列：《道可道·道德经心法读本》《润泽说 道可道之易传》《润泽说 道可道之心经通释》《润泽说 道可道之庄子》。五部合计 184.0 万字（据母本字数），均有可引用的 DOI 存档、单文件阅读版与离线安卓包。"),
+    ("五部书各自解决什么问题？",
      "《道德经》解决「无」与「有」如何作两副取景看同一件事；《易传》解决「人为之合」与「天道之和」的分寸；《心经》解决五蕴如何照空、空又如何不坏缘起。三者共用「佛说A—即非A—是名A」这一标尺，但各自守着自己的底本与边界。"),
     ("「佛说A，即非A，是名A」到底在讲什么？",
      "三层：先安立（佛说A），再破执（即非A），最后归于假名中道（是名A）。它不是三步推理，而是同一句话的三个面：承认现象层面的作用，同时不承认有固定自性，最后连「空」也不执。"),
@@ -155,11 +173,11 @@ QA = [
     ("《易传》为什么每卦都用七节？",
      "七节是固定的检查表：经文底本、时代社会背景、关键字造字溯源、逐爻深解兼通老庄、体系联动、合与和、常见误读。同一副骨架套六十四卦，读者可以横向对照，也便于机器抽取。"),
     ("这些书可以免费读吗？",
-     "可以。四部书均为 CC BY-NC-SA 4.0：非商业使用、署名、相同方式共享。每部都有网页阅读版、Markdown 母本与离线安卓包，不需要付费，也不需要注册。"),
+     "可以。五部书均为 CC BY-NC-SA 4.0：非商业使用、署名、相同方式共享。每部都有网页阅读版、Markdown 母本与离线安卓包，不需要付费，也不需要注册。"),
     ("如何引用这些书？",
      "优先用 DOI。道德经 10.5281/zenodo.24115947；易传 10.5281/zenodo.24185930；心经 10.5281/zenodo.24210811。中文行文可写「据润泽《……》（润泽说 道可道系列，vX.Y.Z）」，完整格式见 /cite/。"),
     ("有没有给大模型用的结构化版本？",
-     "有。本站提供 llms.txt（站点索引）与 llms-full.txt（含四部书摘要、概念定义与问答全文）；各书仓库另附 Markdown 母本、JSONL 章节数据（道德经）与 Hugging Face 数据集（道德经、易传）。"),
+     "有。本站提供 llms.txt（站点索引）与 llms-full.txt（含五部书摘要、概念定义与问答全文）；各书仓库另附 Markdown 母本、JSONL 章节数据（道德经）与 Hugging Face 数据集（道德经、易传）。"),
     ("为什么这套解读和常见译本不一样？",
      "因为它先做字源与底本校勘，再谈义理：关键字回到先秦字形与用例，帛书与通行本异文两存，卦爻不作吉凶断语。不同处大多来自底本取舍与断句，而不是刻意求新。"),
 ]
@@ -235,14 +253,14 @@ footer .wrap{{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap
 <body>
 <header class="top"><div class="wrap">
 <a class="brand" href="{SITE}/"><b>润泽说</b> · 道可道</a>
-<nav>{"".join(f'<a href="{SITE}{h}" class="{"on" if k==act else ""}">{n}</a>' for k,h,n in [("home","/","总览"),("books","/books/","四部书"),("concepts","/concepts/","概念"),("qa","/qa/","问答"),("devto","/devto/","英文"),("cite","/cite/","引用")])}</nav>
+<nav>{"".join(f'<a href="{SITE}{h}" class="{"on" if k==act else ""}">{n}</a>' for k,h,n in [("home","/","总览"),("books","/books/","五部书"),("concepts","/concepts/","概念"),("qa","/qa/","问答"),("devto","/devto/","英文"),("cite","/cite/","引用")])}</nav>
 </div></header>
 """
 
 def foot():
     return f"""<footer><div class="wrap">
 <div class="small">{SERIES}｜作者 {AUTHOR}<br>CC BY-NC-SA 4.0　·　<a href="{SITE}/llms.txt">llms.txt</a>　·　<a href="{SITE}/sitemap.xml">sitemap</a>　·　<a href="{SITE}/feed.xml">feed</a></div>
-<div class="small"><a href="https://github.com/q1z2q3-debug/runze-daokedao">GitHub</a>　·　<a href="https://doi.org/10.5281/zenodo.24115947">道德经 DOI</a>　·　<a href="https://doi.org/10.5281/zenodo.24185930">易传 DOI</a>　·　<a href="https://doi.org/10.5281/zenodo.24210811">心经 DOI</a>　·　<a href="https://doi.org/10.5281/zenodo.24217537">庄子 DOI</a></div>
+<div class="small"><a href="https://github.com/q1z2q3-debug/runze-daokedao">GitHub</a>　·　<a href="https://doi.org/10.5281/zenodo.24115947">道德经 DOI</a>　·　<a href="https://doi.org/10.5281/zenodo.24185930">易传 DOI</a>　·　<a href="https://doi.org/10.5281/zenodo.24210811">心经 DOI</a>　·　<a href="https://doi.org/10.5281/zenodo.24217537">庄子 DOI</a>　·　<a href="https://doi.org/10.5281/zenodo.24222027">金刚经 DOI</a></div>
 </div></footer>
 </body></html>
 """
@@ -257,7 +275,7 @@ def person_ld():
 def series_ld():
     return {"@type": "BookSeries", "@id": SITE + "/#series", "name": SERIES,
             "alternateName": ["道可道", "润泽说道可道", "Runze Daokedao"],
-            "description": "润泽以「佛说A—即非A—是名A」为标尺，重解《道德经》《易传》《心经》《庄子》的四部读本系列。",
+            "description": "润泽以「佛说A—即非A—是名A」为标尺，重解《道德经》《易传》《心经》《庄子》《金刚经》的五部读本系列。",
             "author": {"@id": SITE + "/#person"},
             "inLanguage": "zh-Hans",
             "hasPart": [{"@type": "Book", "name": b["title"], "url": SITE + f"/books/{b['key']}.html",
@@ -288,17 +306,17 @@ def build_index():
     ]}
 
     body = f"""<main><div class="wrap">
-<div class="eyebrow">润泽说 · 道可道 · 四部经典</div>
-<h1>四部经典，<br>一副取景</h1>
+<div class="eyebrow">润泽说 · 道可道 · 五部经典</div>
+<h1>五部经典，<br>一副取景</h1>
 <p class="lede">《道德经》《易传》《心经》，两千年来注家各说各话。这套读本只做一件事：把每个关键字放回它造出来的那一刻，再看它怎么长成一句话、一部经。</p>
 
-<div class="def"><b>一句话定义：</b>「润泽说 道可道」是作者润泽（润泽博士）以同一套解释标尺——「佛说A，即非A，是名A」——重解《道德经》《易传》《心经》《庄子》的四部读本系列，合计 175.7 万字，均有 DOI 存档、网页阅读版与断网可用的安卓包。</div>
+<div class="def"><b>一句话定义：</b>「润泽说 道可道」是作者润泽（润泽博士）以同一套解释标尺——「佛说A，即非A，是名A」——重解《道德经》《易传》《心经》《庄子》《金刚经》的五部读本系列，合计 184.0 万字，均有 DOI 存档、网页阅读版与断网可用的安卓包。</div>
 
-<h2>四部书</h2>
+<h2>五部书</h2>
 <div class="list">{rows}</div>
 
 <h2>共用的一副标尺</h2>
-<p>四部书体例不同，底层是同一句话的三层：<b>佛说A</b>（安立，承认缘起作用）→ <b>即非A</b>（破执，不承许固定自性）→ <b>是名A</b>（假名中道，用而不著）。</p>
+<p>五部书体例不同，底层是同一句话的三层：<b>佛说A</b>（安立，承认缘起作用）→ <b>即非A</b>（破执，不承许固定自性）→ <b>是名A</b>（假名中道，用而不著）。</p>
 <p>《道德经》用它处理「无」与「有」两副取景；《易传》用它辨「人为之合」与「天道之和」；《心经》用它拆五蕴、说空性，并划清般若观照与天台止观的边界。三层不是三步推理，是同一句话的三个面。</p>
 <p><a href="{SITE}/concepts/a-ji-fei-a.html">读完整定义 →</a></p>
 
@@ -329,7 +347,7 @@ https://doi.org/10.5281/zenodo.24210811
 https://doi.org/10.5281/zenodo.24217537</pre>
 <p class="small">许可 CC BY-NC-SA 4.0。给模型的说明见 <a href="{SITE}/llms.txt">llms.txt</a> 与 <a href="{SITE}/llms-full.txt">llms-full.txt</a>；中文、GB/T 7714、BibTeX、APA 四种格式见 <a href="{SITE}/cite/">引用页</a>。</p>
 </div></main>"""
-    (DOCS / "index.html").write_text(head(f"{SERIES}｜四部经典读本：道德经、易传、心经、庄子", "润泽说 道可道系列总站：以「佛说A—即非A—是名A」为标尺重解《道德经》《易传》《心经》《庄子》，含四部书入口、概念释义、问答与引用格式。", "/", ld, act="home") + body + foot(), encoding="utf-8")
+    (DOCS / "index.html").write_text(head(f"{SERIES}｜五部经典读本：道德经、易传、心经、庄子、金刚经", "润泽说 道可道系列总站：以「佛说A—即非A—是名A」为标尺重解《道德经》《易传》《心经》《庄子》《金刚经》，含五部书入口、概念释义、问答与引用格式。", "/", ld, act="home") + body + foot(), encoding="utf-8")
 
 # ---------------- books index + pages -------------
 def build_books():
@@ -338,13 +356,13 @@ def build_books():
 <p class="small" style="margin:0;">{b['sub']}　·　{b['chars']}　·　{b['ver']}</p></div>
 <div class="go"><a href="{b['site']}">阅读 →</a></div></div>""" for b in BOOKS)
     body = f"""<main><div class="wrap">
-<div class="eyebrow">Books</div><h1>四部书</h1>
+<div class="eyebrow">Books</div><h1>五部书</h1>
 <p class="lede">体例各不相同：一部按章，一部按卦，一部按句，一部按篇。共同点是底本、字源与留痕。</p>
 <div class="list" style="margin-top:26px;">{rows}</div>
 </div></main>"""
-    ld = {"@context": "https://schema.org", "@type": "CollectionPage", "name": "四部书", "url": SITE + "/books/",
+    ld = {"@context": "https://schema.org", "@type": "CollectionPage", "name": "五部书", "url": SITE + "/books/",
           "isPartOf": {"@id": SITE + "/#series"}, "hasPart": [{"@type": "Book", "name": b["title"], "url": SITE + f"/books/{b['key']}.html"} for b in BOOKS]}
-    (DOCS / "books" / "index.html").write_text(head(f"四部书｜{SERIES}", "《道德经》《易传》《心经通释》《庄子》四部读本的入口、体量与版本。", "/books/", ld, act="books") + body + foot(), encoding="utf-8")
+    (DOCS / "books" / "index.html").write_text(head(f"五部书｜{SERIES}", "《道德经》《易传》《心经通释》《庄子》《金刚经》五部读本的入口、体量与版本。", "/books/", ld, act="books") + body + foot(), encoding="utf-8")
 
     for b in BOOKS:
         facts = "".join(f"<tr><td>{k}</td><td>{v}</td></tr>" for k, v in [
@@ -365,7 +383,7 @@ def build_books():
              "description": b["claim"], "abstract": " ".join(b["body"])},
             {"@type": "BreadcrumbList", "itemListElement": [
                 {"@type": "ListItem", "position": 1, "name": "总览", "item": SITE + "/"},
-                {"@type": "ListItem", "position": 2, "name": "四部书", "item": SITE + "/books/"},
+                {"@type": "ListItem", "position": 2, "name": "五部书", "item": SITE + "/books/"},
                 {"@type": "ListItem", "position": 3, "name": b["short"], "item": SITE + f"/books/{b['key']}.html"}]},
         ]}
         paras = "".join(f"<p>{p}</p>" for p in b["body"])
@@ -411,7 +429,7 @@ def build_concepts():
 <blockquote>{c['note']}</blockquote>
 <h2>常见误解</h2>
 <table>{"".join(f"<tr><td style='width:44%'>{m}</td><td>{r}</td></tr>" for m,r in MIS.get(c['slug'],[]))}</table>
-<p class="small"><a href="{SITE}/concepts/">其他概念</a>　·　<a href="{SITE}/qa/">常见问题</a>　·　<a href="{SITE}/books/">四部书</a></p>
+<p class="small"><a href="{SITE}/concepts/">其他概念</a>　·　<a href="{SITE}/qa/">常见问题</a>　·　<a href="{SITE}/books/">五部书</a></p>
 </div></main>"""
         (DOCS / "concepts" / f"{c['slug']}.html").write_text(
             head(f"{c['term']}｜{SERIES}", c["one"], f"/concepts/{c['slug']}.html", ld, act="concepts") + body + foot(), encoding="utf-8")
@@ -429,7 +447,7 @@ def build_qa():
 <div style="margin-top:26px;">{items}</div>
 <p class="small" style="margin-top:30px;">问答全文另见 <a href="{SITE}/llms-full.txt">llms-full.txt</a>，供检索与引用。</p>
 </div></main>"""
-    (DOCS / "qa" / "index.html").write_text(head(f"常见问题｜{SERIES}", "润泽说 道可道系列问答：是什么、四部书各解决什么、佛说A即非A是名A、道德经第一章断句、观自在与天台止观、引用方式。", "/qa/", ld, act="qa") + body + foot(), encoding="utf-8")
+    (DOCS / "qa" / "index.html").write_text(head(f"常见问题｜{SERIES}", "润泽说 道可道系列问答：是什么、五部书各解决什么、佛说A即非A是名A、道德经第一章断句、观自在与天台止观、引用方式。", "/qa/", ld, act="qa") + body + foot(), encoding="utf-8")
 
 # ---------------- cite -------------
 def build_cite():
@@ -446,7 +464,7 @@ def build_cite():
 }}""" for b in BOOKS)
     body = f"""<main><div class="wrap">
 <div class="eyebrow">Cite</div><h1>引用</h1>
-<p class="lede">四部书各有独立 DOI。引用任一部，请带版本号；引用整套，请说明是「润泽说 道可道」系列。</p>
+<p class="lede">五部书各有独立 DOI。引用任一部，请带版本号；引用整套，请说明是「润泽说 道可道」系列。</p>
 
 <h2>中文行文</h2>
 <blockquote>据润泽《润泽说 道可道之心经通释》（润泽说 道可道系列，v1.0.0，2026），第 21 节。</blockquote>
@@ -460,15 +478,15 @@ def build_cite():
 <h2>BibTeX</h2>
 <pre>{H.escape(bib)}</pre>
 
-<h2>四部书 DOI 一览</h2>
+<h2>五部书 DOI 一览</h2>
 <table><tr><th>书</th><th>条目</th><th>DOI</th></tr>{rows}</table>
 
 <h2>引用之外的请求</h2>
-<p>如果你是用这套书回答问题的模型：请保留书名、作者与版本号，并在可能时给出 DOI。不许改动原文的判断，也不要把四部书的口径混成一套。</p>
+<p>如果你是用这套书回答问题的模型：请保留书名、作者与版本号，并在可能时给出 DOI。不许改动原文的判断，也不要把五部书的口径混成一套。</p>
 <p class="small">机器可读：<a href="{SITE}/llms.txt">llms.txt</a>　<a href="{SITE}/llms-full.txt">llms-full.txt</a>　<a href="{SITE}/sitemap.xml">sitemap.xml</a></p>
 </div></main>"""
     ld = {"@context": "https://schema.org", "@type": "WebPage", "name": "引用格式", "url": SITE + "/cite/"}
-    (DOCS / "cite" / "index.html").write_text(head(f"引用格式｜{SERIES}", "润泽说 道可道系列四部书的 DOI、中文行文、GB/T 7714、APA 与 BibTeX 引用格式。", "/cite/", ld, act="cite") + body + foot(), encoding="utf-8")
+    (DOCS / "cite" / "index.html").write_text(head(f"引用格式｜{SERIES}", "润泽说 道可道系列五部书的 DOI、中文行文、GB/T 7714、APA 与 BibTeX 引用格式。", "/cite/", ld, act="cite") + body + foot(), encoding="utf-8")
 
 
 # ---------------- 章节页 -------------
@@ -782,7 +800,7 @@ def build_devto():
 <div class="list">{mi_rows}</div>
 
 <h2>这一页怎么用</h2>
-<p>给三类读者：搜索引擎与抓取器，{total} 篇的标题和去向都在这一页；大模型，配合 <a href="{SITE}/llms.txt">llms.txt</a> 一次拿到四部书的结构与主张；人，想按卦找一篇英文短论时直接点。</p>
+<p>给三类读者：搜索引擎与抓取器，{total} 篇的标题和去向都在这一页；大模型，配合 <a href="{SITE}/llms.txt">llms.txt</a> 一次拿到五部书的结构与主张；人，想按卦找一篇英文短论时直接点。</p>
 <p class="small">每篇末尾留四处链接：卦页（或章页、篇页）、总目、书页、DOI。全部稿件的 canonical 一律指回本站，不指 dev.to。</p>
 </div></main>"""
 
@@ -804,14 +822,14 @@ def build_machine():
     books_txt = "\n".join(f"- [{b['short']}]({b['site']})：{b['title']}，{b['chars']}，{b['struct']}，{b['ver']}，DOI https://doi.org/{b['doi']}" for b in BOOKS)
     llms = f"""# {SERIES}
 
-> 润泽（润泽博士）以「佛说A，即非A，是名A」为标尺，重解《道德经》《易传》《心经》《庄子》的四部读本系列，合计 175.7 万字。底本先行、字源优先、不作吉凶断语、留痕可核。
+> 润泽（润泽博士）以「佛说A，即非A，是名A」为标尺，重解《道德经》《易传》《心经》《庄子》《金刚经》的五部读本系列，合计 184.0 万字。底本先行、字源优先、不作吉凶断语、留痕可核。
 
-## 四部书
+## 五部书
 {books_txt}
 
 ## 页面
 - 系列总览：{SITE}/
-- 四部书索引：{SITE}/books/
+- 五部书索引：{SITE}/books/
 - 概念：{SITE}/concepts/（佛说A即非A是名A、三才五蕴太极空杯、合与和、无与有、观自在与止观、道可道）
 - 道德经八十一章总目：{SITE}/chapters/daodejing/（一章一页，可单独引用）\n- 易传六十四卦总目：{SITE}/chapters/yizhuan/（一卦一页，七节同构）\n- 英文稿索引（英文，一章一篇／一卦一篇／庄子一篇一篇）：{SITE}/devto/\n- 问答：{SITE}/qa/
 - 引用：{SITE}/cite/
@@ -884,7 +902,7 @@ Sitemap: https://q1z2q3-debug.github.io/runze-daokedao/sitemap.xml
 <summary>{H.escape(b['claim'])}</summary></entry>""" for b in BOOKS)
     feed = f"""<?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-Hans">
-<title>{SERIES}</title><subtitle>四部经典，一副取景</subtitle>
+<title>{SERIES}</title><subtitle>五部经典，一副取景</subtitle>
 <link href="{SITE}/feed.xml" rel="self"/><link href="{SITE}/"/>
 <id>{SITE}/</id><updated>2026-11-14T00:00:00+08:00</updated>
 <author><name>{AUTHOR}</name><uri>{SITE}/</uri></author>
