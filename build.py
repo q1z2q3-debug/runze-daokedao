@@ -767,6 +767,12 @@ TJ_CHAPTERS = [  # 坛经十品：中文原稿页文件名与品名
 ]
 TJ_SITE = "https://q1z2q3-debug.github.io/daokedao-tanjing"
 
+XJ_SECTIONS = [  # 心经十篇：分释篇名与原稿锚点
+    "分释篇一","分释篇二","分释篇三","分释篇四","分释篇五",
+    "分释篇六","分释篇七","分释篇八","分释篇九","分释篇十",
+]
+XJ_SITE = "https://q1z2q3-debug.github.io/daokedao-xinjing"
+
 
 def build_devto():
     """生成 /devto/：已发的英文稿全部列成可检索的一页（标题取自 dev.to API 元数据）。"""
@@ -775,7 +781,7 @@ def build_devto():
     yz = [json.loads(l) for l in (ROOT / "data" / "yizhuan-64.jsonl").read_text(encoding="utf-8").splitlines() if l.strip()]
     names = {r["id"]: r["name"] for r in yz}
 
-    chap, hexa, zz, jg, tj, misc = {}, {}, {}, {}, {}, []
+    chap, hexa, zz, jg, tj, xj, misc = {}, {}, {}, {}, {}, {}, []
     for a in arts:
         m = _r.match(r"https://dev\.to/[^/]+/hexagram-(\d{1,2})-", a["url"])
         if m and int(m.group(1)) <= 64 and int(m.group(1)) not in hexa:
@@ -802,6 +808,11 @@ def build_devto():
             idx = int(m.group(1))
             if 1 <= idx <= len(TJ_CHAPTERS) and idx not in tj:
                 tj[idx] = a; continue
+        m = _r.match(r"https://dev\.to/[^/]+/heart-sutra-(\d{1,2})-", a["url"])
+        if m:
+            idx = int(m.group(1))
+            if 1 <= idx <= len(XJ_SECTIONS) and idx not in xj:
+                xj[idx] = a; continue
         misc.append(a)
 
     def hrow(no):
@@ -832,6 +843,15 @@ def build_devto():
 <p class="small" style="margin:0;">品题 {nm}　·　中文原稿 <a href="{TJ_SITE}/chapters/{f}.html">第 {no} 品页</a>　·　{a['pub']}</p></div>
 <div class="go"><a href="{a['url']}" rel="noopener">dev.to</a></div></div>"""
 
+    def xrow(no):
+        a = xj[no]
+        import urllib.parse as _u
+        anchor = _u.quote(XJ_SECTIONS[no - 1])
+        return f"""<div class="row"><div class="no">{no:02d}</div>
+<div><h3><a href="{a['url']}" rel="noopener">{H.escape(a['title'])}</a></h3>
+<p class="small" style="margin:0;">分释 {XJ_SECTIONS[no - 1]}　·　中文原稿 <a href="{XJ_SITE}/book.html#{anchor}">全书该节</a>　·　{a['pub']}</p></div>
+<div class="go"><a href="{a['url']}" rel="noopener">dev.to</a></div></div>"""
+
     def crow(no):
         a = chap[no]
         return f"""<div class="row"><div class="no">{no:03d}</div>
@@ -844,11 +864,11 @@ def build_devto():
 <p class="small" style="margin:0;">{a['pub']}</p></div>
 <div class="go"><a href="{a['url']}" rel="noopener">dev.to</a></div></div>""" for a in misc)
 
-    total = len(chap) + len(hexa) + len(zz) + len(jg) + len(tj) + len(misc)
+    total = len(chap) + len(hexa) + len(zz) + len(jg) + len(tj) + len(xj) + len(misc)
     body = f"""<main><div class="wrap">
 <p class="eyebrow">English · dev.to</p>
 <h1>已发的英文稿，一篇一页</h1>
-<p class="lede">《道德经》八十一章、《易传》六十四卦、《庄子》二十八篇（先内七，继外篇）、《金刚经》三十二分、《坛经》十品，各按原序一章／一卦／一篇／一分／一品写成英文；每篇的 canonical 都指回中文原稿页——同一个论点，在中英两个入口上都能核。</p>
+<p class="lede">《道德经》八十一章、《易传》六十四卦、《庄子》二十八篇（先内七，继外篇）、《金刚经》三十二分、《坛经》十品、《心经》十篇（十一分释合一为十），各按原序一章／一卦／一篇／一分／一品／一节写成英文；每篇的 canonical 都指回中文原稿页——同一个论点，在中英两个入口上都能核。</p>
 <p class="small">已发 {total} 篇　·　账号 <a href="https://dev.to/q1z2q3debug" rel="noopener">q1z2q3debug</a>　·　发稿记录 <a href="https://github.com/q1z2q3-debug/runze-daokedao/blob/main/dist/README.md">dist/README.md</a>　·　原稿 <a href="https://github.com/q1z2q3-debug/runze-daokedao/tree/main/dist">dist/</a></p>
 
 <h2>道德经 · 八十一章　<span class="small">{len(chap)} 篇</span></h2>
@@ -870,6 +890,10 @@ def build_devto():
 <h2>坛经 · 十品　<span class="small">{len(tj)} 篇</span></h2>
 <p class="small">一品一篇，按部序（上三品／中三品／下四品）排。标题取该品最硬的一处字源或断句问题；每篇起于一句经文，终于一个可自测的问题。canonical 指坛经站 <code>/chapters/NN-slug.html</code>。</p>
 <div class="list">{"".join(trow(n) for n in sorted(tj))}</div>
+
+<h2>心经 · 分释十一篇　<span class="small">{len(xj)} 篇</span></h2>
+<p class="small">一节一篇，末两篇（咒之赞叹与咒文）合为一篇收束。canonical 指心经站全书页 <code>book.html#分释篇N</code> 对应锚点。</p>
+<div class="list">{"".join(xrow(n) for n in sorted(xj))}</div>
 
 <h2>总论与体例　<span class="small">{len(misc)} 篇</span></h2>
 <div class="list">{mi_rows}</div>

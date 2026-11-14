@@ -332,3 +332,20 @@
 字源名相落点：行由＝獦獠一问分「身」与「佛性」、神秀偈是「合」（立镜立尘）、惠能偈撤掉镜与架、何期自性五句是报告非定义、风幡所破是「二选一」的提法｜般若＝摩诃以减法定义（无边际无方圆的「大」）、口念心不行如露如电、莫著空（无记空）、真如起念非六根能念、无念≠绝念（绝念即边见）、离世觅菩提如求兔角｜疑问＝十万八千即十恶八邪、说远为下根说近为上智、随其心净即佛土净、身是城六门、自性弥陀、在家亦得（心平何劳持戒）｜定慧＝定慧一体（灯与光）、先定发慧是「法有二相」、无念为宗无相为体无住为本、念念相续即系缚（修在念与念的缝）、百物不思是大错、前念著境即烦恼后念离境即菩提｜坐禅＝不看心（以妄逐妄）、不看净（立净相自障其本）、不是不动（身静口说是非）、坐＝不被境牵、禅＝离相、不见是非非麻木｜忏悔＝五分法身香皆为状态（内熏不外觅）、忏前愆／悔后过（凡夫只忏不悔）、四弘誓愿改写为自心众生、无相三归依＝自性三宝｜机缘＝字即不识义即请问（义不存于字形）、法达头不至地（三千部即「有一物」）、开示悟入非他人家产（作「我辈无分」解即谤经）、说似一物即不中｜顿渐＝法无顿渐人有利钝、「未说即是说了不是」、住心观静是病非禅、「元是臭骨头何为立功课」、两种戒定慧（次第 vs 一地三说）、立亦得不立亦得｜护法＝道由心悟岂在坐、一灯然百千灯仍是相待（有尽）、智慧照破烦恼即能所（二乘见解）、实性不减不增不乱不寂、外道「灭生以待生」vs 本自无生、常寂而妙用恒沙｜付嘱＝三科皆自性起用、出语尽双二道相因、三十六对而敦煌本实列三十三对（照录不补）、动上有不动≠草木无情、末后偈「兀兀不修善，腾腾不造恶」
 
 累计已发 222 篇（道德经 81 ＋ 易传 64 ＋ 庄子 28 ＋ 金刚经 32 ＋ 坛经 10 ＋ 总论 7）。坛经十品逐品系列一次发完（10 篇），每篇 canonical 指回坛经站 `/chapters/NN-slug.html`。
+
+## 心经第一批（分释篇一至篇十一，末两篇合为第十篇），2026-11-14，10 篇，均核验 200
+
+1 https://dev.to/q1z2q3debug/heart-sutra-1-guan-zi-zai-the-name-is-a-function-not-a-person-mhk
+2 https://dev.to/q1z2q3debug/heart-sutra-2-se-bu-yi-kong-bu-yi-does-not-mean-the-same-4fgd
+3 https://dev.to/q1z2q3debug/heart-sutra-3-zhu-fa-kong-xiang-not-the-hollow-inside-the-cup-42jl
+4 https://dev.to/q1z2q3debug/heart-sutra-4-kong-zhong-wu-se-wu-does-not-mean-there-is-none-17k3
+5 https://dev.to/q1z2q3debug/heart-sutra-5-shi-ba-jie-yu-shi-er-yin-yuan-two-cages-one-spatial-and-one-temporal-194p
+6 https://dev.to/q1z2q3debug/heart-sutra-6-wu-ku-ji-mie-dao-the-subject-object-pair-inside-using-wisdom-to-attain-cessation-2ofo
+7 https://dev.to/q1z2q3debug/heart-sutra-7-yi-wu-suo-de-gu-the-wish-to-attain-is-itself-the-obstruction-3ifa
+8 https://dev.to/q1z2q3debug/heart-sutra-8-wu-you-kong-bu-fear-is-a-lease-on-something-548o
+9 https://dev.to/q1z2q3debug/heart-sutra-9-san-shi-zhu-fo-two-kinds-of-de-and-only-one-of-them-is-acquisition-3cn6
+10 https://dev.to/q1z2q3debug/heart-sutra-10-the-mantra-tuo-luo-ni-means-total-holding-not-a-spell-47cf
+
+字源名相落点：观自在＝观为能照之慧、自在为无缚（非人名）、行深非推论、「度」是自解缠缚非外力｜色不异空＝不异非相同亦非两物、非先造杯再生空、老庄「当其无有器之用」只到用而般若破器｜诸法空相＝空相非器内中空、佛说A即非A是名A、六负全属计量｜空中无色＝无非断灭、六根六尘为临时感知框架、应无所住而生其心｜十八界十二因缘＝空间疆界与时间链条两重牢笼、无明尽是第二个笼｜无苦集灭道＝能所四件、无智无得破「亏欠」前提｜以无所得故＝挂碍是抓手非墙、求自由亦是抓手、境来则应境去不留｜无有恐怖＝恐怖依附于所执、颠倒梦想含下季度的计划、涅槃＝息非死寂｜三世诸佛＝有取之得与消障而显之得、云散虚空现前｜咒＝陀罗尼为总持、僧为「共」非僧团、渡而无渡
+
+累计已发 232 篇（道德经 81 ＋ 易传 64 ＋ 庄子 28 ＋ 金刚经 32 ＋ 坛经 10 ＋ 心经 10 ＋ 总论 7）。心经十一分释合为十篇，canonical 指心经站 `book.html#分释篇N`（锚点式 canonical，2026-11-14 验证可用；同一 canonical 重复提交会被 dev.to 以 422 拒绝）。
