@@ -45,3 +45,15 @@
 11 https://dev.to/q1z2q3debug/daodejing-chapter-11-the-hollow-is-what-gets-used-lco
 12 https://dev.to/q1z2q3debug/daodejing-chapter-12-who-actually-loses-the-senses-40bm
 13 https://dev.to/q1z2q3debug/daodejing-chapter-13-favor-disgrace-and-the-self-that-handed-itself-over-44n4
+
+批次三：第十四至二十三章（10 篇，2026-11-14）
+14 https://dev.to/q1z2q3debug/daodejing-chapter-14-what-the-senses-cannot-detect-3166
+15 https://dev.to/q1z2q3debug/daodejing-chapter-15-seven-images-and-seven-negatives-4pgd
+16 https://dev.to/q1z2q3debug/daodejing-chapter-16-the-one-complete-practice-chain-1pa
+17 https://dev.to/q1z2q3debug/daodejing-chapter-17-four-steps-down-7b9
+18 https://dev.to/q1z2q3debug/daodejing-chapter-18-what-grows-at-the-bottom-of-the-slope-1ne0
+19 https://dev.to/q1z2q3debug/daodejing-chapter-19-take-the-signboard-down-43e3
+20 https://dev.to/q1z2q3debug/daodejing-chapter-20-the-crowd-and-the-i-548f
+21 https://dev.to/q1z2q3debug/daodejing-chapter-21-the-pattern-before-the-thing-cni
+22 https://dev.to/q1z2q3debug/daodejing-chapter-22-six-lines-one-law-460o
+23 https://dev.to/q1z2q3debug/daodejing-chapter-23-why-the-loud-wind-doesnt-last-the-morning-4fja
