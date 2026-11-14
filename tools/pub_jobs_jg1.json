@@ -1,0 +1,132 @@
+[
+ {
+  "key": "jg01",
+  "title": "Diamond Sutra 1, 法会因由: the sutra opens with lunch",
+  "file": "devto-jg-01.md",
+  "tags": [
+   "buddhism",
+   "sutra",
+   "philosophy",
+   "china"
+  ],
+  "desc": "Section 1 has no doctrine: a teacher dresses, begs in order without choosing houses, eats, washes his feet and sits. The demonstration comes before the argument.",
+  "canonical": "https://q1z2q3-debug.github.io/daokedao-jingang/chapters/01-fahuyinyou.html"
+ },
+ {
+  "key": "jg02",
+  "title": "Diamond Sutra 2, 善现启请: the man born of emptiness asks where to put his mind down",
+  "file": "devto-jg-02.md",
+  "tags": [
+   "buddhism",
+   "sutra",
+   "philosophy",
+   "china"
+  ],
+  "desc": "须菩提 is 空生, born of emptiness — and it is he who asks where to put the mind down. 住 is the habit of needing a foothold; 降伏 is not suppression.",
+  "canonical": "https://q1z2q3-debug.github.io/daokedao-jingang/chapters/02-shanxianqiqing.html"
+ },
+ {
+  "key": "jg03",
+  "title": "Diamond Sutra 3, 大乘正宗: the largest promise in the sutra, then the arithmetic cancelled",
+  "file": "devto-jg-03.md",
+  "tags": [
+   "buddhism",
+   "sutra",
+   "philosophy",
+   "china"
+  ],
+  "desc": "Egg, womb, moisture, transformation; form, no form; thought, no thought. A grammar of completeness, then 实无有众生灭度者 — the denial targets entities, not the work.",
+  "canonical": "https://q1z2q3-debug.github.io/daokedao-jingang/chapters/03-dachengzhengzong.html"
+ },
+ {
+  "key": "jg04",
+  "title": "Diamond Sutra 4, 妙行无住: giving, and the glue called 住",
+  "file": "devto-jg-04.md",
+  "tags": [
+   "buddhism",
+   "sutra",
+   "philosophy",
+   "china"
+  ],
+  "desc": "应无所住，行于布施 — act, and take no position. 住 is glue; the sixth field is your own interpretation of your generosity; 福德 is not a deposit.",
+  "canonical": "https://q1z2q3-debug.github.io/daokedao-jingang/chapters/04-miaoxingwuzhu.html"
+ },
+ {
+  "key": "jg05",
+  "title": "Diamond Sutra 5, 如理实见: you cannot recognise a buddha by his body",
+  "file": "devto-jg-05.md",
+  "tags": [
+   "buddhism",
+   "sutra",
+   "philosophy",
+   "china"
+  ],
+  "desc": "身相 was the credential. 如来 as 如+来: appearing as it is. 虚妄 means no fixed substance, not absent. Seeing marks as non-marks is not blurring.",
+  "canonical": "https://q1z2q3-debug.github.io/daokedao-jingang/chapters/05-rulishijian.html"
+ },
+ {
+  "key": "jg06",
+  "title": "Diamond Sutra 6, 正信希有: the doubt about the fifth five-hundred years",
+  "file": "devto-jg-06.md",
+  "tags": [
+   "buddhism",
+   "sutra",
+   "philosophy",
+   "china"
+  ],
+  "desc": "后五百岁 is the worst period in the timetable, and it is named as the case where faith happens. 持戒修福 precedes 能生信心; 一念净信 holds neither existence nor non-existence.",
+  "canonical": "https://q1z2q3-debug.github.io/daokedao-jingang/chapters/06-zhengxinxiyou.html"
+ },
+ {
+  "key": "jg07",
+  "title": "Diamond Sutra 7, 无得无说: no fixed dharma, and a buddha who talked for 32 sections",
+  "file": "devto-jg-07.md",
+  "tags": [
+   "buddhism",
+   "sutra",
+   "philosophy",
+   "china"
+  ],
+  "desc": "定法 is a pocket formula, and it is denied — including a fixed dharma called enlightenment. 非法、非非法 leaves both ends; one moon, several viewers.",
+  "canonical": "https://q1z2q3-debug.github.io/daokedao-jingang/chapters/07-wudewushuo.html"
+ },
+ {
+  "key": "jg08",
+  "title": "Diamond Sutra 8, 依法出生: a cosmos of treasure against four lines",
+  "file": "devto-jg-08.md",
+  "tags": [
+   "buddhism",
+   "sutra",
+   "philosophy",
+   "china"
+  ],
+  "desc": "A billion worlds of seven treasures against four lines received and explained. 受持 is receive + hold; 皆从此经出 is about the content, not the paper.",
+  "canonical": "https://q1z2q3-debug.github.io/daokedao-jingang/chapters/08-yifachusheng.html"
+ },
+ {
+  "key": "jg09",
+  "title": "Diamond Sutra 9, 一相无相: the four fruits, each defined by what it does not enter",
+  "file": "devto-jg-09.md",
+  "tags": [
+   "buddhism",
+   "sutra",
+   "philosophy",
+   "china"
+  ],
+  "desc": "入流 but nothing entered; 一来 but no coming and going. Each stage is a description of what stopped, not a rank conferred; 无诤 is the absence of contest, not agreement.",
+  "canonical": "https://q1z2q3-debug.github.io/daokedao-jingang/chapters/09-yixiangwuxiang.html"
+ },
+ {
+  "key": "jg10",
+  "title": "Diamond Sutra 10, 庄严净土: 应无所住而生其心, and the clause usually dropped",
+  "file": "devto-jg-10.md",
+  "tags": [
+   "buddhism",
+   "sutra",
+   "philosophy",
+   "china"
+  ],
+  "desc": "然灯佛: nothing was obtained. 庄严佛土 cancelled as an external finished result. 应无所住而生其心: an active mind with nothing holding it up.",
+  "canonical": "https://q1z2q3-debug.github.io/daokedao-jingang/chapters/10-zhuangyanjingtu.html"
+ }
+]

@@ -269,3 +269,49 @@
 字源落点：田子方＝真（未文饰之本然，与迹对）、目击而道存、交一臂而失之、唐肆｜知北游＝知之名即论、三无、礼为道之华而乱之首、为道日损、通天下一气耳（同批材料换形态非万物相同）｜庚桑楚＝偏得、画然知者／挈然仁者、日计不足岁计有余、天道已行矣、杓（靶子）｜徐无鬼＝劳两向、盈黜皆病、四合规矩者为国马、超轶绝尘不知其所、跫然｜则阳＝相助消、饮人以和、使家人忘其贫、人与之鉴｜外物＝必、木木相摩而然、血化碧、焚和、月固不胜火、涸辙之鲋｜寓言＝卮言（空则仰满则倾）、重言与陈人、天倪、然于然、天均｜天下＝方术／道术（偏／全）、不可加、一、备＝本数＋末度、一曲之士、内圣外王（此四字出本篇）。
 
 累计已发 179 篇（道德经 81 ＋ 易传 64 ＋ 总论 6 ＋ 庄子 28）。庄子逐篇系列完结（内七＋外十五＋杂六，共 28 篇）。
+
+金刚经第一批：第一分至第十分（法会因由、善现启请、大乘正宗、妙行无住、如理实见、正信希有、无得无说、依法出生、一相无相、庄严净土），2026-11-14，10 篇，均核验 200。
+1 https://dev.to/q1z2q3debug/diamond-sutra-1-fa-hui-yin-you-the-sutra-opens-with-lunch-1p7j
+2 https://dev.to/q1z2q3debug/diamond-sutra-2-shan-xian-qi-qing-the-man-born-of-emptiness-asks-where-to-put-his-mind-down-19l6
+3 https://dev.to/q1z2q3debug/diamond-sutra-3-da-cheng-zheng-zong-the-largest-promise-in-the-sutra-then-the-arithmetic-cancelled-gib
+4 https://dev.to/q1z2q3debug/diamond-sutra-4-miao-xing-wu-zhu-giving-and-the-glue-called-zhu-3869
+5 https://dev.to/q1z2q3debug/diamond-sutra-5-ru-li-shi-jian-you-cannot-recognise-a-buddha-by-his-body-4e1h
+6 https://dev.to/q1z2q3debug/diamond-sutra-6-zheng-xin-xi-you-the-doubt-about-the-fifth-five-hundred-years-4743
+7 https://dev.to/q1z2q3debug/diamond-sutra-7-wu-de-wu-shuo-no-fixed-dharma-and-a-buddha-who-talked-for-32-sections-2abm
+8 https://dev.to/q1z2q3debug/diamond-sutra-8-yi-fa-chu-sheng-a-cosmos-of-treasure-against-four-lines-53jh
+9 https://dev.to/q1z2q3debug/diamond-sutra-9-xiang-wu-xiang-the-four-fruits-each-defined-by-what-it-does-not-enter-1aam
+10 https://dev.to/q1z2q3debug/diamond-sutra-10-zhuang-yan-jing-tu-ying-wu-suo-zhu-er-sheng-qi-xin-and-the-clause-usually-dropped-3o7b
+
+字源名相落点：法会因由＝如是我闻（结集体例／可勘验）、一时（机教相应）、次第乞食（身行无分别）、洗足敷座（收摄）｜善现启请＝Subhūti 空生／善现、阿耨多罗三藐三菩提非果位奖品、如是住承第一分默示｜大乘正宗＝卵胎湿化（穷尽文法）、无余涅槃非处所、四相藏在修行本身｜妙行无住＝住＝攀缘黏着、六尘含法尘、福德非存款、十方虚空破计量｜如理实见＝身相非如来、Tathāgata 如＝真如 来＝显现、虚妄≠不存在｜正信希有＝后五百岁为最难时段、持戒修福在地基、一念净信须双离｜无得无说＝定法非无标准、不可说非禁言、非法非非法、一月多观｜依法出生＝三千大千为修辞极值、受持＝领受＋持守、福德即非福德性｜一相无相＝四果各以「无所入／无往来／无不来」立名、无诤＝无对立非同意｜庄严净土＝然灯佛实无所得、庄严佛土即非庄严、应无所住而生其心（生心不可丢）
+
+金刚经第二批：第十一分至第二十分（无为福胜、尊重正教、如法受持、离相寂灭、持经功德、能净业障、究竟无我、一体同观、法界通化、离色离相），2026-11-14，10 篇，均核验 200。
+11 https://dev.to/q1z2q3debug/diamond-sutra-11-wu-wei-fu-sheng-rivers-of-rivers-and-a-sentence-that-beats-the-count-2knm
+12 https://dev.to/q1z2q3debug/diamond-sutra-12-zun-zhong-zheng-jiao-the-place-where-four-lines-are-spoken-29j9
+13 https://dev.to/q1z2q3debug/diamond-sutra-13-ru-fa-shou-chi-the-sutra-names-itself-then-cancels-the-name-4o9b
+14 https://dev.to/q1z2q3debug/diamond-sutra-14-chi-xiang-ji-mie-xu-pu-ti-weeps-and-ren-ru-is-not-submission-4bba
+15 https://dev.to/q1z2q3debug/diamond-sutra-15-chi-jing-gong-de-three-times-a-day-for-aeons-and-xin-xin-bu-ni-403g
+16 https://dev.to/q1z2q3debug/diamond-sutra-16-neng-jing-ye-zhang-being-despised-and-heavy-karma-made-light-3bfd
+17 https://dev.to/q1z2q3debug/diamond-sutra-17-jiu-jing-wu-wo-the-question-from-section-2-answered-differently-c0b
+18 https://dev.to/q1z2q3debug/diamond-sutra-18-ti-tong-guan-five-eyes-and-a-mind-that-cannot-be-found-2e51
+19 https://dev.to/q1z2q3debug/diamond-sutra-19-fa-jie-tong-hua-if-merit-were-real-it-would-not-be-called-great-2c9j
+20 https://dev.to/q1z2q3debug/diamond-sutra-20-chi-se-chi-xiang-even-a-perfect-body-is-still-a-body-5col
+
+字源名相落点：无为福胜＝恒河沙数之恒河沙（双层指数）、有为／无为、胜在无住不在行为｜尊重正教＝随说（不择处所）、供养是敬非交易、经典所在即为有佛（义被领受处）｜如法受持＝金刚般若波罗蜜名亦受「即非」、奉持在心地上、如来无所说、微尘世界俱假名｜离相寂灭＝实相即非相、信心清净则生实相、忍辱波罗蜜非隐忍（歌利王）、无实无虚｜持经功德＝一日三时以身施、信心不逆（心不抵触）、荷担如来、乐小法者（结构性非道德优劣）｜能净业障＝轻贱消业之边界（不纵容伤害）、重业轻受、果报不可思议非有求必应｜究竟无我＝重问第二分之问、实无有法发菩提心、如来者即诸法如义、无我法亦不执｜一体同观＝五眼为 apertures 非神通、佛眼即不滞于前四、三心不可得｜法界通化＝若福德有实则不说得福德多、福德无≠福德空、通化＝妙用不滞｜离色离相＝具足色身／具足诸相亦「即非」、定中圣相仍属相、离相非无视
+
+金刚经第三批（收尾）：第二十一分至第三十二分（非说所说、无法可得、净心行善、福智无比、化无所化、法身非相、无断无灭、不受不贪、威仪寂静、一合理相、知见不生、应化非真），2026-11-14，12 篇，均核验 200。
+21 https://dev.to/q1z2q3debug/diamond-sutra-21-fei-shuo-suo-shuo-whoever-says-the-buddha-taught-is-slandering-him-1077
+22 https://dev.to/q1z2q3debug/diamond-sutra-22-wu-fa-ke-de-not-the-least-dharma-and-the-last-remainder-closed-602
+23 https://dev.to/q1z2q3debug/diamond-sutra-23-jing-xin-xing-shan-equality-without-a-ranking-and-the-one-formula-ph3
+24 https://dev.to/q1z2q3debug/diamond-sutra-24-fu-zhi-wu-bi-every-sumeru-heaped-with-treasure-and-one-percent-1bk7
+25 https://dev.to/q1z2q3debug/diamond-sutra-25-hua-wu-suo-hua-the-buddha-does-not-think-he-is-liberating-anyone-3o45
+26 https://dev.to/q1z2q3debug/diamond-sutra-26-fa-shen-fei-xiang-the-thirty-two-marks-and-a-wheel-turning-king-4g20
+27 https://dev.to/q1z2q3debug/diamond-sutra-27-wu-duan-wu-mie-the-trap-inside-the-negation-itself-3437
+28 https://dev.to/q1z2q3debug/diamond-sutra-28-bu-shou-bu-tan-ren-as-dwelling-not-as-gritting-your-teeth-15h4
+29 https://dev.to/q1z2q3debug/diamond-sutra-29-wei-yi-ji-jing-walking-standing-sitting-lying-and-wu-suo-cong-lai-474n
+30 https://dev.to/q1z2q3debug/diamond-sutra-30-he-li-xiang-a-world-broken-into-dust-and-what-greed-grips-15hi
+31 https://dev.to/q1z2q3debug/diamond-sutra-31-zhi-jian-bu-sheng-the-four-views-and-the-last-thing-to-put-down-4op3
+32 https://dev.to/q1z2q3debug/diamond-sutra-32-ying-hua-fei-zhen-bu-qu-yu-xiang-ru-ru-bu-dong-and-six-metaphors-for-lightning-pmp
+
+字源名相落点：非说所说＝谤佛即误解非辱骂、说法者无法可说、众生即非众生（两端皆空而事相犹在）｜无法可得＝如是如是双印、乃至无有少法可得（连「无所得」亦不留）、是名即回假名｜净心行善＝是法平等无有高下（无纵向坐标非无差别）、以无四相修一切善法、即得是处所非速度｜福智无比＝须弥山王七宝、百分不及一拒比例、受持读诵为人说｜化无所化＝实无众生如来度者、度而无度、有我即非有我（代词被当成人）、凡夫即非凡夫｜法身非相＝三十二相可同于转轮圣王故不足为凭、若以色见我＝方向错非禁像、法身是如非断空｜无断无灭＝莫作「不以具足相故得菩提」之念、断灭相、于法不说断灭相｜不受不贪＝知一切法无我（人无我＋法无我）、得成于忍＝安住非硬忍、不受＝不入账非拒绝｜威仪寂静＝行住坐卧、无所从来亦无所去、形可动性无迁移、如来为德号非人名｜一合理相＝碎界为尘、微尘亦假名、一合相＝聚合假名、贪著其事（贪的是「我的」这一层）｜知见不生＝四见为定见非眼见、如是知如是见（非替换教义）、不生法相（最后一道缝）、四见无实体不必强灭｜应化非真＝云何为人演说→不取于相如如不动、六喻各有棱角、应作如是观、信受奉行
+
+累计已发 211 篇（道德经 81 ＋ 易传 64 ＋ 总论 5 ＋ 庄子 28 ＋ 金刚经 32）。金刚经三十二分逐分系列完结（三批 10＋10＋12），每篇 canonical 指回金刚经站 `/chapters/NN-slug.html`。

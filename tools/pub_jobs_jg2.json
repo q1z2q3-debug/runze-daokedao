@@ -1,0 +1,132 @@
+[
+ {
+  "key": "jg11",
+  "title": "Diamond Sutra 11, 无为福胜: rivers of rivers, and a sentence that beats the count",
+  "file": "devto-jg-11.md",
+  "tags": [
+   "buddhism",
+   "sutra",
+   "philosophy",
+   "china"
+  ],
+  "desc": "有为 giving is measurable; 无为 is outside the frame. The comparison is not big gift vs small gift but giving inside the counting frame vs outside it.",
+  "canonical": "https://q1z2q3-debug.github.io/daokedao-jingang/chapters/11-wuweifusheng.html"
+ },
+ {
+  "key": "jg12",
+  "title": "Diamond Sutra 12, 尊重正教: the place where four lines are spoken",
+  "file": "devto-jg-12.md",
+  "tags": [
+   "buddhism",
+   "sutra",
+   "philosophy",
+   "china"
+  ],
+  "desc": "随说: no preferred venue, no curated audience. 供养 is respect, not exchange. 经典所在即为有佛 means where the meaning is carried — not that paper holds a buddha.",
+  "canonical": "https://q1z2q3-debug.github.io/daokedao-jingang/chapters/12-zunzhongzhengjiao.html"
+ },
+ {
+  "key": "jg13",
+  "title": "Diamond Sutra 13, 如法受持: the sutra names itself, then cancels the name",
+  "file": "devto-jg-13.md",
+  "tags": [
+   "buddhism",
+   "sutra",
+   "philosophy",
+   "china"
+  ],
+  "desc": "金刚般若波罗蜜, then 即非…是名 applied to the title itself. 奉持 is holding the meaning; 如来无所说; 微尘 and 世界 both conditional.",
+  "canonical": "https://q1z2q3-debug.github.io/daokedao-jingang/chapters/13-rufashouchi.html"
+ },
+ {
+  "key": "jg14",
+  "title": "Diamond Sutra 14, 离相寂灭: 须菩提 weeps, and 忍辱 is not submission",
+  "file": "devto-jg-14.md",
+  "tags": [
+   "buddhism",
+   "sutra",
+   "philosophy",
+   "china"
+  ],
+  "desc": "实相即是非相. 忍辱波罗蜜 is not endurance: it is the absence of the two fixed positions, harmed and harming — defence still allowed, the stored injury gone.",
+  "canonical": "https://q1z2q3-debug.github.io/daokedao-jingang/chapters/14-lixiangjimie.html"
+ },
+ {
+  "key": "jg15",
+  "title": "Diamond Sutra 15, 持经功德: three times a day, for aeons, and 信心不逆",
+  "file": "devto-jg-15.md",
+  "tags": [
+   "buddhism",
+   "sutra",
+   "philosophy",
+   "china"
+  ],
+  "desc": "Morning, noon, evening; bodies like Ganges sands, for 百千万亿劫. 信心不逆 — the mind does not push back — already outweighs it. 荷担如来: carried on the shoulder.",
+  "canonical": "https://q1z2q3-debug.github.io/daokedao-jingang/chapters/15-chijinggongde.html"
+ },
+ {
+  "key": "jg16",
+  "title": "Diamond Sutra 16, 能净业障: being despised, and heavy karma made light",
+  "file": "devto-jg-16.md",
+  "tags": [
+   "buddhism",
+   "sutra",
+   "philosophy",
+   "china"
+  ],
+  "desc": "重业轻受, and its boundary: the claim concerns the inner ledger, not a licence to accept abuse. 不可思议 means outside accounting, not wishes granted.",
+  "canonical": "https://q1z2q3-debug.github.io/daokedao-jingang/chapters/16-nengjingyezhang.html"
+ },
+ {
+  "key": "jg17",
+  "title": "Diamond Sutra 17, 究竟无我: the question from section 2, answered differently",
+  "file": "devto-jg-17.md",
+  "tags": [
+   "buddhism",
+   "sutra",
+   "philosophy",
+   "china"
+  ],
+  "desc": "The same question, after fifteen sections of dismantling. 实无有法发菩提心者; 如来者即诸法如义; 无实无虚; even 无我 not held as a dharma.",
+  "canonical": "https://q1z2q3-debug.github.io/daokedao-jingang/chapters/17-jiujingwuwo.html"
+ },
+ {
+  "key": "jg18",
+  "title": "Diamond Sutra 18, 一体同观: five eyes, and a mind that cannot be found",
+  "file": "devto-jg-18.md",
+  "tags": [
+   "buddhism",
+   "sutra",
+   "philosophy",
+   "china"
+  ],
+  "desc": "肉眼天眼慧眼法眼佛眼: apertures, not superpowers — 佛眼 is not being stuck in any of the four. Then 过去心不可得, 现在心不可得, 未来心不可得.",
+  "canonical": "https://q1z2q3-debug.github.io/daokedao-jingang/chapters/18-yititongguan.html"
+ },
+ {
+  "key": "jg19",
+  "title": "Diamond Sutra 19, 法界通化: if merit were real, it would not be called great",
+  "file": "devto-jg-19.md",
+  "tags": [
+   "buddhism",
+   "sutra",
+   "philosophy",
+   "china"
+  ],
+  "desc": "若福德有实，如来不说得福德多. Great only because it has no substance. 福德无 is not 福德空: effects remain exact, the account book closes.",
+  "canonical": "https://q1z2q3-debug.github.io/daokedao-jingang/chapters/19-fajietonghua.html"
+ },
+ {
+  "key": "jg20",
+  "title": "Diamond Sutra 20, 离色离相: even a perfect body is still a body",
+  "file": "devto-jg-20.md",
+  "tags": [
+   "buddhism",
+   "sutra",
+   "philosophy",
+   "china"
+  ],
+  "desc": "具足色身 and 具足诸相 — the fullest form in the tradition, still 即非. If the perfected body is not the ground, no improvement of form will be.",
+  "canonical": "https://q1z2q3-debug.github.io/daokedao-jingang/chapters/20-liselixiang.html"
+ }
+]

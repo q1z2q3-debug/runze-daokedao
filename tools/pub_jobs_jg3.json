@@ -1,0 +1,158 @@
+[
+ {
+  "key": "jg21",
+  "title": "Diamond Sutra 21, 非说所说: whoever says the Buddha taught is slandering him",
+  "file": "devto-jg-21.md",
+  "tags": [
+   "buddhism",
+   "sutra",
+   "philosophy",
+   "china"
+  ],
+  "desc": "谤佛 here is misunderstanding, not insult: positing a fixed dharma that was handed over. 说法者无法可说; 众生即非众生 — both ends empty, the transaction still happens.",
+  "canonical": "https://q1z2q3-debug.github.io/daokedao-jingang/chapters/21-feishuosuoshuo.html"
+ },
+ {
+  "key": "jg22",
+  "title": "Diamond Sutra 22, 无法可得: not the least dharma, and the last remainder closed",
+  "file": "devto-jg-22.md",
+  "tags": [
+   "buddhism",
+   "sutra",
+   "philosophy",
+   "china"
+  ],
+  "desc": "如是如是, double seal. 乃至无有少法可得 closes the last remainder — including the insight you have just acquired, which has become a 少法.",
+  "canonical": "https://q1z2q3-debug.github.io/daokedao-jingang/chapters/22-wufakede.html"
+ },
+ {
+  "key": "jg23",
+  "title": "Diamond Sutra 23, 净心行善: equality without a ranking, and the one formula",
+  "file": "devto-jg-23.md",
+  "tags": [
+   "buddhism",
+   "sutra",
+   "philosophy",
+   "china"
+  ],
+  "desc": "是法平等，无有高下 means no vertical axis, not that differences vanish. 以无四相修一切善法: the mind's texture plus the act. 即得 is location, not speed.",
+  "canonical": "https://q1z2q3-debug.github.io/daokedao-jingang/chapters/23-jingxinxingshan.html"
+ },
+ {
+  "key": "jg24",
+  "title": "Diamond Sutra 24, 福智无比: every Sumeru heaped with treasure, and one percent",
+  "file": "devto-jg-24.md",
+  "tags": [
+   "buddhism",
+   "sutra",
+   "philosophy",
+   "china"
+  ],
+  "desc": "须弥山王 in every world, heaped with seven treasures. 百分不及一 refuses proportion; the two sides do not share a unit, so no ratio exists.",
+  "canonical": "https://q1z2q3-debug.github.io/daokedao-jingang/chapters/24-fuzhiwubi.html"
+ },
+ {
+  "key": "jg25",
+  "title": "Diamond Sutra 25, 化无所化: the Buddha does not think he is liberating anyone",
+  "file": "devto-jg-25.md",
+  "tags": [
+   "buddhism",
+   "sutra",
+   "philosophy",
+   "china"
+  ],
+  "desc": "实无有众生如来度者. 度 without a liberator; the help that becomes a story about who saved whom is no longer the same help. 凡夫即非凡夫 — no permanently deluded class.",
+  "canonical": "https://q1z2q3-debug.github.io/daokedao-jingang/chapters/25-huawusuohua.html"
+ },
+ {
+  "key": "jg26",
+  "title": "Diamond Sutra 26, 法身非相: the thirty-two marks, and a wheel-turning king",
+  "file": "devto-jg-26.md",
+  "tags": [
+   "buddhism",
+   "sutra",
+   "philosophy",
+   "china"
+  ],
+  "desc": "须菩提 answers yes, wrongly. 转轮圣王 has the same thirty-two marks — so marks cannot certify. 若以色见我 is a direction error, not a ban on images.",
+  "canonical": "https://q1z2q3-debug.github.io/daokedao-jingang/chapters/26-fashenfeixiang.html"
+ },
+ {
+  "key": "jg27",
+  "title": "Diamond Sutra 27, 无断无灭: the trap inside the negation itself",
+  "file": "devto-jg-27.md",
+  "tags": [
+   "buddhism",
+   "sutra",
+   "philosophy",
+   "china"
+  ],
+  "desc": "Do not think the Tathagata attained by having no marks. 断灭相: the view that abolishes cause and effect. 于法不说断灭相 is audible in how someone talks about emptiness.",
+  "canonical": "https://q1z2q3-debug.github.io/daokedao-jingang/chapters/27-wuduanwumie.html"
+ },
+ {
+  "key": "jg28",
+  "title": "Diamond Sutra 28, 不受不贪: 忍 as dwelling, not as gritting your teeth",
+  "file": "devto-jg-28.md",
+  "tags": [
+   "buddhism",
+   "sutra",
+   "philosophy",
+   "china"
+  ],
+  "desc": "知一切法无我，得成于忍: 忍 is 安住, not endurance. 不受福德 is not refusal but not entering merit on an account. Three options; only the third is stated.",
+  "canonical": "https://q1z2q3-debug.github.io/daokedao-jingang/chapters/28-bushoubutan.html"
+ },
+ {
+  "key": "jg29",
+  "title": "Diamond Sutra 29, 威仪寂静: walking, standing, sitting, lying — and 无所从来",
+  "file": "devto-jg-29.md",
+  "tags": [
+   "buddhism",
+   "sutra",
+   "philosophy",
+   "china"
+  ],
+  "desc": "行住坐卧, and 无所从来亦无所去. 形可以动，性无迁移. 如来 as 如+来: appearing as it is — a description, not a name, and not a place of origin.",
+  "canonical": "https://q1z2q3-debug.github.io/daokedao-jingang/chapters/29-weiyijingjing.html"
+ },
+ {
+  "key": "jg30",
+  "title": "Diamond Sutra 30, 一合理相: a world broken into dust, and what greed grips",
+  "file": "devto-jg-30.md",
+  "tags": [
+   "buddhism",
+   "sutra",
+   "philosophy",
+   "china"
+  ],
+  "desc": "Particles and the world they form, both conventional. 一合相 is the sutra word for a composite thing. 贪著其事: greed grips the possessive layer, not the object.",
+  "canonical": "https://q1z2q3-debug.github.io/daokedao-jingang/chapters/30-yihelixiang.html"
+ },
+ {
+  "key": "jg31",
+  "title": "Diamond Sutra 31, 知见不生: the four views, and the last thing to put down",
+  "file": "devto-jg-31.md",
+  "tags": [
+   "buddhism",
+   "sutra",
+   "philosophy",
+   "china"
+  ],
+  "desc": "我见人见众生见寿者见 — the marks as settled opinions, not appearances. 如是知，如是见: no replacement doctrine, only a mode of holding. 不生法相 is the last exit closed.",
+  "canonical": "https://q1z2q3-debug.github.io/daokedao-jingang/chapters/31-zhijianbusheng.html"
+ },
+ {
+  "key": "jg32",
+  "title": "Diamond Sutra 32, 应化非真: 不取于相，如如不动, and six metaphors for lightning",
+  "file": "devto-jg-32.md",
+  "tags": [
+   "buddhism",
+   "sutra",
+   "philosophy",
+   "china"
+  ],
+  "desc": "How to explain it: 不取于相，如如不动 — a posture, not a content. Six metaphors, six different edges. 应作如是观: never assent, always looking. Ends the series of 32.",
+  "canonical": "https://q1z2q3-debug.github.io/daokedao-jingang/chapters/32-yinghuafeizhen.html"
+ }
+]
