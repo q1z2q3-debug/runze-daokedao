@@ -57,3 +57,15 @@
 21 https://dev.to/q1z2q3debug/daodejing-chapter-21-the-pattern-before-the-thing-cni
 22 https://dev.to/q1z2q3debug/daodejing-chapter-22-six-lines-one-law-460o
 23 https://dev.to/q1z2q3debug/daodejing-chapter-23-why-the-loud-wind-doesnt-last-the-morning-4fja
+
+批次四：第二十四至三十三章（10 篇，2026-11-14）
+24 https://dev.to/q1z2q3debug/daodejing-chapter-24-on-tiptoe-and-the-tumor-49lf
+25 https://dev.to/q1z2q3debug/daodejing-chapter-25-the-mixed-formed-thing-5ano
+26 https://dev.to/q1z2q3debug/daodejing-chapter-26-weight-stillness-and-the-baggage-train-1f6l
+27 https://dev.to/q1z2q3debug/daodejing-chapter-27-five-skills-that-leave-no-trace-2be6
+28 https://dev.to/q1z2q3debug/daodejing-chapter-28-knowing-the-male-holding-the-female-1b8b
+29 https://dev.to/q1z2q3debug/daodejing-chapter-29-the-sacred-vessel-you-cannot-grasp-3762
+30 https://dev.to/q1z2q3debug/daodejing-chapter-30-force-and-the-thing-that-comes-back-eg6
+31 https://dev.to/q1z2q3debug/daodejing-chapter-31-a-funeral-held-for-a-victory-4g6g
+32 https://dev.to/q1z2q3debug/daodejing-chapter-32-the-log-the-name-and-where-to-stop-56f5
+33 https://dev.to/q1z2q3debug/daodejing-chapter-33-eight-lines-that-measure-only-yourself-1o33
