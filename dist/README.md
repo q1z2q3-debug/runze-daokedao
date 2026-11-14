@@ -171,3 +171,17 @@
 30 https://dev.to/q1z2q3debug/hexagram-30-li-attached-not-apart-387b
 
 上经三十卦至此全部发完。发布队列脚本已从 /tmp 移入仓内 tools/pub_queue.py（任务单 tools/pub_jobs.json），不再受 /tmp 清理影响。
+
+批次四：第三十一至四十卦（咸、恒、遯、大壮、晋、明夷、家人、睽、蹇、解），2026-11-14，10 篇，均核验 200。
+31 https://dev.to/q1z2q3debug/hexagram-31-xian-the-character-for-feeling-has-no-heart-in-it-4m4c
+32 https://dev.to/q1z2q3debug/hexagram-32-heng-lasting-is-a-line-that-goes-away-and-comes-back-6kd
+33 https://dev.to/q1z2q3debug/hexagram-33-dun-moving-your-position-not-running-3893
+34 https://dev.to/q1z2q3debug/hexagram-34-dazhuang-a-ram-a-fence-and-the-one-carriage-binding-that-is-praised-1i6k
+35 https://dev.to/q1z2q3debug/hexagram-35-jin-the-sun-rises-and-the-ten-thousand-things-advance-12kg
+36 https://dev.to/q1z2q3debug/hexagram-36-mingyi-the-light-is-flattened-not-extinguished-194j
+37 https://dev.to/q1z2q3debug/hexagram-37-jiaren-a-roof-with-a-pig-under-it-5g96
+38 https://dev.to/q1z2q3debug/hexagram-38-kui-one-eye-in-the-character-two-eyes-in-the-meaning-44hd
+39 https://dev.to/q1z2q3debug/hexagram-39-jian-six-lines-one-character-13pg
+40 https://dev.to/q1z2q3debug/hexagram-40-jie-the-cook-who-did-not-change-his-blade-for-nineteen-years-ojj
+
+下经三十四卦自咸、恒起。累计已发 40 卦 / 40 篇。
