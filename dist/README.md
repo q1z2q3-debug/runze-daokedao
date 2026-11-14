@@ -117,3 +117,15 @@
 71 https://dev.to/q1z2q3debug/daodejing-chapter-71-calling-your-own-score-2mdn
 72 https://dev.to/q1z2q3debug/daodejing-chapter-72-mother-in-law-with-an-axe-4k6k
 73 https://dev.to/q1z2q3debug/daodejing-chapter-73-the-net-that-lets-through-and-loses-nothing-2p2o
+
+批次九（收尾）：第七十四至八十一章（8 篇，2026-11-14）
+74 https://dev.to/q1z2q3debug/daodejing-chapter-74-the-one-who-takes-anothers-shift-42a4
+75 https://dev.to/q1z2q3debug/daodejing-chapter-75-the-character-that-is-the-name-of-a-river-3o1e
+76 https://dev.to/q1z2q3debug/daodejing-chapter-76-wood-that-can-bend-m5m
+77 https://dev.to/q1z2q3debug/daodejing-chapter-77-stringing-the-bow-54m0
+78 https://dev.to/q1z2q3debug/daodejing-chapter-78-nothing-can-be-poured-out-of-it-gl8
+79 https://dev.to/q1z2q3debug/daodejing-chapter-79-a-piece-of-wood-cut-in-half-54b9
+80 https://dev.to/q1z2q3debug/daodejing-chapter-80-six-shi-and-one-fu-48l6
+81 https://dev.to/q1z2q3debug/daodejing-chapter-81-nine-nos-that-close-the-book-40lk
+
+道德经逐章系列完结：1–81 全部成篇并发布，加六篇总论，共 87 篇，均 canonical 指向章节页。
