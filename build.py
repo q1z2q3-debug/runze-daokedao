@@ -692,6 +692,21 @@ def _parse_devto():
     return out
 
 
+ZZ_CHAPTERS = [  # 庄子逐篇：中文原稿页文件名与篇名
+    ("01-xiaoyaoyou","逍遥游"),("02-qiwulun","齐物论"),("03-yangshengzhu","养生主"),
+    ("04-renjianshi","人间世"),("05-dechongfu","德充符"),("06-dazongshi","大宗师"),
+    ("07-yingdiwang","应帝王"),("08-pianmu","骈拇"),("09-mati","马蹄"),
+    ("10-quqie","胠箧"),("11-zaiyou","在宥"),("12-tiandi","天地"),
+    ("13-tiandao","天道"),("14-tianyun","天运"),("15-keyi","刻意"),
+    ("16-shanxing","缮性"),("17-qiushui","秋水"),("18-zhile","至乐"),
+    ("19-dasheng","达生"),("20-shanmu","山木"),("21-tianzifang","田子方"),
+    ("22-zhibeiyou","知北游"),("23-gengsangchu","庚桑楚"),("24-xuwangui","徐无鬼"),
+    ("25-zeyang","则阳"),("26-waiwu","外物"),("27-yuyan","寓言"),
+    ("28-tianxia","天下"),("29-fadu","附录·法度"),
+]
+ZZ_SITE = "https://q1z2q3-debug.github.io/daokedao-zhuangzi"
+
+
 def build_devto():
     """生成 /devto/：已发的英文稿全部列成可检索的一页（标题取自 dev.to API 元数据）。"""
     import re as _r
@@ -699,7 +714,7 @@ def build_devto():
     yz = [json.loads(l) for l in (ROOT / "data" / "yizhuan-64.jsonl").read_text(encoding="utf-8").splitlines() if l.strip()]
     names = {r["id"]: r["name"] for r in yz}
 
-    chap, hexa, misc = {}, {}, []
+    chap, hexa, zz, misc = {}, {}, {}, []
     for a in arts:
         m = _r.match(r"https://dev\.to/[^/]+/hexagram-(\d{1,2})-", a["url"])
         if m and int(m.group(1)) <= 64 and int(m.group(1)) not in hexa:
@@ -707,6 +722,11 @@ def build_devto():
         m = _r.match(r"https://dev\.to/[^/]+/daodejing-chapter-(\d{1,2})-", a["url"])
         if m:
             chap[int(m.group(1))] = a; continue
+        m = _r.search(r"/zhuangzi-(outer-)?(\d{1,2})-", a["url"])
+        if m:
+            idx = 7 + int(m.group(2)) if m.group(1) else int(m.group(2))
+            if 1 <= idx <= len(ZZ_CHAPTERS) and idx not in zz:
+                zz[idx] = a; continue
         misc.append(a)
 
     def hrow(no):
@@ -714,6 +734,13 @@ def build_devto():
         return f"""<div class="row"><div class="no">{no:02d}</div>
 <div><h3><a href="{a['url']}" rel="noopener">{H.escape(a['title'])}</a></h3>
 <p class="small" style="margin:0;">卦名 {names.get(no, '')}　·　中文原稿 <a href="{SITE}/chapters/yizhuan/{no:02d}.html">第 {no} 卦页</a>　·　{a['pub']}</p></div>
+<div class="go"><a href="{a['url']}" rel="noopener">dev.to</a></div></div>"""
+
+    def zrow(no):
+        a = zz[no]; f, nm = ZZ_CHAPTERS[no - 1]
+        return f"""<div class="row"><div class="no">{no:02d}</div>
+<div><h3><a href="{a['url']}" rel="noopener">{H.escape(a['title'])}</a></h3>
+<p class="small" style="margin:0;">篇名 {nm}　·　中文原稿 <a href="{ZZ_SITE}/chapters/{f}.html">第 {no} 篇页</a>　·　{a['pub']}</p></div>
 <div class="go"><a href="{a['url']}" rel="noopener">dev.to</a></div></div>"""
 
     def crow(no):
@@ -728,16 +755,20 @@ def build_devto():
 <p class="small" style="margin:0;">{a['pub']}</p></div>
 <div class="go"><a href="{a['url']}" rel="noopener">dev.to</a></div></div>""" for a in misc)
 
-    total = len(chap) + len(hexa) + len(misc)
+    total = len(chap) + len(hexa) + len(zz) + len(misc)
     body = f"""<main><div class="wrap">
 <p class="eyebrow">English · dev.to</p>
 <h1>已发的英文稿，一篇一页</h1>
-<p class="lede">《道德经》八十一章、《易传》六十四卦，各按原序一章（一卦）一篇写成英文；每篇的 canonical 都指回本站对应的中文原稿页——同一个论点，在中英两个入口上都能核。</p>
+<p class="lede">《道德经》八十一章、《易传》六十四卦、《庄子》二十八篇（先内七，继外篇），各按原序一章／一卦／一篇写成英文；每篇的 canonical 都指回中文原稿页——同一个论点，在中英两个入口上都能核。</p>
 <p class="small">已发 {total} 篇　·　账号 <a href="https://dev.to/q1z2q3debug" rel="noopener">q1z2q3debug</a>　·　发稿记录 <a href="https://github.com/q1z2q3-debug/runze-daokedao/blob/main/dist/README.md">dist/README.md</a>　·　原稿 <a href="https://github.com/q1z2q3-debug/runze-daokedao/tree/main/dist">dist/</a></p>
 
 <h2>易传 · 六十四卦　<span class="small">{len(hexa)} 篇</span></h2>
 <p class="small">一卦一篇，标题取该卦最硬的一处字源或断句问题。每篇起于一句经文章句，终于一个可自测的问题。</p>
 <div class="list">{"".join(hrow(n) for n in sorted(hexa))}</div>
+
+<h2>庄子 · 逐篇　<span class="small">{len(zz)} 篇</span></h2>
+<p class="small">一篇一论，标题取该篇最硬的一处字源分歧；先内七篇，继外篇。canonical 指庄子站 <code>/chapters/NN-slug.html</code>。</p>
+<div class="list">{"".join(zrow(n) for n in sorted(zz))}</div>
 
 <h2>道德经 · 八十一章　<span class="small">{len(chap)} 篇</span></h2>
 <p class="small">一章一篇，canonical 指 <code>/chapters/daodejing/NN.html</code>。</p>
@@ -748,7 +779,7 @@ def build_devto():
 
 <h2>这一页怎么用</h2>
 <p>给三类读者：搜索引擎与抓取器，{total} 篇的标题和去向都在这一页；大模型，配合 <a href="{SITE}/llms.txt">llms.txt</a> 一次拿到四部书的结构与主张；人，想按卦找一篇英文短论时直接点。</p>
-<p class="small">每篇末尾留四处链接：卦页（或章页）、总目、书页、DOI。全部稿件的 canonical 一律指回本站，不指 dev.to。</p>
+<p class="small">每篇末尾留四处链接：卦页（或章页、篇页）、总目、书页、DOI。全部稿件的 canonical 一律指回本站，不指 dev.to。</p>
 </div></main>"""
 
     ld = {"@context": "https://schema.org", "@type": "CollectionPage",
@@ -760,7 +791,7 @@ def build_devto():
     base.mkdir(parents=True, exist_ok=True)
     (base / "index.html").write_text(
         head(f"英文稿索引｜{SERIES}",
-             "《道德经》八十一章、《易传》六十四卦的英文逐章／逐卦稿索引，共 151 篇，canonical 一律指回中文原稿页。",
+             f"《道德经》八十一章、《易传》六十四卦、《庄子》逐篇的英文稿索引，共 {total} 篇，canonical 一律指回中文原稿页。",
              "/devto/", ld, act="devto") + body + foot(), encoding="utf-8")
 
 
@@ -778,7 +809,7 @@ def build_machine():
 - 系列总览：{SITE}/
 - 四部书索引：{SITE}/books/
 - 概念：{SITE}/concepts/（佛说A即非A是名A、三才五蕴太极空杯、合与和、无与有、观自在与止观、道可道）
-- 道德经八十一章总目：{SITE}/chapters/daodejing/（一章一页，可单独引用）\n- 易传六十四卦总目：{SITE}/chapters/yizhuan/（一卦一页，七节同构）\n- 英文稿索引（英文，一章一篇／一卦一篇）：{SITE}/devto/\n- 问答：{SITE}/qa/
+- 道德经八十一章总目：{SITE}/chapters/daodejing/（一章一页，可单独引用）\n- 易传六十四卦总目：{SITE}/chapters/yizhuan/（一卦一页，七节同构）\n- 英文稿索引（英文，一章一篇／一卦一篇／庄子一篇一篇）：{SITE}/devto/\n- 问答：{SITE}/qa/
 - 引用：{SITE}/cite/
 - 全文摘要与问答：{SITE}/llms-full.txt
 

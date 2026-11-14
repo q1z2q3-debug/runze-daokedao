@@ -10,11 +10,17 @@ JOBS = Path(sys.argv[1] if len(sys.argv) > 1 else ROOT / "tools" / "pub_jobs.jso
 TOK = subprocess.run(["bash", "-lc", "~/.daokedao-vault/cred devto"], capture_output=True, text=True).stdout.strip()
 
 def post(j):
-    title, ch, f, tags, desc = j
+    if isinstance(j, dict):
+        title, f, tags, desc = j["title"], j["file"], j["tags"], j["desc"]
+        canonical, key = j["canonical"], j.get("key", j["file"])
+    else:
+        title, ch, f, tags, desc = j
+        canonical = f"https://q1z2q3-debug.github.io/runze-daokedao/chapters/yizhuan/{ch}.html"
+        key = ch
     body = (ROOT / "dist" / f).read_text(encoding="utf-8")
     payload = json.dumps({"article": {
         "title": title, "published": True, "body_markdown": body, "tags": tags,
-        "canonical_url": f"https://q1z2q3-debug.github.io/runze-daokedao/chapters/yizhuan/{ch}.html",
+        "canonical_url": canonical,
         "description": desc}}).encode()
     req = urllib.request.Request("https://dev.to/api/articles", data=payload, method="POST",
         headers={"api-key": TOK, "Content-Type": "application/json",
@@ -27,10 +33,11 @@ def post(j):
 jobs = json.loads(JOBS.read_text(encoding="utf-8"))
 done = []
 for j in jobs:
+    key = j.get("key") if isinstance(j, dict) else j[1]
     for _ in range(6):
         url, err = post(j)
         if url:
-            done.append([j[1], url]); print("OK", j[1], url, flush=True); break
-        print("FAIL", j[1], err, flush=True); time.sleep(40)
+            done.append([key, url]); print("OK", key, url, flush=True); break
+        print("FAIL", key, err, flush=True); time.sleep(40)
     time.sleep(35)
 print(json.dumps(done))

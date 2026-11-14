@@ -221,3 +221,21 @@
 64 https://dev.to/q1z2q3debug/hexagram-64-weiji-the-last-hexagram-ends-on-a-progress-bar-4f1g
 
 累计已发 64 卦 / 64 篇。易传逐卦系列完结（卦 1–64）。
+
+## 庄子 · 逐篇（英文，dev.to）
+
+庄子第一批：内篇一至七（逍遥游、齐物论、养生主、人间世、德充符、大宗师、应帝王）＋外篇一至三（骈拇、马蹄、胠箧），2026-11-14，10 篇，均核验 200。
+01 https://dev.to/q1z2q3debug/zhuangzi-1-xiaoyaoyou-the-hinge-is-dai-to-lean-on-a-condition-3cfa
+02 https://dev.to/q1z2q3debug/zhuangzi-2-qiwulun-qi-does-not-mean-everything-is-the-same-1ccl
+03 https://dev.to/q1z2q3debug/zhuangzi-3-yangshengzhu-du-means-the-middle-and-the-blade-goes-through-a-gap-lkh
+04 https://dev.to/q1z2q3debug/zhuangzi-4-renjianshi-bu-de-yi-is-about-timing-not-resignation-3pb4
+05 https://dev.to/q1z2q3debug/zhuangzi-5-dechongfu-fu-is-a-tally-that-matches-not-a-badge-you-earn-bd7
+06 https://dev.to/q1z2q3debug/zhuangzi-6-dazongshi-zhen-ren-has-no-additions-not-extra-powers-3m7b
+07 https://dev.to/q1z2q3debug/zhuangzi-7-yingdiwang-ying-means-it-answers-not-that-it-ought-to-5m8
+08 https://dev.to/q1z2q3debug/zhuangzi-outer-1-pianmu-pian-is-two-horses-in-one-harness-2e6c
+09 https://dev.to/q1z2q3debug/zhuangzi-outer-2-mati-the-horse-did-not-turn-bad-it-learned-5ed2
+10 https://dev.to/q1z2q3debug/zhuangzi-outer-3-quqie-qu-means-prying-from-the-side-7c2
+
+口径：一篇一论；标题取该篇最硬的一处字源分歧（待／齐／督／不得已／符／不假人为／应／骈／马之真性／胠）；稿末四处链接（庄子站篇页、篇目、书站、DOI 10.5281/zenodo.24217537），canonical 指 `daokedao-zhuangzi/chapters/NN-slug.html`。
+
+累计已发 161 篇（道德经 81 ＋ 易传 64 ＋ 总论 6 ＋ 庄子 10）。庄子余 18 篇（外篇四至十五、杂篇一至六）待续。

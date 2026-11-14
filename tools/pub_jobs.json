@@ -1,6 +1,132 @@
 [
- ["Hexagram 61, Zhongfu: the character for trust is a bird sitting on an egg","61","devto-yi-61-zhongfu.md",["yijing","chinese","philosophy","relationships"],"Fu originally means to brood. Trust in the Yijing is never 'we agreed' — it is keeping something warm. And hanyin is not a flying bird; it is a chicken."],
- ["Hexagram 62, Xiaoguo: a bird has gone and its sound is still there","62","devto-yi-62-xiaoguo.md",["yijing","chinese","philosophy","ethics"],"Guo means passing one inch too far, not committing a fault. And the top line says the film over your eye is self-inflicted."],
- ["Hexagram 63, Jiji: the first character is having finished a meal","63","devto-yi-63-jiji.md",["yijing","chinese","philosophy","leadership"],"Ji is a person who has eaten and turns to look back. Silk left lying becomes worn wadding, and nobody tore it."],
- ["Hexagram 64, Weiji: the last hexagram ends on a progress bar","64","devto-yi-64-weiji.md",["yijing","chinese","philosophy","taoism"],"Wei is not a refusal, it is 'not yet'. The small fox nearly across, the tail already wet, and the last sentence of the book is poured wine."]
+ {
+  "key": "nei01",
+  "title": "Zhuangzi 1, Xiaoyaoyou: the hinge is 待 — to lean on a condition",
+  "file": "devto-zz-01.md",
+  "tags": [
+   "zhuangzi",
+   "taoism",
+   "philosophy",
+   "china"
+  ],
+  "desc": "Xiaoyaoyou is not about roaming far. The character 待 means to lean on a condition, and the whole chapter turns on whether you are still leaning.",
+  "canonical": "https://q1z2q3-debug.github.io/daokedao-zhuangzi/chapters/01-xiaoyaoyou.html"
+ },
+ {
+  "key": "nei02",
+  "title": "Zhuangzi 2, Qiwulun: 齐 does not mean everything is the same",
+  "file": "devto-zz-02.md",
+  "tags": [
+   "zhuangzi",
+   "taoism",
+   "philosophy",
+   "china"
+  ],
+  "desc": "Qiwulun is usually summarized as 'all things are equal'. 齐 originally is grain brought to one height. Two kinds of leveling: 合 merges difference, 和 holds it.",
+  "canonical": "https://q1z2q3-debug.github.io/daokedao-zhuangzi/chapters/02-qiwulun.html"
+ },
+ {
+  "key": "nei03",
+  "title": "Zhuangzi 3, Yangshengzhu: 督 means the middle, and the blade goes through a gap",
+  "file": "devto-zz-03.md",
+  "tags": [
+   "zhuangzi",
+   "taoism",
+   "philosophy",
+   "china"
+  ],
+  "desc": "The famous knife is not a lesson in skill. 督 glosses as 中, not the spine; the gap was already there, and 薪尽火传 is about what is passed, not what burns.",
+  "canonical": "https://q1z2q3-debug.github.io/daokedao-zhuangzi/chapters/03-yangshengzhu.html"
+ },
+ {
+  "key": "nei04",
+  "title": "Zhuangzi 4, Renjianshi: 不得已 is about timing, not resignation",
+  "file": "devto-zz-04.md",
+  "tags": [
+   "zhuangzi",
+   "taoism",
+   "philosophy",
+   "china"
+  ],
+  "desc": "The chapter people skip as office politics. 不得已 is not 'no choice' but 'the thing has arrived, then the response arises'. To impose benevolence is called 菑 — disaster.",
+  "canonical": "https://q1z2q3-debug.github.io/daokedao-zhuangzi/chapters/04-renjianshi.html"
+ },
+ {
+  "key": "nei05",
+  "title": "Zhuangzi 5, Dechongfu: 符 is a tally that matches, not a badge you earn",
+  "file": "devto-zz-05.md",
+  "tags": [
+   "zhuangzi",
+   "taoism",
+   "philosophy",
+   "china"
+  ],
+  "desc": "Three amputees open the chapter. 符 is a credential split in two that verifies when halves meet; 益生 comes straight from Daodejing 55, where adding to life is ill-omened.",
+  "canonical": "https://q1z2q3-debug.github.io/daokedao-zhuangzi/chapters/05-dechongfu.html"
+ },
+ {
+  "key": "nei06",
+  "title": "Zhuangzi 6, Dazongshi: 真人 has no additions, not extra powers",
+  "file": "devto-zz-06.md",
+  "tags": [
+   "zhuangzi",
+   "taoism",
+   "philosophy",
+   "china"
+  ],
+  "desc": "真 is the unartificial: 真人 is the person with nothing added. 撄宁 is the calm that grows after disturbance — a stillness never struck is not 宁.",
+  "canonical": "https://q1z2q3-debug.github.io/daokedao-zhuangzi/chapters/06-dazongshi.html"
+ },
+ {
+  "key": "nei07",
+  "title": "Zhuangzi 7, Yingdiwang: 应 means it answers, not that it ought to",
+  "file": "devto-zz-07.md",
+  "tags": [
+   "zhuangzi",
+   "taoism",
+   "philosophy",
+   "china"
+  ],
+  "desc": "Read 应 as 'ought' and the chapter becomes a ruler's manual, the exact thing it dismantles. It ends with 浑沌, killed by two helpers boring apertures.",
+  "canonical": "https://q1z2q3-debug.github.io/daokedao-zhuangzi/chapters/07-yingdiwang.html"
+ },
+ {
+  "key": "wai01",
+  "title": "Zhuangzi, Outer 1 (Pianmu): 骈 is two horses in one harness",
+  "file": "devto-zz-08.md",
+  "tags": [
+   "zhuangzi",
+   "taoism",
+   "philosophy",
+   "china"
+  ],
+  "desc": "骈 originally is two horses yoked abreast. The critique moves off true-or-false onto from-where: 侈 means excess, and 殉 means to be spent on something.",
+  "canonical": "https://q1z2q3-debug.github.io/daokedao-zhuangzi/chapters/08-pianmu.html"
+ },
+ {
+  "key": "wai02",
+  "title": "Zhuangzi, Outer 2 (Mati): the horse did not turn bad, it learned",
+  "file": "devto-zz-09.md",
+  "tags": [
+   "zhuangzi",
+   "taoism",
+   "philosophy",
+   "china"
+  ],
+  "desc": "Four cuts, then the stable: 烧, 剔, 刻, 烙. The horse learns to spit the bit. Pressure is not digested, it is learned — and 天放 is defined as 一而不党.",
+  "canonical": "https://q1z2q3-debug.github.io/daokedao-zhuangzi/chapters/09-mati.html"
+ },
+ {
+  "key": "wai03",
+  "title": "Zhuangzi, Outer 3 (Quqie): 胠 means prying from the side",
+  "file": "devto-zz-10.md",
+  "tags": [
+   "zhuangzi",
+   "taoism",
+   "philosophy",
+   "china"
+  ],
+  "desc": "胠 is the flank: find the seam and enter from the side. 田成子 stole the state with its sagely statutes; 符玺 is trust made into an object, so it can be taken.",
+  "canonical": "https://q1z2q3-debug.github.io/daokedao-zhuangzi/chapters/10-quqie.html"
+ }
 ]
