@@ -315,3 +315,20 @@
 字源名相落点：非说所说＝谤佛即误解非辱骂、说法者无法可说、众生即非众生（两端皆空而事相犹在）｜无法可得＝如是如是双印、乃至无有少法可得（连「无所得」亦不留）、是名即回假名｜净心行善＝是法平等无有高下（无纵向坐标非无差别）、以无四相修一切善法、即得是处所非速度｜福智无比＝须弥山王七宝、百分不及一拒比例、受持读诵为人说｜化无所化＝实无众生如来度者、度而无度、有我即非有我（代词被当成人）、凡夫即非凡夫｜法身非相＝三十二相可同于转轮圣王故不足为凭、若以色见我＝方向错非禁像、法身是如非断空｜无断无灭＝莫作「不以具足相故得菩提」之念、断灭相、于法不说断灭相｜不受不贪＝知一切法无我（人无我＋法无我）、得成于忍＝安住非硬忍、不受＝不入账非拒绝｜威仪寂静＝行住坐卧、无所从来亦无所去、形可动性无迁移、如来为德号非人名｜一合理相＝碎界为尘、微尘亦假名、一合相＝聚合假名、贪著其事（贪的是「我的」这一层）｜知见不生＝四见为定见非眼见、如是知如是见（非替换教义）、不生法相（最后一道缝）、四见无实体不必强灭｜应化非真＝云何为人演说→不取于相如如不动、六喻各有棱角、应作如是观、信受奉行
 
 累计已发 211 篇（道德经 81 ＋ 易传 64 ＋ 总论 5 ＋ 庄子 28 ＋ 金刚经 32）。金刚经三十二分逐分系列完结（三批 10＋10＋12），每篇 canonical 指回金刚经站 `/chapters/NN-slug.html`。
+
+## 坛经第一批（全十品）：第一品至第十品（行由、般若、疑问、定慧、坐禅、忏悔、机缘、顿渐、护法、付嘱），2026-11-14，10 篇，均核验 200
+
+1 https://dev.to/q1z2q3debug/platform-sutra-1-xing-you-pin-a-woodcutter-hears-one-line-and-walks-thirty-days-3gd
+2 https://dev.to/q1z2q3debug/platform-sutra-2-ban-ruo-pin-mo-he-does-not-mean-big-56b9
+3 https://dev.to/q1z2q3debug/platform-sutra-3-yi-wen-pin-ten-myriad-eight-thousand-li-is-a-diagnosis-not-a-distance-c4i
+4 https://dev.to/q1z2q3debug/platform-sutra-4-ding-hui-pin-a-lamp-and-its-light-and-why-calm-cannot-be-stockpiled-1ib6
+5 https://dev.to/q1z2q3debug/platform-sutra-5-zuo-shan-pin-sitting-is-not-sitting-4n9n
+6 https://dev.to/q1z2q3debug/platform-sutra-6-chan-hui-pin-repentance-without-a-ceremony-4d0p
+7 https://dev.to/q1z2q3debug/platform-sutra-7-ji-yuan-pin-the-nun-who-asked-about-a-character-4koj
+8 https://dev.to/q1z2q3debug/platform-sutra-8-dun-jian-pin-sudden-and-gradual-describe-people-not-the-dharma-3b55
+9 https://dev.to/q1z2q3debug/platform-sutra-9-hu-fa-pin-a-lamp-lighting-a-hundred-thousand-lamps-and-why-he-refuses-it-15ob
+10 https://dev.to/q1z2q3debug/platform-sutra-10-fu-zhu-pin-thirty-six-pairs-of-which-the-dunhuang-text-lists-thirty-three-dcg
+
+字源名相落点：行由＝獦獠一问分「身」与「佛性」、神秀偈是「合」（立镜立尘）、惠能偈撤掉镜与架、何期自性五句是报告非定义、风幡所破是「二选一」的提法｜般若＝摩诃以减法定义（无边际无方圆的「大」）、口念心不行如露如电、莫著空（无记空）、真如起念非六根能念、无念≠绝念（绝念即边见）、离世觅菩提如求兔角｜疑问＝十万八千即十恶八邪、说远为下根说近为上智、随其心净即佛土净、身是城六门、自性弥陀、在家亦得（心平何劳持戒）｜定慧＝定慧一体（灯与光）、先定发慧是「法有二相」、无念为宗无相为体无住为本、念念相续即系缚（修在念与念的缝）、百物不思是大错、前念著境即烦恼后念离境即菩提｜坐禅＝不看心（以妄逐妄）、不看净（立净相自障其本）、不是不动（身静口说是非）、坐＝不被境牵、禅＝离相、不见是非非麻木｜忏悔＝五分法身香皆为状态（内熏不外觅）、忏前愆／悔后过（凡夫只忏不悔）、四弘誓愿改写为自心众生、无相三归依＝自性三宝｜机缘＝字即不识义即请问（义不存于字形）、法达头不至地（三千部即「有一物」）、开示悟入非他人家产（作「我辈无分」解即谤经）、说似一物即不中｜顿渐＝法无顿渐人有利钝、「未说即是说了不是」、住心观静是病非禅、「元是臭骨头何为立功课」、两种戒定慧（次第 vs 一地三说）、立亦得不立亦得｜护法＝道由心悟岂在坐、一灯然百千灯仍是相待（有尽）、智慧照破烦恼即能所（二乘见解）、实性不减不增不乱不寂、外道「灭生以待生」vs 本自无生、常寂而妙用恒沙｜付嘱＝三科皆自性起用、出语尽双二道相因、三十六对而敦煌本实列三十三对（照录不补）、动上有不动≠草木无情、末后偈「兀兀不修善，腾腾不造恶」
+
+累计已发 222 篇（道德经 81 ＋ 易传 64 ＋ 庄子 28 ＋ 金刚经 32 ＋ 坛经 10 ＋ 总论 7）。坛经十品逐品系列一次发完（10 篇），每篇 canonical 指回坛经站 `/chapters/NN-slug.html`。

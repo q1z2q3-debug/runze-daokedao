@@ -1,0 +1,132 @@
+[
+ {
+  "key": "tj01",
+  "title": "Platform Sutra 1, 行由品: a woodcutter hears one line and walks thirty days",
+  "file": "devto-tj-01.md",
+  "tags": [
+   "buddhism",
+   "zen",
+   "philosophy",
+   "china"
+  ],
+  "desc": "The sixth patriarch could not read. He heard one line of the Diamond Sutra in a shop, walked a month to Huangmei, and answered an insult by separating body from nature. Two verses, and the difference between wiping a mirror and having no stand.",
+  "canonical": "https://q1z2q3-debug.github.io/daokedao-tanjing/chapters/01-xingyou.html"
+ },
+ {
+  "key": "tj02",
+  "title": "Platform Sutra 2, 般若品: 摩诃 does not mean \"big\"",
+  "file": "devto-tj-02.md",
+  "tags": [
+   "buddhism",
+   "zen",
+   "philosophy",
+   "china"
+  ],
+  "desc": "Mahā is defined by subtraction: no edges, no colour, no size. Reciting without the mind moving is like dew and lightning. And 无念 is not the absence of thought — suppressing thought is called a view on the edge.",
+  "canonical": "https://q1z2q3-debug.github.io/daokedao-tanjing/chapters/02-bore.html"
+ },
+ {
+  "key": "tj03",
+  "title": "Platform Sutra 3, 疑问品: ten myriad eight thousand li is a diagnosis, not a distance",
+  "file": "devto-tj-03.md",
+  "tags": [
+   "buddhism",
+   "zen",
+   "philosophy",
+   "china"
+  ],
+  "desc": "The Pure Land is relocated, not denied: 十万八千 is ten evils and eight wrong views. The body becomes a city with six gates, and 在家亦得 — with an arithmetic that stays behavioural.",
+  "canonical": "https://q1z2q3-debug.github.io/daokedao-tanjing/chapters/03-yiwen.html"
+ },
+ {
+  "key": "tj04",
+  "title": "Platform Sutra 4, 定慧品: a lamp and its light, and why calm cannot be stockpiled",
+  "file": "devto-tj-04.md",
+  "tags": [
+   "buddhism",
+   "zen",
+   "philosophy",
+   "china"
+  ],
+  "desc": "定 is the substance of 慧; you cannot buy stillness now and spend it on insight later. 无住 defined as the seam between thoughts, and the warning that follows 无念: cutting off thought is death, not freedom.",
+  "canonical": "https://q1z2q3-debug.github.io/daokedao-tanjing/chapters/04-dinghui.html"
+ },
+ {
+  "key": "tj05",
+  "title": "Platform Sutra 5, 坐禅品: sitting is not sitting",
+  "file": "devto-tj-05.md",
+  "tags": [
+   "buddhism",
+   "zen",
+   "philosophy",
+   "china"
+  ],
+  "desc": "Three ways of sitting wrong: watching the mind (a phantom watching a phantom), watching purity (manufacturing the mark you want to be rid of), and holding the body still while the mouth ranks everyone.",
+  "canonical": "https://q1z2q3-debug.github.io/daokedao-tanjing/chapters/05-zuochan.html"
+ },
+ {
+  "key": "tj06",
+  "title": "Platform Sutra 6, 忏悔品: repentance without a ceremony",
+  "file": "devto-tj-06.md",
+  "tags": [
+   "buddhism",
+   "zen",
+   "philosophy",
+   "china"
+  ],
+  "desc": "Five incenses defined as states and kindled inwardly. 忏 is the past, 悔 is the future — and most people do only the first, which is why the account keeps reopening.",
+  "canonical": "https://q1z2q3-debug.github.io/daokedao-tanjing/chapters/06-chanhui.html"
+ },
+ {
+  "key": "tj07",
+  "title": "Platform Sutra 7, 机缘品: the nun who asked about a character",
+  "file": "devto-tj-07.md",
+  "tags": [
+   "buddhism",
+   "zen",
+   "philosophy",
+   "china"
+  ],
+  "desc": "字即不识，义即请问: meaning is not stored in the glyph. Fada bows without touching the ground; and reading 开示悟入 as someone else's property is called slandering the sutra.",
+  "canonical": "https://q1z2q3-debug.github.io/daokedao-tanjing/chapters/07-jiyuan.html"
+ },
+ {
+  "key": "tj08",
+  "title": "Platform Sutra 8, 顿渐品: sudden and gradual describe people, not the dharma",
+  "file": "devto-tj-08.md",
+  "tags": [
+   "buddhism",
+   "zen",
+   "philosophy",
+   "china"
+  ],
+  "desc": "法无顿渐，人有利钝 — the whole Northern-Southern quarrel is a classification error about oneself. 住心观静 is called an illness; two versions of 戒定慧, one sequenced, one from a single ground.",
+  "canonical": "https://q1z2q3-debug.github.io/daokedao-tanjing/chapters/08-dunjian.html"
+ },
+ {
+  "key": "tj09",
+  "title": "Platform Sutra 9, 护法品: a lamp lighting a hundred thousand lamps, and why he refuses it",
+  "file": "devto-tj-09.md",
+  "tags": [
+   "buddhism",
+   "zen",
+   "philosophy",
+   "china"
+  ],
+  "desc": "A court summons, declined. 一灯然百千灯 is a chain, and a chain is still 相待. Wisdom breaking affliction installs a subject and an object — the two vehicles' liberation is real and finite.",
+  "canonical": "https://q1z2q3-debug.github.io/daokedao-tanjing/chapters/09-hufa.html"
+ },
+ {
+  "key": "tj10",
+  "title": "Platform Sutra 10, 付嘱品: thirty-six pairs, of which the Dunhuang text lists thirty-three",
+  "file": "devto-tj-10.md",
+  "tags": [
+   "buddhism",
+   "zen",
+   "philosophy",
+   "china"
+  ],
+  "desc": "The teaching kit: three categories, 出语尽双, and a list that miscounts itself — kept as transmitted, not patched. 动上有不动, and the last verse: 兀兀不修善，腾腾不造恶.",
+  "canonical": "https://q1z2q3-debug.github.io/daokedao-tanjing/chapters/10-fuzhu.html"
+ }
+]
