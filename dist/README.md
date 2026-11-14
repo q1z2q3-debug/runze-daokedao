@@ -33,3 +33,15 @@
 9. Daodejing, Chapter 3: It Is Not the People Being Managed. It Is the Scale. — 2026-11-14
    https://dev.to/q1z2q3debug/daodejing-chapter-3-it-is-not-the-people-being-managed-it-is-the-scale-3fh
    canonical: /chapters/daodejing/03.html
+
+批次二：第四至十三章（10 篇，2026-11-14）
+4 https://dev.to/q1z2q3debug/daodejing-chapter-4-the-vessel-that-never-fills-4kkp
+5 https://dev.to/q1z2q3debug/daodejing-chapter-5-the-bellows-and-why-the-middle-is-a-hinge-4eb5
+6 https://dev.to/q1z2q3debug/daodejing-chapter-6-the-valley-does-not-run-out-1baa
+7 https://dev.to/q1z2q3debug/daodejing-chapter-7-not-living-for-oneself-2oia
+8 https://dev.to/q1z2q3debug/daodejing-chapter-8-water-is-close-to-the-way-not-the-way-33fj
+9 https://dev.to/q1z2q3debug/daodejing-chapter-9-what-happens-after-the-work-succeeds-4h1m
+10 https://dev.to/q1z2q3debug/daodejing-chapter-10-six-questions-that-all-ask-the-same-thing-329l
+11 https://dev.to/q1z2q3debug/daodejing-chapter-11-the-hollow-is-what-gets-used-lco
+12 https://dev.to/q1z2q3debug/daodejing-chapter-12-who-actually-loses-the-senses-40bm
+13 https://dev.to/q1z2q3debug/daodejing-chapter-13-favor-disgrace-and-the-self-that-handed-itself-over-44n4
