@@ -329,8 +329,11 @@ def build_books():
             ("全名", b["title"]), ("英文检索名", b["en"]), ("体量", b["chars"]), ("结构", b["struct"]),
             ("当前版本", b["ver"]), ("许可", "CC BY-NC-SA 4.0"), ("作者", AUTHOR),
         ])
+        idx = {"daodejing": ("八十一章逐章页", SITE + "/chapters/daodejing/"),
+               "yijing": ("六十四卦逐卦页", SITE + "/chapters/yizhuan/")}.get(b["key"])
         links = "".join(f'<li><a href="{u}">{n}</a></li>' for n, u in
-                        [("网页阅读", b["site"]), ("源码与全文", b["repo"]), ("DOI 存档", "https://doi.org/" + b["doi"])] + b["extra"])
+                        [("网页阅读", b["site"]), ("源码与全文", b["repo"]), ("DOI 存档", "https://doi.org/" + b["doi"])]
+                        + ([idx] if idx else []) + b["extra"])
         ld = {"@context": "https://schema.org", "@graph": [
             {"@type": "Book", "@id": SITE + f"/books/{b['key']}.html#book", "name": b["title"],
              "alternateName": b["en"], "author": {"@id": SITE + "/#person"},
@@ -573,6 +576,79 @@ def build_chapters():
     (base / "index.html").write_text(head(f"道德经八十一章总目｜{SERIES}", "《道德经》八十一章逐章页：原文、小注、逐字疏解，按根动生落还五件归卷。", "/chapters/daodejing/", ld, act="books") + body + foot(), encoding="utf-8")
 
 
+YI_DATA = ROOT / "data" / "yizhuan-64.jsonl"
+
+def build_yizhuan_chapters():
+    """六十四卦，一卦一页：经文底本 + 逐卦疏解 + 引用与导航。"""
+    rows = [json.loads(x) for x in YI_DATA.read_text(encoding="utf-8").splitlines() if x.strip()]
+    base = DOCS / "chapters" / "yizhuan"
+    base.mkdir(parents=True, exist_ok=True)
+    for i, r in enumerate(rows):
+        n = r["id"]
+        pad = f"{n:02d}"
+        prev_r = rows[i-1] if i > 0 else None
+        next_r = rows[i+1] if i < len(rows)-1 else None
+        title = f"易传·{r['name']}卦｜第{n}卦｜{SERIES}"
+        desc = f"《易传》第{n}卦「{r['name']}」：经文底本、字源溯源、逐爻深解、体系联动与合和之辨。"
+        path = f"/chapters/yizhuan/{pad}.html"
+        ld = {"@context": "https://schema.org", "@type": "Article",
+              "headline": f"易传第{n}卦：{r['name']}",
+              "url": SITE + path, "inLanguage": "zh-Hans",
+              "author": person_ld(),
+              "isPartOf": {"@type": "Book", "@id": SITE + "/books/yijing.html#book",
+                           "name": "润泽说 道可道之易传"},
+              "position": n,
+              "publisher": {"@type": "Organization", "name": SERIES, "url": SITE + "/"},
+              "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+              "citation": "https://doi.org/10.5281/zenodo.24185930"}
+        nav = []
+        if prev_r:
+            nav.append(f'<a href="{SITE}/chapters/yizhuan/{prev_r["id"]:02d}.html">← 第{prev_r["id"]}卦 {prev_r["name"]}</a>')
+        nav.append(f'<a href="{SITE}/chapters/yizhuan/">六十四卦总目</a>')
+        if next_r:
+            nav.append(f'<a href="{SITE}/chapters/yizhuan/{next_r["id"]:02d}.html">第{next_r["id"]}卦 {next_r["name"]} →</a>')
+        deeper = r["text"].split("### 二、", 1)[-1] if "### 二、" in r["text"] else r["text"]
+        wc = len(_re.sub(r"\s", "", r["text"]))
+        body = f"""<main><div class="wrap">
+<p class="eyebrow">易传 · 第{n}卦 · {r['kind']}</p>
+<h1>{H.escape(r['name'])}</h1>
+<p class="lede">{H.escape(desc)}</p>
+<h2>经文底本</h2>
+{md2html(r['scripture'])}
+<h2>逐卦疏解</h2>
+{md2html(deeper)}
+<h2>出处与引用</h2>
+<p>本卦属《润泽说 道可道之易传》{r['kind']}第{n}卦，全卷 {wc} 字。底本用王弼注本，参《周易正义》《周易本义》《周易集解》，马王堆帛书作异文校勘；七节同构：经文底本、时代背景、字源、逐爻深解、体系联动、合与和、常见误读。</p>
+<p>引用：润泽. {SERIES}之易传：v1.50.0〔第{n}卦 {r['name']}〕. 2026. https://doi.org/10.5281/zenodo.24185930</p>
+<p class="small">{"　·　".join(nav)}</p>
+</div></main>"""
+        (base / f"{pad}.html").write_text(head(title, desc, path, ld, act="books") + body + foot(), encoding="utf-8")
+
+    up = [r for r in rows if r["kind"] == "上经"]
+    dn = [r for r in rows if r["kind"] != "上经"]
+    sec = []
+    for label, grp in (("上经三十卦", up), ("下经三十四卦", dn)):
+        sec.append(f"<h2>{label}　<span class='small'>{len(grp)} 卦</span></h2><div class='list'>")
+        for r in grp:
+            wc = len(_re.sub(r"\s", "", r["text"]))
+            sec.append(f"""<div class="row"><div class="no">{r['id']:02d}</div>
+<div><h3><a href="{SITE}/chapters/yizhuan/{r['id']:02d}.html">{r['name']}卦</a></h3>
+<p class="small">{wc} 字疏解</p></div>
+<div class="go"><a href="{SITE}/chapters/yizhuan/{r['id']:02d}.html">读这一卦</a></div></div>""")
+        sec.append("</div>")
+    body = f"""<main><div class="wrap">
+<p class="eyebrow">易传 · 六十四卦</p>
+<h1>六十四卦，一卦一页</h1>
+<p class="lede">按上下经原序排。每卦一页：经文底本、字源溯源、逐爻深解、体系联动（综卦错卦互卦）、合与和、常见误读。不作吉凶断语，只标时位与边界。</p>
+<p class="small">系列总站：<a href="{SITE}/">runze-daokedao</a>　·　书页：<a href="{SITE}/books/yijing.html">易传</a>　·　DOI：10.5281/zenodo.24185930</p>
+{''.join(sec)}
+</div></main>"""
+    ld = {"@context": "https://schema.org", "@type": "CollectionPage", "name": "易传六十四卦总目",
+          "url": SITE + "/chapters/yizhuan/", "inLanguage": "zh-Hans",
+          "isPartOf": {"@type": "Book", "@id": SITE + "/books/yijing.html#book"}}
+    (base / "index.html").write_text(head(f"易传六十四卦总目｜{SERIES}", "《易传》六十四卦逐卦页：经文底本、字源、逐爻深解、体系联动与合和之辨。", "/chapters/yizhuan/", ld, act="books") + body + foot(), encoding="utf-8")
+
+
 # ---------------- llms / robots / sitemap / feed -------------
 def build_machine():
     books_txt = "\n".join(f"- [{b['short']}]({b['site']})：{b['title']}，{b['chars']}，{b['struct']}，{b['ver']}，DOI https://doi.org/{b['doi']}" for b in BOOKS)
@@ -587,7 +663,7 @@ def build_machine():
 - 系列总览：{SITE}/
 - 三部书索引：{SITE}/books/
 - 概念：{SITE}/concepts/（佛说A即非A是名A、三才五蕴太极空杯、合与和、无与有、观自在与止观、道可道）
-- 道德经八十一章总目：{SITE}/chapters/daodejing/（一章一页，可单独引用）\n- 问答：{SITE}/qa/
+- 道德经八十一章总目：{SITE}/chapters/daodejing/（一章一页，可单独引用）\n- 易传六十四卦总目：{SITE}/chapters/yizhuan/（一卦一页，七节同构）\n- 问答：{SITE}/qa/
 - 引用：{SITE}/cite/
 - 全文摘要与问答：{SITE}/llms-full.txt
 
@@ -646,7 +722,8 @@ Sitemap: https://q1z2q3-debug.github.io/runze-daokedao/sitemap.xml
     urls = ["/", "/books/", "/concepts/", "/qa/", "/cite/"] + \
            [f"/books/{b['key']}.html" for b in BOOKS] + \
            [f"/concepts/{c['slug']}.html" for c in CONCEPTS] + \
-           ["/chapters/daodejing/"] + [f"/chapters/daodejing/{i:02d}.html" for i in range(1, 82)]
+           ["/chapters/daodejing/"] + [f"/chapters/daodejing/{i:02d}.html" for i in range(1, 82)] + \
+           ["/chapters/yizhuan/"] + [f"/chapters/yizhuan/{i:02d}.html" for i in range(1, 65)]
     sm = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + \
         "".join(f"<url><loc>{SITE}{u}</loc><lastmod>2026-11-14</lastmod></url>\n" for u in urls) + "</urlset>\n"
     (DOCS / "sitemap.xml").write_text(sm, encoding="utf-8")
@@ -667,5 +744,5 @@ Sitemap: https://q1z2q3-debug.github.io/runze-daokedao/sitemap.xml
     (DOCS / "feed.xml").write_text(feed, encoding="utf-8")
 
 if __name__ == "__main__":
-    build_index(); build_books(); build_concepts(); build_qa(); build_cite(); build_chapters(); build_machine()
+    build_index(); build_books(); build_concepts(); build_qa(); build_cite(); build_chapters(); build_yizhuan_chapters(); build_machine()
     print("built", len(list(DOCS.rglob("*.html")), ), "html pages")
