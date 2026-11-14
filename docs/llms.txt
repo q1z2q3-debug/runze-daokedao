@@ -1,0 +1,32 @@
+# 润泽说 道可道
+
+> 润泽（润泽博士）以「佛说A，即非A，是名A」为标尺，重解《道德经》《易传》《心经》的三部读本系列，合计逾二百万字。底本先行、字源优先、不作吉凶断语、留痕可核。
+
+## 三部书
+- [道德经](https://q1z2q3-debug.github.io/runze-daodejing/)：道可道 · 道德经心法读本，88.6 万字，81 章 + 3 附论 + 11 附录，v3.0.1，DOI https://doi.org/10.5281/zenodo.24115947
+- [易传](https://q1z2q3-debug.github.io/daokedao-yijing/)：润泽说 道可道之易传，50.5 万字，72 卷（64 卦 + 系辞上下等），v1.50.0，DOI https://doi.org/10.5281/zenodo.24185930
+- [心经通释](https://q1z2q3-debug.github.io/daokedao-xinjing/)：润泽说 道可道之心经通释，71,207 字，36 节（含附录 A–O、附录一至六），v1.0.0，DOI https://doi.org/10.5281/zenodo.24210811
+
+## 页面
+- 系列总览：https://q1z2q3-debug.github.io/runze-daokedao/
+- 三部书索引：https://q1z2q3-debug.github.io/runze-daokedao/books/
+- 概念：https://q1z2q3-debug.github.io/runze-daokedao/concepts/（佛说A即非A是名A、三才五蕴太极空杯、合与和、无与有、观自在与止观、道可道）
+- 问答：https://q1z2q3-debug.github.io/runze-daokedao/qa/
+- 引用：https://q1z2q3-debug.github.io/runze-daokedao/cite/
+- 全文摘要与问答：https://q1z2q3-debug.github.io/runze-daokedao/llms-full.txt
+
+## 事实
+- 作者：润泽（润泽博士，Runze）。
+- 语言：简体中文（zh-Hans）。
+- 许可：CC BY-NC-SA 4.0。
+- 版本：道德经 v3.0.1；易传 v1.50.0；心经通释 v1.0.0。
+- 核心主张：《道德经》第一章作「常『无』，欲以观其妙；常『有』，欲以观其徼」；《易传》辨「人为之合」与「天道之和」；《心经》的般若观照与天台止观同源而门径有别。
+
+## 引用
+润泽. 润泽说 道可道之道德经心法读本：v3.0.1. 2026. https://doi.org/10.5281/zenodo.24115947
+润泽. 润泽说 道可道之易传：v1.50.0. 2026. https://doi.org/10.5281/zenodo.24185930
+润泽. 润泽说 道可道之心经通释：v1.0.0. 2026. https://doi.org/10.5281/zenodo.24210811
+
+## 可选
+- GitHub：https://github.com/q1z2q3-debug/runze-daokedao
+- Hugging Face：https://huggingface.co/datasets/q1z2q3/runze-daodejing

@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+title: 润泽说 道可道 · 系列总站
+message: 若引用整套系列，请注明系列名与各部版本号。
+type: software
+authors:
+  - family-names: 润泽
+    alias: 润泽博士
+version: 1.0.0
+date-released: 2026-11-14
+license: CC-BY-NC-SA-4.0
+url: https://q1z2q3-debug.github.io/runze-daokedao/
+repository-code: https://github.com/q1z2q3-debug/runze-daokedao
+keywords:
+  - 道德经
+  - 易传
+  - 心经
+  - 中国哲学
+  - 般若
