@@ -81,3 +81,15 @@
 41 https://dev.to/q1z2q3debug/daodejing-chapter-41-why-the-way-always-looks-wrong-2knc
 42 https://dev.to/q1z2q3debug/daodejing-chapter-42-the-gap-between-two-ends-3ng8
 43 https://dev.to/q1z2q3debug/daodejing-chapter-43-the-softest-runs-through-the-hardest-20op
+
+批次六：第四十四至五十三章（10 篇，2026-11-14）
+44 https://dev.to/q1z2q3debug/daodejing-chapter-44-knowing-where-your-foot-stands-4k0e
+45 https://dev.to/q1z2q3debug/daodejing-chapter-45-the-thing-that-doesnt-break-has-a-crack-in-it-2429
+46 https://dev.to/q1z2q3debug/daodejing-chapter-46-the-horse-sent-back-to-the-field-3fic
+47 https://dev.to/q1z2q3debug/daodejing-chapter-47-the-window-is-a-frame-2jo6
+48 https://dev.to/q1z2q3debug/daodejing-chapter-48-adding-and-subtracting-on-one-table-4gm7
+49 https://dev.to/q1z2q3debug/daodejing-chapter-49-the-sage-with-no-fixed-standard-3cbm
+50 https://dev.to/q1z2q3debug/daodejing-chapter-50-the-dead-ground-you-build-yourself-200d
+51 https://dev.to/q1z2q3debug/daodejing-chapter-51-the-shelter-with-a-roof-and-no-walls-12h4
+52 https://dev.to/q1z2q3debug/daodejing-chapter-52-the-mouth-the-mother-and-the-road-back-4eck
+53 https://dev.to/q1z2q3debug/daodejing-chapter-53-the-path-one-person-wide-4p2c
