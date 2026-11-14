@@ -27,3 +27,6 @@
 
 章页：site/chapters/daodejing/01–81.html，一章一页，可单独引用。
 后续章篇按同一模板，canonical 指各自章页。
+8. Daodejing, Chapter 2: A Standard Creates the Thing It Excludes — 2026-11-14
+   https://dev.to/q1z2q3debug/daodejing-chapter-2-a-standard-creates-the-thing-it-excludes-5bo6
+   canonical: /chapters/daodejing/02.html
