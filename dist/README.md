@@ -30,3 +30,6 @@
 8. Daodejing, Chapter 2: A Standard Creates the Thing It Excludes — 2026-11-14
    https://dev.to/q1z2q3debug/daodejing-chapter-2-a-standard-creates-the-thing-it-excludes-5bo6
    canonical: /chapters/daodejing/02.html
+9. Daodejing, Chapter 3: It Is Not the People Being Managed. It Is the Scale. — 2026-11-14
+   https://dev.to/q1z2q3debug/daodejing-chapter-3-it-is-not-the-people-being-managed-it-is-the-scale-3fh
+   canonical: /chapters/daodejing/03.html
