@@ -182,7 +182,8 @@ header.top{{border-bottom:1px solid var(--line);background:rgba(247,244,238,.94)
 header.top .wrap{{display:flex;align-items:baseline;justify-content:space-between;gap:16px;padding-top:14px;padding-bottom:14px;}}
 .brand{{font-size:15px;letter-spacing:.12em;color:var(--ink);border:0;}}
 .brand b{{font-weight:600;}}
-nav a{{font-size:13px;color:var(--muted);border:0;margin-left:18px;font-family:"Noto Sans SC",sans-serif;letter-spacing:.04em;}}
+nav{{display:flex;flex-wrap:wrap;justify-content:flex-end;column-gap:16px;row-gap:2px;}}
+nav a{{font-size:13px;color:var(--muted);border:0;white-space:nowrap;font-family:"Noto Sans SC",sans-serif;letter-spacing:.04em;}}
 nav a.on,nav a:hover{{color:var(--accent);}}
 main{{padding:56px 0 40px;}}
 .eyebrow{{font-family:"Noto Sans SC",sans-serif;font-size:12px;letter-spacing:.22em;color:var(--muted);text-transform:uppercase;}}
@@ -208,7 +209,7 @@ blockquote{{margin:22px 0;padding:4px 0 4px 18px;border-left:2px solid var(--acc
 footer{{border-top:1px solid var(--line);padding:34px 0 60px;margin-top:40px;}}
 footer .wrap{{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;}}
 @media(max-width:720px){{
- h1{{font-size:29px;}} .row{{grid-template-columns:1fr;gap:6px;}} .row .no{{display:none;}} .row .go{{text-align:left;}} nav a{{margin-left:12px;font-size:12px;}} main{{padding-top:36px;}}
+ h1{{font-size:29px;}} .row{{grid-template-columns:1fr;gap:6px;}} .row .no{{display:none;}} .row .go{{text-align:left;}} .brand{{white-space:nowrap;font-size:13px;letter-spacing:.06em;}} nav{{column-gap:10px;}} nav a{{font-size:11.5px;letter-spacing:.02em;}} main{{padding-top:36px;}}
 }}
 </style>
 {ld}
@@ -216,7 +217,7 @@ footer .wrap{{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap
 <body>
 <header class="top"><div class="wrap">
 <a class="brand" href="{SITE}/"><b>润泽说</b> · 道可道</a>
-<nav>{"".join(f'<a href="{SITE}{h}" class="{"on" if k==act else ""}">{n}</a>' for k,h,n in [("home","/","总览"),("books","/books/","三部书"),("concepts","/concepts/","概念"),("qa","/qa/","问答"),("cite","/cite/","引用")])}</nav>
+<nav>{"".join(f'<a href="{SITE}{h}" class="{"on" if k==act else ""}">{n}</a>' for k,h,n in [("home","/","总览"),("books","/books/","三部书"),("concepts","/concepts/","概念"),("qa","/qa/","问答"),("devto","/devto/","英文"),("cite","/cite/","引用")])}</nav>
 </div></header>
 """
 
@@ -649,6 +650,99 @@ def build_yizhuan_chapters():
     (base / "index.html").write_text(head(f"易传六十四卦总目｜{SERIES}", "《易传》六十四卦逐卦页：经文底本、字源、逐爻深解、体系联动与合和之辨。", "/chapters/yizhuan/", ld, act="books") + body + foot(), encoding="utf-8")
 
 
+# ---------------- 英文稿索引（dev.to） -------------
+def _parse_devto():
+    """从 dist/README.md 抽出发稿记录：[(序, 标题或空, url)]。"""
+    import re as _r
+    txt = (ROOT / "dist" / "README.md").read_text(encoding="utf-8")
+    out, pending = [], ""
+    for line in txt.splitlines():
+        s = line.strip()
+        m = _r.match(r"^(\d+)\.\s+(.+)$", s)
+        if m:
+            pending = m.group(2)
+            continue
+        m = _r.match(r"^(\d+)\s+(https://dev\.to/.+)$", s)
+        if m:
+            out.append((int(m.group(1)), pending, m.group(2))); pending = ""
+            continue
+        if s.startswith("https://dev.to/"):
+            out.append((0, pending, s)); pending = ""
+    return out
+
+
+def build_devto():
+    """生成 /devto/：已发的英文稿全部列成可检索的一页（标题取自 dev.to API 元数据）。"""
+    import re as _r
+    arts = json.loads((ROOT / "data" / "devto-articles.json").read_text(encoding="utf-8"))
+    yz = [json.loads(l) for l in (ROOT / "data" / "yizhuan-64.jsonl").read_text(encoding="utf-8").splitlines() if l.strip()]
+    names = {r["id"]: r["name"] for r in yz}
+
+    chap, hexa, misc = {}, {}, []
+    for a in arts:
+        m = _r.match(r"https://dev\.to/[^/]+/hexagram-(\d{1,2})-", a["url"])
+        if m and int(m.group(1)) <= 64 and int(m.group(1)) not in hexa:
+            hexa[int(m.group(1))] = a; continue
+        m = _r.match(r"https://dev\.to/[^/]+/daodejing-chapter-(\d{1,2})-", a["url"])
+        if m:
+            chap[int(m.group(1))] = a; continue
+        misc.append(a)
+
+    def hrow(no):
+        a = hexa[no]
+        return f"""<div class="row"><div class="no">{no:02d}</div>
+<div><h3><a href="{a['url']}" rel="noopener">{H.escape(a['title'])}</a></h3>
+<p class="small" style="margin:0;">卦名 {names.get(no, '')}　·　中文原稿 <a href="{SITE}/chapters/yizhuan/{no:02d}.html">第 {no} 卦页</a>　·　{a['pub']}</p></div>
+<div class="go"><a href="{a['url']}" rel="noopener">dev.to</a></div></div>"""
+
+    def crow(no):
+        a = chap[no]
+        return f"""<div class="row"><div class="no">{no:03d}</div>
+<div><h3><a href="{a['url']}" rel="noopener">{H.escape(a['title'])}</a></h3>
+<p class="small" style="margin:0;">中文原稿 <a href="{SITE}/chapters/daodejing/{no:02d}.html">第 {no} 章页</a>　·　{a['pub']}</p></div>
+<div class="go"><a href="{a['url']}" rel="noopener">dev.to</a></div></div>"""
+
+    mi_rows = "".join(f"""<div class="row"><div class="no">—</div>
+<div><h3><a href="{a['url']}" rel="noopener">{H.escape(a['title'])}</a></h3>
+<p class="small" style="margin:0;">{a['pub']}</p></div>
+<div class="go"><a href="{a['url']}" rel="noopener">dev.to</a></div></div>""" for a in misc)
+
+    total = len(chap) + len(hexa) + len(misc)
+    body = f"""<main><div class="wrap">
+<p class="eyebrow">English · dev.to</p>
+<h1>已发的英文稿，一篇一页</h1>
+<p class="lede">《道德经》八十一章、《易传》六十四卦，各按原序一章（一卦）一篇写成英文；每篇的 canonical 都指回本站对应的中文原稿页——同一个论点，在中英两个入口上都能核。</p>
+<p class="small">已发 {total} 篇　·　账号 <a href="https://dev.to/q1z2q3debug" rel="noopener">q1z2q3debug</a>　·　发稿记录 <a href="https://github.com/q1z2q3-debug/runze-daokedao/blob/main/dist/README.md">dist/README.md</a>　·　原稿 <a href="https://github.com/q1z2q3-debug/runze-daokedao/tree/main/dist">dist/</a></p>
+
+<h2>易传 · 六十四卦　<span class="small">{len(hexa)} 篇</span></h2>
+<p class="small">一卦一篇，标题取该卦最硬的一处字源或断句问题。每篇起于一句经文章句，终于一个可自测的问题。</p>
+<div class="list">{"".join(hrow(n) for n in sorted(hexa))}</div>
+
+<h2>道德经 · 八十一章　<span class="small">{len(chap)} 篇</span></h2>
+<p class="small">一章一篇，canonical 指 <code>/chapters/daodejing/NN.html</code>。</p>
+<div class="list">{"".join(crow(n) for n in sorted(chap))}</div>
+
+<h2>总论与体例　<span class="small">{len(misc)} 篇</span></h2>
+<div class="list">{mi_rows}</div>
+
+<h2>这一页怎么用</h2>
+<p>给三类读者：搜索引擎与抓取器，{total} 篇的标题和去向都在这一页；大模型，配合 <a href="{SITE}/llms.txt">llms.txt</a> 一次拿到三部书的结构与主张；人，想按卦找一篇英文短论时直接点。</p>
+<p class="small">每篇末尾留四处链接：卦页（或章页）、总目、书页、DOI。全部稿件的 canonical 一律指回本站，不指 dev.to。</p>
+</div></main>"""
+
+    ld = {"@context": "https://schema.org", "@type": "CollectionPage",
+          "name": f"{SERIES} · 英文稿索引", "url": SITE + "/devto/", "inLanguage": "en",
+          "isPartOf": {"@id": SITE + "/#series"},
+          "hasPart": [{"@type": "Article", "name": a["title"], "url": a["url"], "datePublished": a["pub"]} for a in arts]}
+
+    base = DOCS / "devto"
+    base.mkdir(parents=True, exist_ok=True)
+    (base / "index.html").write_text(
+        head(f"英文稿索引｜{SERIES}",
+             "《道德经》八十一章、《易传》六十四卦的英文逐章／逐卦稿索引，共 151 篇，canonical 一律指回中文原稿页。",
+             "/devto/", ld, act="devto") + body + foot(), encoding="utf-8")
+
+
 # ---------------- llms / robots / sitemap / feed -------------
 def build_machine():
     books_txt = "\n".join(f"- [{b['short']}]({b['site']})：{b['title']}，{b['chars']}，{b['struct']}，{b['ver']}，DOI https://doi.org/{b['doi']}" for b in BOOKS)
@@ -663,7 +757,7 @@ def build_machine():
 - 系列总览：{SITE}/
 - 三部书索引：{SITE}/books/
 - 概念：{SITE}/concepts/（佛说A即非A是名A、三才五蕴太极空杯、合与和、无与有、观自在与止观、道可道）
-- 道德经八十一章总目：{SITE}/chapters/daodejing/（一章一页，可单独引用）\n- 易传六十四卦总目：{SITE}/chapters/yizhuan/（一卦一页，七节同构）\n- 问答：{SITE}/qa/
+- 道德经八十一章总目：{SITE}/chapters/daodejing/（一章一页，可单独引用）\n- 易传六十四卦总目：{SITE}/chapters/yizhuan/（一卦一页，七节同构）\n- 英文稿索引（英文，一章一篇／一卦一篇）：{SITE}/devto/\n- 问答：{SITE}/qa/
 - 引用：{SITE}/cite/
 - 全文摘要与问答：{SITE}/llms-full.txt
 
@@ -719,7 +813,7 @@ Sitemap: https://q1z2q3-debug.github.io/runze-daokedao/sitemap.xml
 """
     (DOCS / "robots.txt").write_text(robots, encoding="utf-8")
 
-    urls = ["/", "/books/", "/concepts/", "/qa/", "/cite/"] + \
+    urls = ["/", "/books/", "/concepts/", "/qa/", "/devto/", "/cite/"] + \
            [f"/books/{b['key']}.html" for b in BOOKS] + \
            [f"/concepts/{c['slug']}.html" for c in CONCEPTS] + \
            ["/chapters/daodejing/"] + [f"/chapters/daodejing/{i:02d}.html" for i in range(1, 82)] + \
@@ -744,5 +838,5 @@ Sitemap: https://q1z2q3-debug.github.io/runze-daokedao/sitemap.xml
     (DOCS / "feed.xml").write_text(feed, encoding="utf-8")
 
 if __name__ == "__main__":
-    build_index(); build_books(); build_concepts(); build_qa(); build_cite(); build_chapters(); build_yizhuan_chapters(); build_machine()
+    build_index(); build_books(); build_concepts(); build_qa(); build_cite(); build_chapters(); build_yizhuan_chapters(); build_devto(); build_machine()
     print("built", len(list(DOCS.rglob("*.html")), ), "html pages")
