@@ -93,3 +93,15 @@
 51 https://dev.to/q1z2q3debug/daodejing-chapter-51-the-shelter-with-a-roof-and-no-walls-12h4
 52 https://dev.to/q1z2q3debug/daodejing-chapter-52-the-mouth-the-mother-and-the-road-back-4eck
 53 https://dev.to/q1z2q3debug/daodejing-chapter-53-the-path-one-person-wide-4p2c
+
+批次七：第五十四至六十三章（10 篇，2026-11-14）
+54 https://dev.to/q1z2q3debug/daodejing-chapter-54-the-line-that-cannot-be-pulled-up-13ph
+55 https://dev.to/q1z2q3debug/daodejing-chapter-55-the-newborns-grip-5cld
+56 https://dev.to/q1z2q3debug/daodejing-chapter-56-the-word-for-knowing-has-a-mouth-in-it-7eo
+57 https://dev.to/q1z2q3debug/daodejing-chapter-57-the-foot-that-stops-where-it-belongs-21f4
+58 https://dev.to/q1z2q3debug/daodejing-chapter-58-the-heart-behind-the-door-lk3
+59 https://dev.to/q1z2q3debug/daodejing-chapter-59-bring-the-harvest-in-49c5
+60 https://dev.to/q1z2q3debug/daodejing-chapter-60-the-fresh-fish-you-dont-turn-over-4p1o
+61 https://dev.to/q1z2q3debug/daodejing-chapter-61-the-lower-reach-of-the-river-2419
+62 https://dev.to/q1z2q3debug/daodejing-chapter-62-the-corner-of-the-house-the-light-doesnt-reach-4hf2
+63 https://dev.to/q1z2q3debug/daodejing-chapter-63-the-taste-of-fruit-that-isnt-ripe-1916
