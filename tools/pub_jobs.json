@@ -1,132 +1,106 @@
 [
  {
-  "key": "wai04",
-  "title": "Zhuangzi, Outer 4 (Zaiyou): 撄 is the hand that should not have moved",
-  "file": "devto-zz-11.md",
+  "key": "wai14",
+  "title": "Zhuangzi, Outer 14 (Tianzifang): 真 is unadorned, and 目击而道存",
+  "file": "devto-zz-21.md",
   "tags": [
    "zhuangzi",
    "taoism",
    "philosophy",
    "china"
   ],
-  "desc": "在宥 is not a slogan against government. 撄 is 手＋婴声, to touch and disturb: the charge is not on the wrong content but on the fact that a hand moved.",
-  "canonical": "https://q1z2q3-debug.github.io/daokedao-zhuangzi/chapters/11-zaiyou.html"
+  "desc": "真 is not sincerity but the unadorned state, set opposite 迹. 目擊而道存 crosses in four characters with nothing said; 唐肆 is a market that closed.",
+  "canonical": "https://q1z2q3-debug.github.io/daokedao-zhuangzi/chapters/21-tianzifang.html"
  },
  {
-  "key": "wai05",
-  "title": "Zhuangzi, Outer 5 (Tiandi): 机心 is a heart that sees the world as a machine",
-  "file": "devto-zz-12.md",
+  "key": "wai15",
+  "title": "Zhuangzi, Outer 15 (Zhibeiyou): every character in this chapter is an argument",
+  "file": "devto-zz-22.md",
   "tags": [
    "zhuangzi",
    "taoism",
    "philosophy",
    "china"
   ],
-  "desc": "机 is the crossbow release, so 机心 is a worldview, not greed. 刳心 scoops the installed set out; 純白不備 is a loss of wholeness, not of a virtue.",
-  "canonical": "https://q1z2q3-debug.github.io/daokedao-zhuangzi/chapters/12-tiandi.html"
+  "desc": "知 travels north into the dark and gets further away. Three questions answered with three 無; 為道者日損; 通天下一氣耳 is the same batch of material changing form, not sameness.",
+  "canonical": "https://q1z2q3-debug.github.io/daokedao-zhuangzi/chapters/22-zhibeiyou.html"
  },
  {
-  "key": "wai06",
-  "title": "Zhuangzi, Outer 6 (Tiandao): 积 means stockpiling, and what stocks up can be taken",
-  "file": "devto-zz-13.md",
+  "key": "za01",
+  "title": "Zhuangzi, Misc 1 (Gengsangchu): 日计之而不足, 岁计之而有余",
+  "file": "devto-zz-23.md",
   "tags": [
    "zhuangzi",
    "taoism",
    "philosophy",
    "china"
   ],
-  "desc": "天道 repeats 無所積 three times. Anything that 積s becomes stealable — the same worry as 胠篋's 利器. 糟魄 is 粕: writing is what was left after extraction.",
-  "canonical": "https://q1z2q3-debug.github.io/daokedao-zhuangzi/chapters/13-tiandao.html"
+  "desc": "偏得 puts a ceiling on him before the story starts. 畫然知者 and 挈然仁者 are kept away; 擁腫 and 鞅掌 stay. By the day it is not enough — both halves are true.",
+  "canonical": "https://q1z2q3-debug.github.io/daokedao-zhuangzi/chapters/23-gengsangchu.html"
  },
  {
-  "key": "wai07",
-  "title": "Zhuangzi, Outer 7 (Tianyun): the straw dog's problem is not that it is fake",
-  "file": "devto-zz-14.md",
+  "key": "za02",
+  "title": "Zhuangzi, Misc 2 (Xuwugui): 劳 points in two directions",
+  "file": "devto-zz-24.md",
   "tags": [
    "zhuangzi",
    "taoism",
    "philosophy",
    "china"
   ],
-  "desc": "芻狗 matters because it has a 用完之后. 蘧廬 is a room for one night; 迹豈履哉 — the six classics are footprints, not steps; 風化 works by resonance.",
-  "canonical": "https://q1z2q3-debug.github.io/daokedao-zhuangzi/chapters/14-tianyun.html"
+  "desc": "The Marquis says 'you are worn out'; 徐無鬼 says the tired one is you. 盈 and 黜 — add and subtract are both illness. Four standards met is 國馬, and second grade.",
+  "canonical": "https://q1z2q3-debug.github.io/daokedao-zhuangzi/chapters/24-xuwugui.html"
  },
  {
-  "key": "wai08",
-  "title": "Zhuangzi, Outer 8 (Keyi): carving a shape into your mind, then cutting yourself to fit",
-  "file": "devto-zz-15.md",
+  "key": "za03",
+  "title": "Zhuangzi, Misc 3 (Zeyang): 相助以德, 相助消也",
+  "file": "devto-zz-25.md",
   "tags": [
    "zhuangzi",
    "taoism",
    "philosophy",
    "china"
   ],
-  "desc": "刻意 is the image first and the person adjusted after. 故 is precedent, not 'on purpose'. 熊經鳥申 is the earliest written daoyin posture — and not spoken of with contempt.",
-  "canonical": "https://q1z2q3-debug.github.io/daokedao-zhuangzi/chapters/15-keyi.html"
+  "desc": "Not helping each other with virtue but helping each other wear away. 飲人以和 gives something drinkable; 人與之鑑 — the mirror was handed over, and the comparison came with it.",
+  "canonical": "https://q1z2q3-debug.github.io/daokedao-zhuangzi/chapters/25-zeyang.html"
  },
  {
-  "key": "wai09",
-  "title": "Zhuangzi, Outer 9 (Shanxing): a title that argues against its own title",
-  "file": "devto-zz-16.md",
+  "key": "za04",
+  "title": "Zhuangzi, Misc 4 (Waiwu): 必 is the only thing on trial",
+  "file": "devto-zz-26.md",
   "tags": [
    "zhuangzi",
    "taoism",
    "philosophy",
    "china"
   ],
-  "desc": "繕 is to patch, and a patched thing is not an original thing — the title contains its own objection. 恬 and 知 feed each other; 儻來 strips 富貴名位 of causality.",
-  "canonical": "https://q1z2q3-debug.github.io/daokedao-zhuangzi/chapters/16-shanxing.html"
+  "desc": "Five names, three loyal and two vicious, one outcome. 忠未必信; blood kept three years turns to jade; 焚和 is the heaviest charge; 月固不勝火 refuses to console.",
+  "canonical": "https://q1z2q3-debug.github.io/daokedao-zhuangzi/chapters/26-waiwu.html"
  },
  {
-  "key": "wai10",
-  "title": "Zhuangzi, Outer 10 (Qiushui): 自多 is a disease of scale, not of character",
-  "file": "devto-zz-17.md",
+  "key": "za05",
+  "title": "Zhuangzi, Misc 5 (Yuyan): 卮言 is not slippery speech",
+  "file": "devto-zz-27.md",
   "tags": [
    "zhuangzi",
    "taoism",
    "philosophy",
    "china"
   ],
-  "desc": "If 自多 is a scale error the cure is a larger frame, not humility. 拘於虛 puts the limit in the address, not the intelligence; 落馬首 draws the 天/人 line on a body.",
-  "canonical": "https://q1z2q3-debug.github.io/daokedao-zhuangzi/chapters/17-qiushui.html"
+  "desc": "卮 is a cup: empty it stands, full it tips — no fixed posture, therefore able to fit. 重言 is not 'quote the old'; 陳人 is what age without warp and weft becomes.",
+  "canonical": "https://q1z2q3-debug.github.io/daokedao-zhuangzi/chapters/27-yuyan.html"
  },
  {
-  "key": "wai11",
-  "title": "Zhuangzi, Outer 11 (Zhile): 至乐无乐 means the ruler is put down",
-  "file": "devto-zz-18.md",
+  "key": "za06",
+  "title": "Zhuangzi, Misc 6 (Tianxia): 方术 is a corner, 道术 is the whole",
+  "file": "devto-zz-28.md",
   "tags": [
    "zhuangzi",
    "taoism",
    "philosophy",
    "china"
   ],
-  "desc": "至樂無樂 is not numbness: it is no longer measuring joy against suffering. 惛惛 is the bill for longevity; 誙誙然 is the shape of a crowd; 褚小綆短 is capacity and reach.",
-  "canonical": "https://q1z2q3-debug.github.io/daokedao-zhuangzi/chapters/18-zhile.html"
- },
- {
-  "key": "wai12",
-  "title": "Zhuangzi, Outer 12 (Dasheng): 达 is understanding, not prolonging",
-  "file": "devto-zz-19.md",
-  "tags": [
-   "zhuangzi",
-   "taoism",
-   "philosophy",
-   "china"
-  ],
-  "desc": "達生 is not 養生; 無以為 means 'no use', not 'helpless'. 神全 is being uncut; 以黃金注者殙 is the empirical proof that this is not a skill.",
-  "canonical": "https://q1z2q3-debug.github.io/daokedao-zhuangzi/chapters/19-dasheng.html"
- },
- {
-  "key": "wai13",
-  "title": "Zhuangzi, Outer 13 (Shanmu): the empty boat is the argument that does not happen",
-  "file": "devto-zz-20.md",
-  "tags": [
-   "zhuangzi",
-   "taoism",
-   "philosophy",
-   "china"
-  ],
-  "desc": "不材 quotes its price from outside. 一龍一蛇 is not 'flexible' — 無肯專為 refuses specialization. 皮 is the identity you cannot put down: 魯侯's is 魯國.",
-  "canonical": "https://q1z2q3-debug.github.io/daokedao-zhuangzi/chapters/20-shanmu.html"
+  "desc": "皆以其有為不可加矣 names the disease as closure, not error. 備 is 本數 plus 末度; 內聖外王 is this chapter's phrase, and it describes one affair, not two careers.",
+  "canonical": "https://q1z2q3-debug.github.io/daokedao-zhuangzi/chapters/28-tianxia.html"
  }
 ]

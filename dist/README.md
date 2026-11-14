@@ -255,3 +255,17 @@
 字源落点：在宥＝在／宥两面＋撄（手婴声，碰）｜天地＝刳心、机心（弩机）、纯白不备、标枝野鹿｜天道＝积、铙（挠）、糟魄（粕）｜天运＝刍狗、蘧庐、迹岂履哉、风化｜刻意＝刻意、亢、去知与故（故＝成法）、熊经鸟申｜缮性＝缮（补缀）、滑（汩）、恬知互养、傥来、倒置｜秋水＝自多、拘于虚（住处非眼界）、尾闾、落马首｜至乐＝至乐无乐、惛惛、誙誙然、褚小绠短、几（机）｜达生＝无以为、神全、开天之天、殙、以天合天、忘适之适｜山木＝不材、无誉无訾、一龙一蛇、以和为量、物物而不物于物、刳形去皮、虚船、意怠。
 
 累计已发 171 篇（道德经 81 ＋ 易传 64 ＋ 总论 6 ＋ 庄子 20）。庄子余 8 篇（外篇十四至十五、杂篇一至六）待续。
+
+庄子第三批（收尾）：外篇十四至十五（田子方、知北游）＋杂篇一至六（庚桑楚、徐无鬼、则阳、外物、寓言、天下），2026-11-14，8 篇，均核验 200。
+21 https://dev.to/q1z2q3debug/zhuangzi-outer-14-tianzifang-zhen-is-unadorned-and-mu-ji-er-dao-cun-2d24
+22 https://dev.to/q1z2q3debug/zhuangzi-outer-15-zhibeiyou-every-character-in-this-chapter-is-an-argument-2eel
+23 https://dev.to/q1z2q3debug/zhuangzi-misc-1-gengsangchu-ri-ji-zhi-er-bu-zu-sui-ji-zhi-er-you-yu-c4k
+24 https://dev.to/q1z2q3debug/zhuangzi-misc-2-xuwugui-lao-points-in-two-directions-4a7k
+25 https://dev.to/q1z2q3debug/zhuangzi-misc-3-zeyang-xiang-zhu-yi-de-xiang-zhu-xiao-ye-35cl
+26 https://dev.to/q1z2q3debug/zhuangzi-misc-4-waiwu-bi-is-the-only-thing-on-trial-3oe9
+27 https://dev.to/q1z2q3debug/zhuangzi-misc-5-yuyan-zhi-yan-is-not-slippery-speech-2aeh
+28 https://dev.to/q1z2q3debug/zhuangzi-misc-6-tianxia-fang-zhu-is-a-corner-dao-zhu-is-the-whole-1n63
+
+字源落点：田子方＝真（未文饰之本然，与迹对）、目击而道存、交一臂而失之、唐肆｜知北游＝知之名即论、三无、礼为道之华而乱之首、为道日损、通天下一气耳（同批材料换形态非万物相同）｜庚桑楚＝偏得、画然知者／挈然仁者、日计不足岁计有余、天道已行矣、杓（靶子）｜徐无鬼＝劳两向、盈黜皆病、四合规矩者为国马、超轶绝尘不知其所、跫然｜则阳＝相助消、饮人以和、使家人忘其贫、人与之鉴｜外物＝必、木木相摩而然、血化碧、焚和、月固不胜火、涸辙之鲋｜寓言＝卮言（空则仰满则倾）、重言与陈人、天倪、然于然、天均｜天下＝方术／道术（偏／全）、不可加、一、备＝本数＋末度、一曲之士、内圣外王（此四字出本篇）。
+
+累计已发 179 篇（道德经 81 ＋ 易传 64 ＋ 总论 6 ＋ 庄子 28）。庄子逐篇系列完结（内七＋外十五＋杂六，共 28 篇）。

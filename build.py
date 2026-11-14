@@ -722,9 +722,13 @@ def build_devto():
         m = _r.match(r"https://dev\.to/[^/]+/daodejing-chapter-(\d{1,2})-", a["url"])
         if m:
             chap[int(m.group(1))] = a; continue
-        m = _r.search(r"/zhuangzi-(outer-)?(\d{1,2})-", a["url"])
+        m = _r.search(r"/zhuangzi-(outer-|misc-)?(\d{1,2})-", a["url"])
         if m:
-            idx = 7 + int(m.group(2)) if m.group(1) else int(m.group(2))
+            idx = int(m.group(2))
+            if m.group(1) == "outer-":
+                idx += 7
+            elif m.group(1) == "misc-":
+                idx += 22
             if 1 <= idx <= len(ZZ_CHAPTERS) and idx not in zz:
                 zz[idx] = a; continue
         misc.append(a)
