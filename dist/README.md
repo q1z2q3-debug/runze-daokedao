@@ -69,3 +69,15 @@
 31 https://dev.to/q1z2q3debug/daodejing-chapter-31-a-funeral-held-for-a-victory-4g6g
 32 https://dev.to/q1z2q3debug/daodejing-chapter-32-the-log-the-name-and-where-to-stop-56f5
 33 https://dev.to/q1z2q3debug/daodejing-chapter-33-eight-lines-that-measure-only-yourself-1o33
+
+批次五：第三十四至四十三章（10 篇，2026-11-14）
+34 https://dev.to/q1z2q3debug/daodejing-chapter-34-the-great-that-does-not-master-3fo6
+35 https://dev.to/q1z2q3debug/daodejing-chapter-35-holding-the-great-image-2b3j
+36 https://dev.to/q1z2q3debug/daodejing-chapter-36-one-character-decides-the-chapter-1n0g
+37 https://dev.to/q1z2q3debug/daodejing-chapter-37-where-the-hand-goes-3fkp
+38 https://dev.to/q1z2q3debug/daodejing-chapter-38-the-five-steps-down-4dj1
+39 https://dev.to/q1z2q3debug/daodejing-chapter-39-the-carriage-that-cannot-be-counted-2ag1
+40 https://dev.to/q1z2q3debug/daodejing-chapter-40-twenty-one-characters-3i
+41 https://dev.to/q1z2q3debug/daodejing-chapter-41-why-the-way-always-looks-wrong-2knc
+42 https://dev.to/q1z2q3debug/daodejing-chapter-42-the-gap-between-two-ends-3ng8
+43 https://dev.to/q1z2q3debug/daodejing-chapter-43-the-softest-runs-through-the-hardest-20op
