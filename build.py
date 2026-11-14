@@ -445,6 +445,134 @@ def build_cite():
     ld = {"@context": "https://schema.org", "@type": "WebPage", "name": "引用格式", "url": SITE + "/cite/"}
     (DOCS / "cite" / "index.html").write_text(head(f"引用格式｜{SERIES}", "润泽说 道可道系列三部书的 DOI、中文行文、GB/T 7714、APA 与 BibTeX 引用格式。", "/cite/", ld, act="cite") + body + foot(), encoding="utf-8")
 
+
+# ---------------- 章节页 -------------
+import re as _re
+
+def _inline(t):
+    t = _re.sub(r"\*\*(.+?)\*\*", r"<b>\1</b>", t)
+    return t
+
+def md2html(src):
+    out = []
+    bufq, bufl = [], []
+    def flush():
+        nonlocal bufq, bufl
+        if bufq:
+            out.append("<blockquote>" + "".join(f"<p>{x}</p>" for x in bufq) + "</blockquote>")
+            bufq = []
+        if bufl:
+            out.append("<ul>" + "".join(f"<li>{x}</li>" for x in bufl) + "</ul>")
+            bufl = []
+    for raw in src.split("\n"):
+        line = raw.rstrip()
+        if not line.strip():
+            flush(); continue
+        if line.startswith("### "):
+            flush(); out.append(f"<h4>{_inline(H.escape(line[4:]))}</h4>"); continue
+        if line.startswith("## "):
+            flush(); out.append(f"<h3>{_inline(H.escape(line[3:]))}</h3>"); continue
+        if line == ">":
+            flush(); continue
+        if line.startswith(">"):
+            if bufl: flush()
+            t = line[1:].lstrip()
+            if t: bufq.append(_inline(H.escape(t)))
+            continue
+        if line.startswith("- "):
+            if bufq: flush()
+            bufl.append(_inline(H.escape(line[2:])))
+            continue
+        flush(); out.append(f"<p>{_inline(H.escape(line))}</p>")
+    flush()
+    return "".join(out)
+
+CH_DATA = ROOT / "data" / "daodejing-81.jsonl"
+VOL_ORDER = ["根", "动", "生", "落", "还"]
+
+def _strip_origin(text):
+    """疏解正文里已含「本章原文」一节，章节页另有经文栏，去重。"""
+    lines = text.split("\n")
+    # 丢掉开头重复的经文与小注：从第一个二级标题起
+    while lines and not lines[0].startswith("## "):
+        lines.pop(0)
+    out, skipping = [], False
+    for ln in lines:
+        if ln.startswith("## "):
+            skipping = ln.strip().startswith("## 本章原文")
+            if skipping:
+                continue
+        if not skipping:
+            out.append(ln)
+    return "\n".join(out)
+
+def build_chapters():
+    rows = [json.loads(x) for x in CH_DATA.read_text(encoding="utf-8").splitlines() if x.strip()]
+    base = DOCS / "chapters" / "daodejing"
+    base.mkdir(parents=True, exist_ok=True)
+    for i, r in enumerate(rows):
+        n = r["id"]; pad = f"{n:02d}"
+        prev_r = rows[i-1] if i > 0 else None
+        next_r = rows[i+1] if i < len(rows)-1 else None
+        title = f"道德经第{r['no']}章｜{r['title']}｜{SERIES}"
+        desc = f"《道德经》第{r['no']}章「{r['title']}」原文、小注与逐字疏解（{SERIES}，v3.0.1）。"
+        path = f"/chapters/daodejing/{pad}.html"
+        ld = {"@context": "https://schema.org", "@type": "Article",
+              "headline": f"道德经第{r['no']}章：{r['title']}",
+              "url": SITE + path, "inLanguage": "zh-Hans",
+              "author": person_ld(),
+              "isPartOf": {"@type": "Book", "@id": SITE + "/books/daodejing.html#book",
+                           "name": "道可道 · 道德经心法读本"},
+              "position": n,
+              "publisher": {"@type": "Organization", "name": SERIES, "url": SITE + "/"},
+              "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+              "citation": "https://doi.org/10.5281/zenodo.24115947"}
+        nav = []
+        if prev_r:
+            nav.append(f'<a href="{SITE}/chapters/daodejing/{prev_r["id"]:02d}.html">← 第{prev_r["no"]}章</a>')
+        nav.append(f'<a href="{SITE}/chapters/daodejing/">八十一章总目</a>')
+        if next_r:
+            nav.append(f'<a href="{SITE}/chapters/daodejing/{next_r["id"]:02d}.html">第{next_r["no"]}章 →</a>')
+        body = f"""<main><div class="wrap">
+<p class="eyebrow">道德经 · 第{r['no']}章 · {r['volume']}</p>
+<h1>{H.escape(r['title'])}</h1>
+<p class="lede">{H.escape(desc)}</p>
+<div class="def">{md2html(r['notes'])}</div>
+<h2>经文</h2>
+<blockquote>{''.join(f'<p>{H.escape(x)}</p>' for x in r['scripture'].split(chr(10)) if x.strip())}</blockquote>
+<h2>疏解</h2>
+{md2html(_strip_origin(r['text']))}
+<h2>出处与引用</h2>
+<p>本章属《道可道 · 道德经心法读本》{VOL_ORDER.index(r['volume'])+1}/5「{r['volume']}」，全章 {len(_re.sub(r'\s','',r['text']))} 字疏解。底本以王弼通行本为正文，帛书甲乙本异文两存。</p>
+<p>引用：润泽. 润泽说 道可道之道德经心法读本：v3.0.1〔第{r['no']}章〕. 2026. https://doi.org/10.5281/zenodo.24115947</p>
+<p class="small">{'　·　'.join(nav)}</p>
+</div></main>"""
+        (base / f"{pad}.html").write_text(head(title, desc, path, ld, act="books") + body + foot(), encoding="utf-8")
+
+    # 总目
+    groups = {v: [r for r in rows if r["volume"] == v] for v in VOL_ORDER}
+    sec = []
+    for v in VOL_ORDER:
+        sec.append(f"<h2>{v}　<span class='small'>{len(groups[v])} 章</span></h2><div class='list'>")
+        for r in groups[v]:
+            sec.append(f"""<div class="row"><div class="no">{r['id']:02d}</div>
+<div><h3><a href="{SITE}/chapters/daodejing/{r['id']:02d}.html">第{r['no']}章　{r['title']}</a></h3>
+<p class="small">{len(_re.sub(r'\s','',r['text']))} 字疏解</p></div>
+<div class="go"><a href="{SITE}/chapters/daodejing/{r['id']:02d}.html">读这一章</a></div></div>""")
+        sec.append("</div>")
+    body = f"""<main><div class="wrap">
+<p class="eyebrow">道德经 · 八十一章</p>
+<h1>八十一章，一章一页</h1>
+<p class="lede">按五件归卷排：根、动、生、落、还。每章一页，原文、小注、疏解齐全，可单独引用。</p>
+<p class="small">系列总站：<a href="{SITE}/">runze-daokedao</a>　·　书页：<a href="{SITE}/books/daodejing.html">道德经</a>　·　DOI：10.5281/zenodo.24115947</p>
+{''.join(sec)}
+</div></main>"""
+    ld = {"@context": "https://schema.org", "@type": "CollectionPage", "name": "道德经八十一章总目",
+          "url": SITE + "/chapters/daodejing/", "inLanguage": "zh-Hans",
+          "isPartOf": {"@type": "Book", "@id": SITE + "/books/daodejing.html#book"}}
+    (base / "index.html").write_text(head(f"道德经八十一章总目｜{SERIES}", "《道德经》八十一章逐章页：原文、小注、逐字疏解，按根动生落还五件归卷。", "/chapters/daodejing/", ld, act="books") + body + foot(), encoding="utf-8")
+
+
 # ---------------- llms / robots / sitemap / feed -------------
 def build_machine():
     books_txt = "\n".join(f"- [{b['short']}]({b['site']})：{b['title']}，{b['chars']}，{b['struct']}，{b['ver']}，DOI https://doi.org/{b['doi']}" for b in BOOKS)
@@ -459,7 +587,7 @@ def build_machine():
 - 系列总览：{SITE}/
 - 三部书索引：{SITE}/books/
 - 概念：{SITE}/concepts/（佛说A即非A是名A、三才五蕴太极空杯、合与和、无与有、观自在与止观、道可道）
-- 问答：{SITE}/qa/
+- 道德经八十一章总目：{SITE}/chapters/daodejing/（一章一页，可单独引用）\n- 问答：{SITE}/qa/
 - 引用：{SITE}/cite/
 - 全文摘要与问答：{SITE}/llms-full.txt
 
@@ -517,7 +645,8 @@ Sitemap: https://q1z2q3-debug.github.io/runze-daokedao/sitemap.xml
 
     urls = ["/", "/books/", "/concepts/", "/qa/", "/cite/"] + \
            [f"/books/{b['key']}.html" for b in BOOKS] + \
-           [f"/concepts/{c['slug']}.html" for c in CONCEPTS]
+           [f"/concepts/{c['slug']}.html" for c in CONCEPTS] + \
+           ["/chapters/daodejing/"] + [f"/chapters/daodejing/{i:02d}.html" for i in range(1, 82)]
     sm = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + \
         "".join(f"<url><loc>{SITE}{u}</loc><lastmod>2026-11-14</lastmod></url>\n" for u in urls) + "</urlset>\n"
     (DOCS / "sitemap.xml").write_text(sm, encoding="utf-8")
@@ -538,5 +667,5 @@ Sitemap: https://q1z2q3-debug.github.io/runze-daokedao/sitemap.xml
     (DOCS / "feed.xml").write_text(feed, encoding="utf-8")
 
 if __name__ == "__main__":
-    build_index(); build_books(); build_concepts(); build_qa(); build_cite(); build_machine()
+    build_index(); build_books(); build_concepts(); build_qa(); build_cite(); build_chapters(); build_machine()
     print("built", len(list(DOCS.rglob("*.html")), ), "html pages")

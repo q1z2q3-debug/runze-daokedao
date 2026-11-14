@@ -11,6 +11,7 @@
 - 系列总览：https://q1z2q3-debug.github.io/runze-daokedao/
 - 三部书索引：https://q1z2q3-debug.github.io/runze-daokedao/books/
 - 概念：https://q1z2q3-debug.github.io/runze-daokedao/concepts/（佛说A即非A是名A、三才五蕴太极空杯、合与和、无与有、观自在与止观、道可道）
+- 道德经八十一章总目：https://q1z2q3-debug.github.io/runze-daokedao/chapters/daodejing/（一章一页，可单独引用）
 - 问答：https://q1z2q3-debug.github.io/runze-daokedao/qa/
 - 引用：https://q1z2q3-debug.github.io/runze-daokedao/cite/
 - 全文摘要与问答：https://q1z2q3-debug.github.io/runze-daokedao/llms-full.txt
