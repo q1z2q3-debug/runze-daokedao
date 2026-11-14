@@ -145,3 +145,15 @@
 10 https://dev.to/q1z2q3debug/hexagram-10-lu-a-shoe-a-tread-a-rite-47ho
 
 原稿命名：dist/devto-yi-{NN}-{slug}.md，NN 为卦号，canonical 指 /chapters/yizhuan/{NN}.html。
+
+批次二：第十一至二十卦（泰、否、同人、大有、谦、豫、随、蛊、临、观），2026-11-14，10 篇，均核验 200（第 11 卦首投遇 503，队列重试成功）。
+11 https://dev.to/q1z2q3debug/hexagram-11-tai-peace-is-not-stillness-it-is-circulation-1i7m
+12 https://dev.to/q1z2q3debug/hexagram-12-pi-the-character-whose-original-sense-is-simply-not-29o1
+13 https://dev.to/q1z2q3debug/hexagram-13-tongren-four-widths-of-shared-ground-10a3
+14 https://dev.to/q1z2q3debug/hexagram-14-dayou-one-character-read-two-ways-in-one-chapter-59mi
+15 https://dev.to/q1z2q3debug/hexagram-15-qian-a-phonetic-character-taken-apart-as-a-picture-hn
+16 https://dev.to/q1z2q3debug/hexagram-16-yu-the-ease-of-a-great-elephant-4nk2
+17 https://dev.to/q1z2q3debug/hexagram-17-sui-following-and-what-it-costs-6en
+18 https://dev.to/q1z2q3debug/hexagram-18-gu-a-worm-inside-the-body-52no
+19 https://dev.to/q1z2q3debug/hexagram-19-lin-looking-down-and-four-ways-of-doing-it-4hag
+20 https://dev.to/q1z2q3debug/hexagram-20-guan-looking-carefully-outward-and-back-5eh1
