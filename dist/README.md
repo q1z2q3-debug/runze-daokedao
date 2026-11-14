@@ -6,4 +6,16 @@
 2. The Daodejing Is Not 81 Chapters in a Row — 2026-11-14
    https://dev.to/q1z2q3debug/the-daodejing-is-not-81-chapters-in-a-row-203a
 
-待发：易传（合与和；七节同构）、心经（观自在不是观察；般若与止观的边界）
+二、易传
+3. The Yizhuan Doesn't Tell You If You'll Be Lucky. That's the Point. — 2026-11-14
+   https://dev.to/q1z2q3debug/the-yizhuan-doesnt-tell-you-if-youll-be-lucky-thats-the-point-32jg
+4. Seven Sections Per Hexagram — 2026-11-14
+   https://dev.to/q1z2q3debug/seven-sections-per-hexagram-building-a-reading-machine-for-the-yijing-36pj
+
+三、心经
+5. The Heart Sutra's First Word Is Not "Meditation" — 2026-11-14
+   https://dev.to/q1z2q3debug/the-heart-sutras-first-word-is-not-meditation-572c
+6. Emptiness Is Not the Absence of the Cup — 2026-11-14
+   https://dev.to/q1z2q3debug/emptiness-is-not-the-absence-of-the-cup-46g7
+
+待发：版本与引用（每版都可追溯）、问答体短篇
