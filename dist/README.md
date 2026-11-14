@@ -239,3 +239,19 @@
 口径：一篇一论；标题取该篇最硬的一处字源分歧（待／齐／督／不得已／符／不假人为／应／骈／马之真性／胠）；稿末四处链接（庄子站篇页、篇目、书站、DOI 10.5281/zenodo.24217537），canonical 指 `daokedao-zhuangzi/chapters/NN-slug.html`。
 
 累计已发 161 篇（道德经 81 ＋ 易传 64 ＋ 总论 6 ＋ 庄子 10）。庄子余 18 篇（外篇四至十五、杂篇一至六）待续。
+
+庄子第二批：外篇四至十三（在宥、天地、天道、天运、刻意、缮性、秋水、至乐、达生、山木），2026-11-14，10 篇，均核验 200。
+11 https://dev.to/q1z2q3debug/zhuangzi-outer-4-zaiyou-ying-is-the-hand-that-should-not-have-moved-5ce5
+12 https://dev.to/q1z2q3debug/zhuangzi-outer-5-tiandi-ji-xin-is-a-heart-that-sees-the-world-as-a-machine-74k
+13 https://dev.to/q1z2q3debug/zhuangzi-outer-6-tiandao-ji-means-stockpiling-and-what-stocks-up-can-be-taken-34b6
+14 https://dev.to/q1z2q3debug/zhuangzi-outer-7-tianyun-the-straw-dogs-problem-is-not-that-it-is-fake-ghn
+15 https://dev.to/q1z2q3debug/zhuangzi-outer-8-keyi-carving-a-shape-into-your-mind-then-cutting-yourself-to-fit-1efj
+16 https://dev.to/q1z2q3debug/zhuangzi-outer-9-shanxing-a-title-that-argues-against-its-own-title-544f
+17 https://dev.to/q1z2q3debug/zhuangzi-outer-10-qiushui-zi-duo-is-a-disease-of-scale-not-of-character-43fn
+18 https://dev.to/q1z2q3debug/zhuangzi-outer-11-zhile-zhi-le-wu-le-means-the-ruler-is-put-down-3l9k
+19 https://dev.to/q1z2q3debug/zhuangzi-outer-12-dasheng-da-is-understanding-not-prolonging-2db4
+20 https://dev.to/q1z2q3debug/zhuangzi-outer-13-shanmu-the-empty-boat-is-the-argument-that-does-not-happen-3akd
+
+字源落点：在宥＝在／宥两面＋撄（手婴声，碰）｜天地＝刳心、机心（弩机）、纯白不备、标枝野鹿｜天道＝积、铙（挠）、糟魄（粕）｜天运＝刍狗、蘧庐、迹岂履哉、风化｜刻意＝刻意、亢、去知与故（故＝成法）、熊经鸟申｜缮性＝缮（补缀）、滑（汩）、恬知互养、傥来、倒置｜秋水＝自多、拘于虚（住处非眼界）、尾闾、落马首｜至乐＝至乐无乐、惛惛、誙誙然、褚小绠短、几（机）｜达生＝无以为、神全、开天之天、殙、以天合天、忘适之适｜山木＝不材、无誉无訾、一龙一蛇、以和为量、物物而不物于物、刳形去皮、虚船、意怠。
+
+累计已发 171 篇（道德经 81 ＋ 易传 64 ＋ 总论 6 ＋ 庄子 20）。庄子余 8 篇（外篇十四至十五、杂篇一至六）待续。
