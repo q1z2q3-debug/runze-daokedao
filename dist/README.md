@@ -157,3 +157,17 @@
 18 https://dev.to/q1z2q3debug/hexagram-18-gu-a-worm-inside-the-body-52no
 19 https://dev.to/q1z2q3debug/hexagram-19-lin-looking-down-and-four-ways-of-doing-it-4hag
 20 https://dev.to/q1z2q3debug/hexagram-20-guan-looking-carefully-outward-and-back-5eh1
+
+批次三：第二十一至三十卦（噬嗑、贲、剥、复、无妄、大畜、颐、大过、坎、离），2026-11-14，10 篇，均核验 200；卦页 21/22/25/26 抽查 github.io 时偶发 503，重试即 200。
+21 https://dev.to/q1z2q3debug/hexagram-21-shike-the-character-means-to-bite-and-the-joining-is-the-classics-contribution-3g0k
+22 https://dev.to/q1z2q3debug/hexagram-22-bi-ornament-thinned-to-white-250e
+23 https://dev.to/q1z2q3debug/hexagram-23-bo-the-one-error-that-runs-the-other-way-46ko
+24 https://dev.to/q1z2q3debug/hexagram-24-fu-seven-days-and-the-correction-made-while-still-near-197p
+25 https://dev.to/q1z2q3debug/hexagram-25-wuwang-without-expectation-not-without-delusion-e83
+26 https://dev.to/q1z2q3debug/hexagram-26-daxu-fu-is-not-fu-and-storage-ends-as-a-road-4lkl
+27 https://dev.to/q1z2q3debug/hexagram-27-yi-the-jaw-and-who-feeds-whom-3o55
+28 https://dev.to/q1z2q3debug/hexagram-28-daguo-a-bent-ridgepole-drawn-to-scale-4088
+29 https://dev.to/q1z2q3debug/hexagram-29-kan-the-pit-inside-the-pit-2jcf
+30 https://dev.to/q1z2q3debug/hexagram-30-li-attached-not-apart-387b
+
+上经三十卦至此全部发完。发布队列脚本已从 /tmp 移入仓内 tools/pub_queue.py（任务单 tools/pub_jobs.json），不再受 /tmp 清理影响。
