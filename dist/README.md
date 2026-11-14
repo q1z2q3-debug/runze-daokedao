@@ -129,3 +129,19 @@
 81 https://dev.to/q1z2q3debug/daodejing-chapter-81-nine-nos-that-close-the-book-40lk
 
 道德经逐章系列完结：1–81 全部成篇并发布，加六篇总论，共 87 篇，均 canonical 指向章节页。
+
+## 易传 · 逐卦系列（dev.to）
+
+批次一：第一至十卦（乾、坤、屯、蒙、需、讼、师、比、小畜、履），2026-11-14，10 篇，均核验 200。
+01 https://dev.to/q1z2q3debug/hexagram-1-qian-the-word-for-heaven-is-not-a-sky-2ok7
+02 https://dev.to/q1z2q3debug/hexagram-2-kun-the-character-that-is-a-river-flowing-downhill-1emj
+03 https://dev.to/q1z2q3debug/hexagram-3-zhun-the-difficulty-is-being-born-375m
+04 https://dev.to/q1z2q3debug/hexagram-4-meng-covered-not-stupid-41dh
+05 https://dev.to/q1z2q3debug/hexagram-5-xu-wait-is-not-need-4jia
+06 https://dev.to/q1z2q3debug/hexagram-6-song-the-character-is-phonetic-not-a-courtroom-45pk
+07 https://dev.to/q1z2q3debug/hexagram-7-shi-an-army-before-it-is-a-crowd-meg
+08 https://dev.to/q1z2q3debug/hexagram-8-bi-two-people-side-by-side-is-not-friendship-dhb
+09 https://dev.to/q1z2q3debug/hexagram-9-xiao-xu-stopping-is-the-hand-of-accumulating-5066
+10 https://dev.to/q1z2q3debug/hexagram-10-lu-a-shoe-a-tread-a-rite-47ho
+
+原稿命名：dist/devto-yi-{NN}-{slug}.md，NN 为卦号，canonical 指 /chapters/yizhuan/{NN}.html。
