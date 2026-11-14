@@ -199,3 +199,17 @@
 50 https://dev.to/q1z2q3debug/hexagram-50-ding-the-hexagram-is-a-drawing-of-a-bronze-vessel-1lp7
 
 累计已发 50 卦 / 50 篇。
+
+批次六：第五十一至六十卦（震、艮、渐、归妹、丰、旅、巽、兑、涣、节），2026-11-14，10 篇，均核验 200。
+51 https://dev.to/q1z2q3debug/hexagram-51-zhen-thunder-and-two-hands-that-do-not-drop-what-they-hold-ole
+52 https://dev.to/q1z2q3debug/hexagram-52-gen-the-characters-original-sense-is-not-yielding-3j2c
+53 https://dev.to/q1z2q3debug/hexagram-53-jian-a-river-name-that-came-to-mean-soaked-in-1pma
+54 https://dev.to/q1z2q3debug/hexagram-54-guimei-the-second-seat-and-the-sleeve-that-is-finer-1ca1
+55 https://dev.to/q1z2q3debug/hexagram-55-feng-a-vessel-so-full-that-it-eclipses-at-noon-332a
+56 https://dev.to/q1z2q3debug/hexagram-56-lv-the-guest-and-two-kinds-of-shelter-56nf
+57 https://dev.to/q1z2q3debug/hexagram-57-xun-bowing-shape-prepared-gloss-entering-sense-5blc
+58 https://dev.to/q1z2q3debug/hexagram-58-dui-six-lines-five-carrying-the-same-character-2460
+59 https://dev.to/q1z2q3debug/hexagram-59-huan-wind-over-water-and-the-body-that-stays-m9a
+60 https://dev.to/q1z2q3debug/hexagram-60-jie-a-bamboo-joint-not-a-restriction-4oih
+
+累计已发 60 卦 / 60 篇。
