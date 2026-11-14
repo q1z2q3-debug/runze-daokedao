@@ -213,3 +213,11 @@
 60 https://dev.to/q1z2q3debug/hexagram-60-jie-a-bamboo-joint-not-a-restriction-4oih
 
 累计已发 60 卦 / 60 篇。
+
+批次七（收尾）：第六十一至六十四卦（中孚、小过、既济、未济），2026-11-14，4 篇，均核验 200。
+61 https://dev.to/q1z2q3debug/hexagram-61-zhongfu-the-character-for-trust-is-a-bird-sitting-on-an-egg-1og2
+62 https://dev.to/q1z2q3debug/hexagram-62-xiaoguo-a-bird-has-gone-and-its-sound-is-still-there-3i83
+63 https://dev.to/q1z2q3debug/hexagram-63-jiji-the-first-character-is-having-finished-a-meal-1ai9
+64 https://dev.to/q1z2q3debug/hexagram-64-weiji-the-last-hexagram-ends-on-a-progress-bar-4f1g
+
+累计已发 64 卦 / 64 篇。易传逐卦系列完结（卦 1–64）。
