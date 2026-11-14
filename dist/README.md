@@ -105,3 +105,15 @@
 61 https://dev.to/q1z2q3debug/daodejing-chapter-61-the-lower-reach-of-the-river-2419
 62 https://dev.to/q1z2q3debug/daodejing-chapter-62-the-corner-of-the-house-the-light-doesnt-reach-4hf2
 63 https://dev.to/q1z2q3debug/daodejing-chapter-63-the-taste-of-fruit-that-isnt-ripe-1916
+
+批次八：第六十四至七十三章（10 篇，2026-11-14）
+64 https://dev.to/q1z2q3debug/daodejing-chapter-64-the-crack-that-hasnt-opened-kfb
+65 https://dev.to/q1z2q3debug/daodejing-chapter-65-the-moonlight-through-the-lattice-244o
+66 https://dev.to/q1z2q3debug/daodejing-chapter-66-sated-under-a-cliff-11c8
+67 https://dev.to/q1z2q3debug/daodejing-chapter-67-three-treasures-and-one-character-read-wrong-4e9g
+68 https://dev.to/q1z2q3debug/daodejing-chapter-68-the-foot-that-stops-at-the-spear-2jp7
+69 https://dev.to/q1z2q3debug/daodejing-chapter-69-the-mourner-at-the-door-2hoo
+70 https://dev.to/q1z2q3debug/daodejing-chapter-70-the-line-carved-into-the-vessel-1j8j
+71 https://dev.to/q1z2q3debug/daodejing-chapter-71-calling-your-own-score-2mdn
+72 https://dev.to/q1z2q3debug/daodejing-chapter-72-mother-in-law-with-an-axe-4k6k
+73 https://dev.to/q1z2q3debug/daodejing-chapter-73-the-net-that-lets-through-and-loses-nothing-2p2o
