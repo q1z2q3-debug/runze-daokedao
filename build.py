@@ -877,6 +877,7 @@ def build_devto():
 <p class="eyebrow">English · dev.to</p>
 <h1>已发的英文稿，一篇一页</h1>
 <p class="lede">《道德经》八十一章、《易传》六十四卦、《庄子》二十八篇（先内七，继外篇）、《金刚经》三十二分、《坛经》十品、《心经》十篇（十一分释合一为十），各按原序一章／一卦／一篇／一分／一品／一节写成英文；每篇的 canonical 都指回中文原稿页——同一个论点，在中英两个入口上都能核。</p>
+<p class="small">分书索引：<a href="{EN_PAGES['daodejing']}">道德经 81</a>　·　<a href="{EN_PAGES['yijing']}">易传 64</a>　·　<a href="{EN_PAGES['zhuangzi']}">庄子 28</a>　·　<a href="{EN_PAGES['jingang']}">金刚经 32</a>　·　<a href="{EN_PAGES['tanjing']}">坛经 10</a>　·　<a href="{EN_PAGES['xinjing']}">心经 10</a></p>
 <p class="small">已发 {total} 篇　·　账号 <a href="https://dev.to/q1z2q3debug" rel="noopener">q1z2q3debug</a>　·　发稿记录 <a href="https://github.com/q1z2q3-debug/runze-daokedao/blob/main/dist/README.md">dist/README.md</a>　·　原稿 <a href="https://github.com/q1z2q3-debug/runze-daokedao/tree/main/dist">dist/</a></p>
 
 <h2>道德经 · 八十一章　<span class="small">{len(chap)} 篇</span></h2>
