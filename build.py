@@ -12,6 +12,14 @@ SITE = "https://q1z2q3-debug.github.io/runze-daokedao"
 SERIES = "润泽说 道可道"
 AUTHOR = "润泽"
 
+EN_PAGES = {
+    "daodejing": "https://q1z2q3-debug.github.io/runze-daodejing/english/",
+    "yijing": "https://q1z2q3-debug.github.io/daokedao-yijing/english/",
+    "zhuangzi": "https://q1z2q3-debug.github.io/daokedao-zhuangzi/english/",
+    "jingang": "https://q1z2q3-debug.github.io/daokedao-jingang/english/",
+    "tanjing": "https://q1z2q3-debug.github.io/daokedao-tanjing/english/",
+    "xinjing": "https://q1z2q3-debug.github.io/daokedao-xinjing/english/",
+}
 BOOKS = [
     dict(
         key="daodejing", no="01", short="道德经",
@@ -391,7 +399,7 @@ def build_books():
         idx = {"daodejing": ("八十一章逐章页", SITE + "/chapters/daodejing/"),
                "yijing": ("六十四卦逐卦页", SITE + "/chapters/yizhuan/")}.get(b["key"])
         links = "".join(f'<li><a href="{u}">{n}</a></li>' for n, u in
-                        [("网页阅读", b["site"]), ("源码与全文", b["repo"]), ("DOI 存档", "https://doi.org/" + b["doi"])]
+                        [("网页阅读", b["site"]), ("英文稿索引", EN_PAGES.get(b["key"], b["site"])), ("源码与全文", b["repo"]), ("DOI 存档", "https://doi.org/" + b["doi"])]
                         + ([idx] if idx else []) + b["extra"])
         ld = {"@context": "https://schema.org", "@graph": [
             {"@type": "Book", "@id": SITE + f"/books/{b['key']}.html#book", "name": b["title"],
