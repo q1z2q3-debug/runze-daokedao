@@ -357,3 +357,10 @@
 - 易传坏链修复：`/p/01-qian/`、`/p/02-kun/` 两处 404 归一为 `/p/01-qian-kun/`；JSON-LD `hasPart` 中乾、坤两条与站点一致合并为一条。
 - 总站 `books/*.html` 六页各增一条「英文稿索引」入口（`EN_PAGES` 映射，build.py 内）。
 - 站点实况（curl 复核）：`runze-daodejing/english/` 200、`daokedao-yijing/english/` 200、`daokedao-xinjing/english/` 200。
+
+## 2026-11-15 · 收尾项判定
+
+- 金刚经 Zenodo record `24222027`：不出 later version。存缴四件（md 母本、A5 PDF 182 页、阅读版 HTML、APK 1.0.2）自 `ee38300` 起未变，`4361093`／`d647a52` 只动站点页面与 README；书未变，不为站点导航变动重发版本，DOI 引用保持稳定。
+- 道德经站补 `sitemap.xml`（首页／`/english/`／书页／JSONL）与 `robots.txt`，首页 `<head>` 挂 `rel="sitemap"`；该仓 Pages 走仓库根，此前无 sitemap。
+- 心经 `book spine`：封套书脊 90px @300dpi ≈ 7.6 mm，对 74 张纸（147 页）成立，不必重算。
+- 全系列英文稿实发：81 + 64 + 28 + 32 + 10 + 10 = 225 篇（另总论与体例 7 篇，合计 232）。
