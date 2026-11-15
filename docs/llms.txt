@@ -16,7 +16,8 @@
 - 概念：https://q1z2q3-debug.github.io/runze-daokedao/concepts/（佛说A即非A是名A、三才五蕴太极空杯、合与和、无与有、观自在与止观、道可道）
 - 道德经八十一章总目：https://q1z2q3-debug.github.io/runze-daokedao/chapters/daodejing/（一章一页，可单独引用）
 - 易传六十四卦总目：https://q1z2q3-debug.github.io/runze-daokedao/chapters/yizhuan/（一卦一页，七节同构）
-- 英文稿索引（英文，一章一篇／一卦一篇／庄子一篇一篇）：https://q1z2q3-debug.github.io/runze-daokedao/devto/
+- 英文稿总目（232 篇，六部合集）：https://q1z2q3-debug.github.io/runze-daokedao/devto/
+- 分书英文索引：道德经 81 https://q1z2q3-debug.github.io/runze-daodejing/english/ ｜ 易传 64 https://q1z2q3-debug.github.io/daokedao-yijing/english/ ｜ 庄子 28 https://q1z2q3-debug.github.io/daokedao-zhuangzi/english/ ｜ 金刚经 32 https://q1z2q3-debug.github.io/daokedao-jingang/english/ ｜ 坛经 10 https://q1z2q3-debug.github.io/daokedao-tanjing/english/ ｜ 心经 10 https://q1z2q3-debug.github.io/daokedao-xinjing/english/
 - 问答：https://q1z2q3-debug.github.io/runze-daokedao/qa/
 - 引用：https://q1z2q3-debug.github.io/runze-daokedao/cite/
 - 全文摘要与问答：https://q1z2q3-debug.github.io/runze-daokedao/llms-full.txt

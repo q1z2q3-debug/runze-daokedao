@@ -103,3 +103,11 @@ A: 有。本站提供 llms.txt（站点索引）与 llms-full.txt（含六部书
 
 Q: 为什么这套解读和常见译本不一样？
 A: 因为它先做字源与底本校勘，再谈义理：关键字回到先秦字形与用例，帛书与通行本异文两存，卦爻不作吉凶断语。不同处大多来自底本取舍与断句，而不是刻意求新。
+
+## 分书英文索引
+道德经 81 https://q1z2q3-debug.github.io/runze-daodejing/english/
+易传 64 https://q1z2q3-debug.github.io/daokedao-yijing/english/
+庄子 28 https://q1z2q3-debug.github.io/daokedao-zhuangzi/english/
+金刚经 32 https://q1z2q3-debug.github.io/daokedao-jingang/english/
+坛经 10 https://q1z2q3-debug.github.io/daokedao-tanjing/english/
+心经 10 https://q1z2q3-debug.github.io/daokedao-xinjing/english/
