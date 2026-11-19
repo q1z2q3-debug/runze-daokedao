@@ -25,6 +25,7 @@
 - [`COMMERCIAL-INQUIRY.md`](COMMERCIAL-INQUIRY.md)：商业咨询提交表。
 - [`PROVENANCE.md`](PROVENANCE.md)：版本、哈希与作者存证说明。
 - [`COPYRIGHT-REGISTRATION.md`](COPYRIGHT-REGISTRATION.md)：版权登记与更强证据保全建议。
+- [`CONTRIBUTOR-LICENSE.md`](CONTRIBUTOR-LICENSE.md)：投稿与贡献的许可模板。
 
 ## 三条硬规则
 

@@ -43,6 +43,10 @@ docs/             站点（GitHub Pages 源）
   assets/         favicon、分享图
 ```
 
+## 参与
+
+投稿、补注、校勘与翻译前，请先读 [`CONTRIBUTING.md`](CONTRIBUTING.md) 与 [`LICENSING/CONTRIBUTOR-LICENSE.md`](LICENSING/CONTRIBUTOR-LICENSE.md)。
+
 ## 商业许可
 
 商业训练、商业分发、付费平台与第三方素材边界：见 [`LICENSING/README.md`](LICENSING/README.md)。商业许可合同模板：[Markdown](LICENSING/contracts/商业训练许可协议-模板.md) / [Word](LICENSING/contracts/商业训练许可协议-模板.docx)。
