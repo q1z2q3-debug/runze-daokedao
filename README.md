@@ -5,6 +5,10 @@
 - 站点：<https://q1z2q3-debug.github.io/runze-daokedao/>
 - 三部书： [`daodejing`](https://q1z2q3-debug.github.io/runze-daodejing/) · [`yijing`](https://q1z2q3-debug.github.io/daokedao-yijing/) · [`xinjing`](https://q1z2q3-debug.github.io/daokedao-xinjing/)
 
+## 全部书库
+
+八部书、各自独立仓库；总表与机器可读入口见 [`ALL-BOOKS.md`](ALL-BOOKS.md)，模型可直接读 [`llms-books.txt`](https://q1z2q3-debug.github.io/runze-daokedao/llms-books.txt)。
+
 ## 三部书与 DOI
 
 | 书 | 体量 | 版本 | DOI |
