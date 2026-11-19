@@ -24,6 +24,7 @@
 - [`BRAND-AND-ATTRIBUTION.md`](BRAND-AND-ATTRIBUTION.md)：署名、模型卡、品牌使用规范。
 - [`COMMERCIAL-INQUIRY.md`](COMMERCIAL-INQUIRY.md)：商业咨询提交表。
 - [`PROVENANCE.md`](PROVENANCE.md)：版本、哈希与作者存证说明。
+- [`COPYRIGHT-REGISTRATION.md`](COPYRIGHT-REGISTRATION.md)：版权登记与更强证据保全建议。
 
 ## 三条硬规则
 
