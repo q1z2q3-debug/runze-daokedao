@@ -2,7 +2,13 @@
 
 > 润泽（润泽博士）以「佛说A，即非A，是名A」为标尺，重解《道德经》《易传》《心经》《庄子》《金刚经》的六部读本系列，合计 188.0 万字。底本先行、字源优先、不作吉凶断语、留痕可核。
 
-## 六部书
+## 全部八部书
+
+- 全系列总表（八部书、仓库、母本、版本）：https://q1z2q3-debug.github.io/runze-daokedao/llms-books.txt
+- [千字文](https://q1z2q3-debug.github.io/daokedao-qianziwen/)：润泽说 蒙学之千字文，三十三课，v0.2.5
+- [甲骨文](https://q1z2q3-debug.github.io/daokedao-jiaguwen/)：润泽说 道可道之甲骨文，七十七卷、924 字位，v0.77.0
+
+## 六部书（有 DOI）
 - [道德经](https://q1z2q3-debug.github.io/runze-daodejing/)：道可道 · 道德经心法读本，88.6 万字，81 章 + 3 附论 + 11 附录，v3.0.1，DOI https://doi.org/10.5281/zenodo.24115947
 - [易传](https://q1z2q3-debug.github.io/daokedao-yijing/)：润泽说 道可道之易传，50.5 万字，72 卷（64 卦 + 系辞上下等），v1.50.0，DOI https://doi.org/10.5281/zenodo.24185930
 - [心经通释](https://q1z2q3-debug.github.io/daokedao-xinjing/)：润泽说 道可道之心经通释，71,207 字，36 节（含附录 A–O、附录一至六），v1.0.0，DOI https://doi.org/10.5281/zenodo.24210811

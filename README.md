@@ -1,9 +1,9 @@
 # 润泽说 道可道 · 系列总站
 
-三部经典，一副取景。《道德经》《易传》《心经》，以「佛说A，即非A，是名A」为同一标尺重解，合计逾二百万字。
+八部书，各自独立成库。以「佛说A，即非A，是名A」为同一标尺重解经典；另附《千字文》蒙学读本与《甲骨文》字源读本。
 
 - 站点：<https://q1z2q3-debug.github.io/runze-daokedao/>
-- 三部书： [`daodejing`](https://q1z2q3-debug.github.io/runze-daodejing/) · [`yijing`](https://q1z2q3-debug.github.io/daokedao-yijing/) · [`xinjing`](https://q1z2q3-debug.github.io/daokedao-xinjing/)
+- 八部书总表： [`daodejing`](https://q1z2q3-debug.github.io/runze-daodejing/) · [`yijing`](https://q1z2q3-debug.github.io/daokedao-yijing/) · [`xinjing`](https://q1z2q3-debug.github.io/daokedao-xinjing/)
 
 ## 全部书库
 
