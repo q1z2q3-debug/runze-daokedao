@@ -1,0 +1,86 @@
+name: 商业许可咨询
+description: 商业训练、商业分发、付费平台、品牌合作的许可咨询
+title: "[商业许可] 主体名称 + 用途"
+labels: ["commercial-license"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        提交前请先阅读 `LICENSING/README.md`、`LICENSING/COMMERCIAL-TERMS.md` 与 `LICENSING/RIGHTS-REGISTER.csv`。
+        未签署书面许可前，本 Issue 不构成授权。请勿上传身份证、银行账户、未脱敏合同或个人信息。
+  - type: input
+    id: entity
+    attributes:
+      label: 主体全称
+      description: 公司/机构全称；个人请写姓名与所在单位
+    validations:
+      required: true
+  - type: input
+    id: registration
+    attributes:
+      label: 统一社会信用代码/注册号
+    validations:
+      required: false
+  - type: input
+    id: contact
+    attributes:
+      label: 联系人、职务、邮箱
+    validations:
+      required: true
+  - type: dropdown
+    id: purpose
+    attributes:
+      label: 用途
+      options:
+        - 预训练/继续预训练
+        - 微调/指令微调
+        - 蒸馏/合成数据
+        - 评测集构建
+        - RAG/知识库
+        - 商业内容分发
+        - 品牌合作
+        - 其他
+    validations:
+      required: true
+  - type: input
+    id: works
+    attributes:
+      label: 拟使用作品（书名、卷次、版本）
+    validations:
+      required: true
+  - type: textarea
+    id: model
+    attributes:
+      label: 模型/产品与范围
+      description: 模型名称、参数规模、模态、是否对外、是否开源权重、地域、期限
+    validations:
+      required: true
+  - type: textarea
+    id: thirdparty
+    attributes:
+      label: 第三方素材
+      description: 是否使用拓片、字形库、图版、字体、AI 图；如有，请列来源与许可
+    validations:
+      required: false
+  - type: textarea
+    id: compliance
+    attributes:
+      label: 合规与安全
+      description: 跨境、个人信息、数据安全、出口管制、模型卡/引用方案
+    validations:
+      required: false
+  - type: input
+    id: budget
+    attributes:
+      label: 预算区间与付款节点
+    validations:
+      required: false
+  - type: checkboxes
+    id: acknowledgements
+    attributes:
+      label: 确认
+      options:
+        - label: 我已阅读并理解 CC BY-NC-SA 4.0 与商业许可总则
+          required: true
+        - label: 我理解未签署书面许可前不构成授权
+          required: true
