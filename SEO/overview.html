@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%237c3522'/%3E%3Cpath d='M12 18h40M12 32h40M12 46h40' stroke='%23f1eadc' stroke-width='5'/%3E%3C/svg%3E">
+<title>润泽说 道可道 · 全系列 SEO 基线、竞品对照与超越路径</title>
+<style>
+:root{--paper:#f1eadc;--ink:#191611;--muted:#665d50;--line:#d4c6b0;--accent:#7c3522;--soft:#fbf7ee}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.85 "Noto Serif CJK SC","Songti SC",serif}
+.wrap{max-width:1180px;margin:0 auto;padding:34px 20px 70px}
+.hero{border-bottom:1px solid var(--line);padding:10px 0 26px;display:grid;grid-template-columns:minmax(0,1.5fr) minmax(260px,.7fr);gap:28px;align-items:end}
+.hero h1{font-size:clamp(28px,4.6vw,52px);line-height:1.16;margin:8px 0 12px;letter-spacing:.03em}
+.kicker{font-size:12px;letter-spacing:.18em;color:var(--accent)}
+.lead{color:#37322b;max-width:760px;margin:0}
+.hero-note{border-left:2px solid var(--accent);padding-left:14px;color:var(--muted);font-size:13px}
+section{padding:30px 0;border-bottom:1px solid var(--line)}
+h2{font-size:24px;margin:0 0 6px}
+.sub{color:var(--muted);font-size:13px;margin:0 0 16px}
+.grid2{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);gap:26px;align-items:start}
+.chartbox{background:var(--soft);border:1px solid var(--line);padding:14px 8px 6px}
+#scoreChart{width:100%;height:430px}
+.tablewrap{overflow-x:auto;border:1px solid var(--line);background:var(--soft)}
+table{border-collapse:collapse;width:100%;min-width:680px;table-layout:fixed}
+col.a{width:18%}col.b{width:20%}col.c{width:30%}col.d{width:32%}
+th,td{padding:9px 11px;border-bottom:1px solid var(--line);vertical-align:top;font-size:13px;line-height:1.65;overflow-wrap:anywhere;word-break:break-word}
+th{text-align:left;font-weight:600;color:var(--accent)}
+td b{font-weight:600;overflow-wrap:anywhere;word-break:break-word}
+code{overflow-wrap:anywhere;word-break:break-word}
+.note{color:var(--muted);font-size:13px;margin-top:10px}
+.path{display:grid;grid-template-columns:44px minmax(0,1fr);gap:0 16px;margin-top:14px}
+.path .num{font-size:12px;color:var(--accent);letter-spacing:.1em;padding-top:4px}
+.path .item{padding:0 0 16px;border-bottom:1px dotted var(--line);margin-bottom:16px}
+.path .item:last-child{border-bottom:0;margin-bottom:0}
+.path h3{margin:0 0 4px;font-size:17px}
+.path p{margin:0;color:#3d3730;font-size:14px}
+.kpis{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin-top:14px}
+.kpi{border:1px solid var(--line);background:var(--soft);padding:10px 12px}
+.kpi b{display:block;font-size:24px;line-height:1.2}
+.kpi span{font-size:12px;color:var(--muted)}
+.tag{display:inline-block;border:1px solid var(--line);padding:2px 7px;font-size:11px;color:var(--muted);margin:2px 3px 2px 0}
+.code-lines{display:grid;gap:4px;margin-top:6px}
+.code-lines code{display:block;background:var(--soft);border:1px solid var(--line);padding:5px 8px;font-size:12px;line-height:1.5}
+footer{padding-top:22px;color:var(--muted);font-size:12px}
+@media(max-width:820px){
+.hero{grid-template-columns:1fr}.grid2{grid-template-columns:1fr}.kpis{grid-template-columns:repeat(2,minmax(0,1fr))}#scoreChart{height:390px}
+body{font-size:16px}.hero-note,.lead,.sub,.note{font-size:14px}
+table{min-width:0;table-layout:auto;width:100%}
+colgroup,col{display:none}
+thead{display:none}
+tbody,tbody tr,td{display:block;width:100%!important}
+tbody tr{display:block;padding:12px 0;border-bottom:1px solid var(--line);width:100%!important}
+tbody tr:last-child{border-bottom:0}
+td{display:block;border-bottom:0;padding:3px 0;font-size:14px;width:100%!important}
+.tablewrap{overflow-x:visible}
+.score-table td:nth-child(1),.comp-table td:nth-child(1){font-size:16px;padding-bottom:5px}
+.score-table td:nth-child(2)::before{content:"修补前 · ";color:var(--accent);font-size:12px;letter-spacing:.04em}
+.comp-table td:nth-child(2)::before{content:"它强在哪 · ";color:var(--accent);font-size:12px;letter-spacing:.04em}
+.score-table td:nth-child(3)::before,.comp-table td:nth-child(3)::before{content:"缺口 · ";color:var(--accent);font-size:12px;letter-spacing:.04em}
+.score-table td:nth-child(4)::before{content:"本轮 · ";color:var(--accent);font-size:12px;letter-spacing:.04em}
+.comp-table td:nth-child(4)::before{content:"我们的接法 · ";color:var(--accent);font-size:12px;letter-spacing:.04em}
+.score-table td:nth-child(2){font-size:16px;font-weight:600}
+}
+</style>
+</head>
+<body>
+<main class="wrap">
+<header class="hero">
+<div>
+<div class="kicker">RUNZE · DAOKEDAO · SEO REVIEW · 2026-11-20</div>
+<h1>八部书，先做成“可被抓取、可被引用、可被模型读懂”的底子</h1>
+<p class="lead">这不是“保证排名”的方案。它做的是一件更基础的事：把八部书的首页、全书页、发现文件与结构化数据拉到同一水平，再用“逐字证据链”和“77 卷独立 URL”去接长尾。基线 8 站平均 8.6/11；第一轮修补后 11/11。</p>
+</div>
+<div class="hero-note">
+<b>审计口径</b><br>
+首页与全书页的 title、description、canonical、OG、Twitter、JSON-LD、h1；站点级 sitemap、robots、llms。共 11 项。
+</div>
+</header>
+
+<section>
+<h2>一、基线 → 修补后</h2>
+<p class="sub">分数只说明“基础项是否齐全”，不代表内容质量或搜索排名。数据来自 <code>SEO/audit-report.json</code>。</p>
+<div class="grid2">
+<div class="chartbox">
+<div id="scoreChart"></div>
+<div class="note" id="fallback">图表加载失败时，右侧表格与下方结论仍然完整可读。</div>
+</div>
+<div class="kpis">
+<div class="kpi"><b>8.6</b><span>修补前平均分 / 11</span></div>
+<div class="kpi"><b>11.0</b><span>修补后平均分 / 11</span></div>
+<div class="kpi"><b>77</b><span>甲骨文新增独立卷页</span></div>
+<div class="kpi"><b>85</b><span>甲骨文 sitemap URL</span></div>
+</div>
+</div>
+<div class="tablewrap" style="margin-top:18px">
+<table class="score-table">
+<colgroup><col class="a"><col class="b"><col class="c"><col class="d"></colgroup>
+<thead><tr><th>书目</th><th>修补前</th><th>主要缺口</th><th>本轮动作</th></tr></thead>
+<tbody>
+<tr><td><b>道德经</b></td><td>8 / 11</td><td>canonical 错指 GitHub 仓库；Book 版本仍是 v1.0.0</td><td>canonical 改回站点；Book 统一为 v2.9.25；补 OG/Twitter/citation</td></tr>
+<tr><td><b>易传</b></td><td>10 / 11</td><td>全书页缺 canonical/description/OG/JSON-LD</td><td>全书页补全；保留原有 704 节 hasPart</td></tr>
+<tr><td><b>心经</b></td><td>11 / 11</td><td>基础齐全；cite/ 缺</td><td>统一 Book 作者/许可/版本；补 citation 元数据</td></tr>
+<tr><td><b>坛经</b></td><td>11 / 11</td><td>preface/downloads 无 JSON-LD；cite/ 缺</td><td>preface 补 Article/Book 关系；全站补 ai.txt</td></tr>
+<tr><td><b>金刚经</b></td><td>11 / 11</td><td>preface/downloads 无 JSON-LD；cite/ 缺</td><td>preface 补全；全站补 ai.txt</td></tr>
+<tr><td><b>千字文</b></td><td>6 / 11</td><td>首页/全书页缺 canonical/OG/Twitter/JSON-LD；全书页 9.4MB</td><td>补 canonical/OG/Book schema；标注性能治理项</td></tr>
+<tr><td><b>甲骨文</b></td><td>3 / 11</td><td>首页 785B、信息陈旧；缺 robots/sitemap/JSON-LD；77 卷没有独立入口</td><td>重写首页；新建 77 卷独立页；补 robots/sitemap/ai.txt</td></tr>
+<tr><td><b>庄子</b></td><td>9 / 11</td><td>全书页缺 canonical/description/OG/JSON-LD</td><td>全书页补全；Book 统一 v1.33.0</td></tr>
+</tbody>
+</table>
+</div>
+</section>
+
+<section>
+<h2>二、竞品不是“比谁字多”，是比“谁能让读者与模型拿到证据”</h2>
+<p class="sub">取样：甲骨文字典型、学术库型、道德经英译型、常见注解型。结论基于公开页面可见信息，不评价其学术质量。</p>
+<div class="tablewrap">
+<table class="comp-table">
+<colgroup><col class="a"><col class="b"><col class="c"><col class="d"></colgroup>
+<thead><tr><th>站点</th><th>它强在哪</th><th>它的缝</th><th>我们的接法</th></tr></thead>
+<tbody>
+<tr><td><b>oraclebonescript.dev/ziku</b><br><span class="tag">字典型</span></td><td>title 直接写“收录 1313 字”；7 大类 38 小类；检索入口清楚</td><td>字形查询强，逐字“拓片—摹本—释文—后世义”证据链不是它的主线</td><td>不做“更大字典”；做 905 字的“证据状态 + 一字一世界 + 引用”</td></tr>
+<tr><td><b>jgw.aynu.edu.cn</b><br><span class="tag">三库一平台</span></td><td>著录、图像、论著的学术规模；权威入口</td><td>学术界面门槛高；读者与模型都难直接引用到“一句话结论”</td><td>把每字写成可引用的短证据卡；给模型 llms.txt / ai.txt</td></tr>
+<tr><td><b>xiaoxue.iis.sinica.edu.tw/jiaguwen</b><br><span class="tag">学术库</span></td><td>史语所学术数据库；字形与拓片资源深</td><td>不是面向大众的阅读产品；缺少跨典互参与现代汉语桥</td><td>用“字—片—义—今日用法”的阅读层接住学术层</td></tr>
+<tr><td><b>pomodiary.com/projects/taoist</b><br><span class="tag">道德经英译</span></td><td>81 章全覆盖；原文/直译/白话三层对照；英文长尾清楚</td><td>单书、英文为主；没有八书统一体系</td><td>中文逐章 + 字源 + 帛书/通行本对照；八书互链</td></tr>
+<tr><td><b>daodetu.com</b><br><span class="tag">常见注解</span></td><td>“道德图”心智强；单章检索方便</td><td>meta description 为空；技术 SEO 基础弱</td><td>不拼“图”，拼“可核验的逐句解释 + 引用页”</td></tr>
+<tr><td><b>我们</b><br><span class="tag">八书体系</span></td><td>八部书同一作者、同一方法；逐字证据链；CC BY-NC-SA；llms.txt / CITATION.cff</td><td>规模小于权威库；部分全书页过重；cite/ 覆盖不全</td><td>先补基础，再做“字页 + 引用页 + 长尾问答”三层</td></tr>
+</tbody>
+</table>
+</div>
+</section>
+
+<section>
+<h2>三、超越路径：四层，不靠堆量</h2>
+<div class="path">
+<div class="num">01</div><div class="item"><h3>证据层：把“中/待核/已核”做成可检索标签</h3><p>每个字页固定四行：字形来源、字源判断、同片释文、后世义层。置信度不是装饰，是筛选器。模型与读者都能一眼知道“这条能不能直接用”。</p></div>
+<div class="num">02</div><div class="item"><h3>入口层：77 卷独立 URL + 905 字页</h3><p>本轮已把甲骨文 77 卷拆成独立页面，首页给出全书目录。下一步把 905 个唯一字各做一页，形成“字—卷—书”的三级内链；这是长尾检索真正能落地的地方。</p></div>
+<div class="num">03</div><div class="item"><h3>引用层：每书一个 cite/ 页</h3><p>给出建议引用格式、版本号、发布日期、许可、稳定 URL、BibTeX 与 CFF。现在只有易传有 cite/；其余七部应补齐，学术与模型引用才会稳定。</p></div>
+<div class="num">04</div><div class="item"><h3>模型层：llms.txt / ai.txt / JSONL</h3><p>八站统一 llms.txt；新增 ai.txt 说明“检索、引用、非商业研究允许；商业训练需书面许可”。再把每卷正文做成可机读 JSONL，模型才能按卷取用，而不是整本爬。</p></div>
+</div>
+</section>
+
+<section>
+<h2>四、本轮实际改了什么</h2>
+<div class="sub">可复现，按顺序运行：<div class="code-lines"><code>python3 SEO/audit.py</code><code>python3 SEO/patch.py</code><code>python3 SEO/build_jiaguwen.py</code></div></div>
+<div class="tablewrap">
+<table>
+<colgroup><col class="a"><col class="b"><col class="c"><col class="d"></colgroup>
+<thead><tr><th>层面</th><th>动作</th><th>覆盖</th><th>验收</th></tr></thead>
+<tbody>
+<tr><td><b>页面 head</b></td><td>canonical、description、OG、Twitter、robots、citation_*</td><td>8 站首页 + 全书页 + 前言页</td><td>audit 11/11；无重复 meta</td></tr>
+<tr><td><b>结构化数据</b></td><td>Book、WebSite、BreadcrumbList、Article</td><td>8 站；甲骨文卷页 Article</td><td>JSON-LD 可解析；版本/作者/许可统一</td></tr>
+<tr><td><b>发现文件</b></td><td>sitemap.xml、robots.txt、ai.txt</td><td>甲骨文新建；其余补 ai.txt</td><td>85 个甲骨文 URL；sitemap 可读</td></tr>
+<tr><td><b>甲骨文站点</b></td><td>重写首页；77 卷独立页</td><td>v0.77.0，924 字位，905 唯一字</td><td>首页 13.9KB；卷页可单独打开</td></tr>
+<tr><td><b>性能标记</b></td><td>千字文 9.4MB、心经 1.7MB 全书页列入治理</td><td>未在本轮拆分</td><td>下一轮做分卷/懒加载</td></tr>
+</tbody>
+</table>
+</div>
+<p class="note">说明：分数提升不等于排名提升。搜索排名还取决于域名权重、外链、内容更新与用户信号；本轮做的是“让搜索引擎和模型能正确理解、正确引用”的基础工程。</p>
+</section>
+
+<footer>润泽说 道可道 · SEO 工作台 · 生成于 2026-11-20 · 数据源：各站 docs/ 与 SEO/audit-report.json</footer>
+</main>
+
+<script src="https://cdn.jsdelivr.net/npm/echarts@5.6.0/dist/echarts.min.js"></script>
+<script>
+(function(){
+  var el = document.getElementById('scoreChart');
+  if (!el || typeof echarts === 'undefined') return;
+  var chart = echarts.init(el);
+  var names = ['甲骨文','千字文','道德经','庄子','易传','心经','坛经','金刚经'];
+  var before = [3,6,8,9,10,11,11,11];
+  var after = [11,11,11,11,11,11,11,11];
+  chart.setOption({
+    title: { text: 'SEO 基础项得分（满分 11）', left: 8, top: 8, textStyle: { fontSize: 14, fontWeight: 600 } },
+    tooltip: { trigger: 'axis', triggerOn: 'click', renderMode: 'richText', confine: true },
+    legend: { top: 32, left: 8, itemWidth: 12, itemHeight: 8 },
+    grid: { left: 8, right: 18, top: 64, bottom: 8, containLabel: true },
+    xAxis: { type: 'value', max: 11, min: 0, splitNumber: 5 },
+    yAxis: { type: 'category', data: names, axisLabel: { fontSize: 12 } },
+    series: [
+      { name: '修补前', type: 'bar', data: before, barMaxWidth: 15, label: { show: true, position: 'right', fontSize: 10 } },
+      { name: '修补后', type: 'bar', data: after, barMaxWidth: 15, label: { show: true, position: 'right', fontSize: 10 } }
+    ]
+  });
+  window.addEventListener('resize', function(){ chart.resize(); });
+})();
+</script>
+</body>
+</html>

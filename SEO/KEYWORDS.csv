@@ -1,0 +1,31 @@
+book,intent,primary_keyword,secondary_keywords,landing_page,status,notes
+道德经,全文阅读,道德经全文,"道德经八十一章,老子道德经,道可道",https://q1z2q3-debug.github.io/runze-daodejing/,existing,全书页与逐章页已存在
+道德经,版本对照,道德经帛书,"帛书老子,通行本道德经,楚简老子",https://q1z2q3-debug.github.io/runze-daodejing/book/道可道·道德经心法读本.html,existing,补版本差异摘要
+道德经,名句解释,上善若水,"上善若水解释,道德经第八章,水善利万物而不争",https://q1z2q3-debug.github.io/runze-daodejing/,existing,做成逐句长尾页
+道德经,概念解释,无为而无不为,"无为解释,道法自然,道德经核心概念",https://q1z2q3-debug.github.io/runze-daodejing/,existing,补字源与章内上下文
+易传,全文阅读,易传全文,"十翼,系辞传,彖传象传",https://q1z2q3-debug.github.io/daokedao-yijing/,existing,已有 704 节 hasPart
+易传,概念解释,系辞传,"系辞上传,系辞下传,易传系辞",https://q1z2q3-debug.github.io/daokedao-yijing/book.html,existing,补逐句注释页
+易传,概念解释,乾坤,"乾卦,坤卦,乾坤两卦",https://q1z2q3-debug.github.io/daokedao-yijing/book.html,existing,补卦象与字源
+心经,全文阅读,心经全文,"般若波罗蜜多心经,心经260字,心经原文",https://q1z2q3-debug.github.io/daokedao-xinjing/,existing,全书页 1.7MB 待拆分
+心经,名句解释,照见五蕴皆空,"五蕴皆空,心经解释,色即是空",https://q1z2q3-debug.github.io/daokedao-xinjing/book.html,existing,补逐句页
+心经,版本对照,心经版本,"玄奘译本,鸠摩罗什译本,心经异文",https://q1z2q3-debug.github.io/daokedao-xinjing/,planned,补版本对照表
+坛经,全文阅读,坛经全文,"六祖坛经,六祖惠能,坛经原文",https://q1z2q3-debug.github.io/daokedao-tanjing/,existing,版本 1.2.0
+坛经,名句解释,菩提本无树,"菩提本无树,明镜亦非台,坛经名句",https://q1z2q3-debug.github.io/daokedao-tanjing/book.html,existing,补偈语逐句页
+坛经,版本对照,敦煌本坛经,"敦煌本,惠昕本,宗宝本",https://q1z2q3-debug.github.io/daokedao-tanjing/,planned,版本差异是强长尾
+金刚经,全文阅读,金刚经全文,"金刚般若波罗蜜经,金刚经原文,三十二分",https://q1z2q3-debug.github.io/daokedao-jingang/,existing,版本 1.0.2
+金刚经,名句解释,应无所住而生其心,"应无所住,金刚经名句,不住色声香味触法",https://q1z2q3-debug.github.io/daokedao-jingang/book.html,existing,补逐句页
+金刚经,结构解释,金刚经三十二分,"金刚经科判,三十二分,昭明太子",https://q1z2q3-debug.github.io/daokedao-jingang/,planned,做分—句—字三级页
+千字文,全文阅读,千字文全文,"千字文原文,千字文解释,天地玄黄",https://q1z2q3-debug.github.io/daokedao-qianziwen/,existing,全书页 9.4MB 待拆分
+千字文,逐字解释,千字文逐字,"千字文每个字,千字文注释,千字文字源",https://q1z2q3-debug.github.io/daokedao-qianziwen/book.html,existing,优先做高频字页
+千字文,名句解释,天地玄黄,"天地玄黄解释,宇宙洪荒,千字文第一句",https://q1z2q3-debug.github.io/daokedao-qianziwen/,existing,补逐句长尾
+甲骨文,总览,甲骨文,"甲骨文字典,甲骨文字形,甲骨文拓片",https://q1z2q3-debug.github.io/daokedao-jiaguwen/,existing,77 卷独立页已建
+甲骨文,字源,一字一世界,"甲骨文一字一世界,甲骨文解释,甲骨文智慧",https://q1z2q3-debug.github.io/daokedao-jiaguwen/,existing,905 字页为下一层
+甲骨文,单字,地甲骨文,"地字甲骨文,土方,合6354",https://q1z2q3-debug.github.io/daokedao-jiaguwen/volumes/v77.html,existing,借土；待补拓片
+甲骨文,单字,风甲骨文,"风字甲骨文,凤,风方",https://q1z2q3-debug.github.io/daokedao-jiaguwen/,planned,需单字页
+甲骨文,单字,马甲骨文,"马字甲骨文,马方,马匹",https://q1z2q3-debug.github.io/daokedao-jiaguwen/,planned,需单字页
+甲骨文,单字,门甲骨文,"门字甲骨文,门户,建筑",https://q1z2q3-debug.github.io/daokedao-jiaguwen/,planned,需单字页
+甲骨文,证据,甲骨文拓片,"甲骨文拓片,摹本,释文",https://q1z2q3-debug.github.io/daokedao-jiaguwen/research/甲骨文证据与置信度表.html,existing,补史语所/国图链接
+庄子,全文阅读,庄子全文,"庄子原文,南华经,庄子内篇",https://q1z2q3-debug.github.io/daokedao-zhuangzi/,existing,版本 1.33.0
+庄子,名篇,逍遥游,"逍遥游全文,北冥有鱼,庄子逍遥游",https://q1z2q3-debug.github.io/daokedao-zhuangzi/book.html,existing,补逐段页
+庄子,名篇,齐物论,"齐物论全文,庄周梦蝶,天籁",https://q1z2q3-debug.github.io/daokedao-zhuangzi/book.html,existing,补逐段页
+庄子,概念解释,庖丁解牛,"庖丁解牛,庄子寓言,以无厚入有间",https://q1z2q3-debug.github.io/daokedao-zhuangzi/book.html,existing,补寓言索引

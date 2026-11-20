@@ -1,0 +1,9 @@
+key,name,version,index_bytes,book_bytes,index_exists,book_exists,title,description,canonical_index,canonical_book,og,twitter,ldjson,h1,sitemap,robots,llms,ai_txt,score_11
+daodejing,道德经,2.9.25,23312,1431778,True,True,True,True,True,True,True,True,True,True,True,True,True,True,11
+yijing,易传,1.50.0,28531,923885,True,True,True,True,True,True,True,True,True,True,True,True,True,True,11
+xinjing,心经,1.1.0,13540,1703999,True,True,True,True,True,True,True,True,True,True,True,True,True,True,11
+tanjing,坛经,1.2.0,12609,292987,True,True,True,True,True,True,True,True,True,True,True,True,True,True,11
+jingang,金刚经,1.0.2,12372,136655,True,True,True,True,True,True,True,True,True,True,True,True,True,True,11
+qianziwen,千字文,0.5.4,6936,9469506,True,True,True,True,True,True,True,True,True,True,True,True,True,True,11
+jiaguwen,甲骨文,0.77.0,13606,19930,True,True,True,True,True,True,True,True,True,True,True,True,True,True,11
+zhuangzi,庄子,1.33.0,9674,407631,True,True,True,True,True,True,True,True,True,True,True,True,True,True,11
