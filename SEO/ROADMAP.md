@@ -11,7 +11,7 @@
 | 页面 head | canonical、description、OG、Twitter、robots、citation_* | 8 站首页/全书页/前言页齐全；无重复 meta |
 | 结构化数据 | Book、WebSite、BreadcrumbList、Article | JSON-LD 可解析；版本、作者、许可一致 |
 | 发现文件 | sitemap.xml、robots.txt、ai.txt | 甲骨文 85 URL；八站 ai.txt 可读 |
-| 甲骨文入口 | 新版首页 + 77 卷独立页 | 首页 13.9KB；卷页可单独打开 |
+| 甲骨文入口 | 新版首页 + 77 卷独立页 | 首页 13.6KB；卷页可单独打开 |
 
 **已推进**：本地 11/11 已 push；八站首页线上抽查 200，canonical 正确；甲骨文 v01/v77 线上 200。千字文全书页 9.4MB 仍有传输截断。
 

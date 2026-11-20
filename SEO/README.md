@@ -35,7 +35,7 @@ python3 SEO/audit.py            # 复核
 | 甲骨文 | 3/11 | 11/11 | https://q1z2q3-debug.github.io/daokedao-jiaguwen/ |
 | 庄子 | 9/11 | 11/11 | https://q1z2q3-debug.github.io/daokedao-zhuangzi/ |
 
-甲骨文站点另有：77 个独立卷页、85 个 sitemap URL、首页 13.9KB（原 785B）。
+甲骨文站点另有：77 个独立卷页、85 个 sitemap URL、首页 13.6KB（原 785B）。
 
 ## 线上验证（2026-11-20）
 
