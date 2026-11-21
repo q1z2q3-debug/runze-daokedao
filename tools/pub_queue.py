@@ -18,10 +18,11 @@ def post(j):
         canonical = f"https://q1z2q3-debug.github.io/runze-daokedao/chapters/yizhuan/{ch}.html"
         key = ch
     body = (ROOT / "dist" / f).read_text(encoding="utf-8")
-    payload = json.dumps({"article": {
-        "title": title, "published": True, "body_markdown": body, "tags": tags,
-        "canonical_url": canonical,
-        "description": desc}}).encode()
+    art = {"title": title, "published": True, "body_markdown": body, "tags": tags,
+           "description": desc}
+    if canonical:
+        art["canonical_url"] = canonical
+    payload = json.dumps({"article": art}).encode()
     req = urllib.request.Request("https://dev.to/api/articles", data=payload, method="POST",
         headers={"api-key": TOK, "Content-Type": "application/json",
                  "Accept": "application/vnd.api+json", "User-Agent": "Mozilla/5.0 Chrome/126.0"})

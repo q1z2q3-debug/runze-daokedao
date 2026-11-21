@@ -1,1 +1,4 @@
 docs/**/_shots/
+
+__pycache__/
+SEO/_shots/

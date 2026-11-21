@@ -364,3 +364,14 @@
 - 道德经站补 `sitemap.xml`（首页／`/english/`／书页／JSONL）与 `robots.txt`，首页 `<head>` 挂 `rel="sitemap"`；该仓 Pages 走仓库根，此前无 sitemap。
 - 心经 `book spine`：封套书脊 90px @300dpi ≈ 7.6 mm，对 74 张纸（147 页）成立，不必重算。
 - 全系列英文稿实发：81 + 64 + 28 + 32 + 10 + 10 = 225 篇（另总论与体例 7 篇，合计 232）。
+
+## 2026-11-21 · 系列总站总介绍（中英两篇）
+
+总站系列总览，不按分篇，一篇讲清九部书的分层、共用标尺、四条约束与离线／引用入口。两篇均未挂 canonical（总站根 canonical 已被首篇总论占用；系列总览以 dev.to 自身链接为准，正文回链总站）。
+
+1. 润泽说 道可道：一套用同一把标尺重读九部经典的读本 — 2026-11-21
+   https://dev.to/q1z2q3debug/run-ze-shuo-dao-ke-dao-tao-yong-tong-ba-biao-chi-zhong-du-jiu-bu-jing-dian-de-du-ben-2pcc
+2. Runze Says: Dao Ke Dao — One Measuring Stick, Nine Re-read Classics — 2026-11-21
+   https://dev.to/q1z2q3debug/runze-says-dao-ke-dao-one-measuring-stick-nine-re-read-classics-43if
+
+累计已发 234 篇（道德经 81 ＋ 易传 64 ＋ 庄子 28 ＋ 金刚经 32 ＋ 坛经 10 ＋ 心经 10 ＋ 总论与体例 9）。

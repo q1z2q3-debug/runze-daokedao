@@ -1,0 +1,18 @@
+[
+ {
+  "key": "series-zh",
+  "title": "润泽说 道可道：一套用同一把标尺重读九部经典的读本",
+  "file": "devto-00-series-zh.md",
+  "tags": ["chinese", "philosophy", "taoism", "buddhism"],
+  "desc": "作者润泽以同一把标尺「佛说A—即非A—是名A」重解道德经、易传、心经、庄子、金刚经、坛经六部，另列甲骨文、千字文、三字经；约188万字，均有DOI存档、网页版与安卓离线包。",
+  "canonical": ""
+ },
+ {
+  "key": "series-en",
+  "title": "Runze Says: Dao Ke Dao — One Measuring Stick, Nine Re-read Classics",
+  "file": "devto-00-series-en.md",
+  "tags": ["chinese", "philosophy", "taoism", "buddhism"],
+  "desc": "Six classics (Daodejing, Yizhuan, Heart Sutra, Zhuangzi, Diamond Sutra, Platform Sutra) re-read with one stick: A spoken, yet not A, named A. Plus oracle-bone character study and two primers; ~1.88M chars, DOI archive, web and offline Android editions.",
+  "canonical": ""
+ }
+]
