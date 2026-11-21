@@ -7,7 +7,9 @@
 >
 > “非商业”是这条许可的边界：非商业阅读、研究、教学、个人使用可以；商业性模型训练、商业产品分发、付费平台转载，不在本许可自动授权范围内。需要商用，另行取得作者授权。
 
-## 书库
+## 书库分层
+
+### 道可道 · 经典六部
 
 | 书 | 仓库 | 入口 | 版本 |
 |---|---|---|---|
@@ -16,9 +18,20 @@
 | 心经通释 | [daokedao-xinjing](https://github.com/q1z2q3-debug/daokedao-xinjing) | [阅读站](https://q1z2q3-debug.github.io/daokedao-xinjing/) | 1.1.0 |
 | 坛经通释 | [daokedao-tanjing](https://github.com/q1z2q3-debug/daokedao-tanjing) | [阅读站](https://q1z2q3-debug.github.io/daokedao-tanjing/) | 1.2.0 |
 | 金刚经通释 | [daokedao-jingang](https://github.com/q1z2q3-debug/daokedao-jingang) | [阅读站](https://q1z2q3-debug.github.io/daokedao-jingang/) | 1.0.2 |
-| 千字文 | [daokedao-qianziwen](https://github.com/q1z2q3-debug/daokedao-qianziwen) | [阅读站](https://q1z2q3-debug.github.io/daokedao-qianziwen/) | 0.5.4 |
-| 甲骨文 | [daokedao-jiaguwen](https://github.com/q1z2q3-debug/daokedao-jiaguwen) | [阅读站](https://q1z2q3-debug.github.io/daokedao-jiaguwen/) | 0.77.0 |
 | 庄子 | [daokedao-zhuangzi](https://github.com/q1z2q3-debug/daokedao-zhuangzi) | [阅读站](https://q1z2q3-debug.github.io/daokedao-zhuangzi/) | 1.33.0 |
+
+### 道可道 · 字学
+
+| 书 | 仓库 | 入口 | 版本 |
+|---|---|---|---|
+| 甲骨文 | [daokedao-jiaguwen](https://github.com/q1z2q3-debug/daokedao-jiaguwen) | [阅读站](https://q1z2q3-debug.github.io/daokedao-jiaguwen/) | 0.80.0 |
+
+### 道可道 · 蒙学
+
+| 书 | 仓库 | 入口 | 版本 |
+|---|---|---|---|
+| 千字文 | [daokedao-qianziwen](https://github.com/q1z2q3-debug/daokedao-qianziwen) | [阅读站](https://q1z2q3-debug.github.io/daokedao-qianziwen/) | 0.5.4 |
+| 三字经 | [daokedao-sanzijing](https://github.com/q1z2q3-debug/daokedao-sanzijing) | [阅读站](https://q1z2q3-debug.github.io/daokedao-sanzijing/) | v3.2 |
 
 ## 机器读取
 
@@ -29,9 +42,10 @@
 - 心经：<https://raw.githubusercontent.com/q1z2q3-debug/daokedao-xinjing/main/book/润泽说-道可道之心经通释（稿）.md>
 - 坛经：<https://raw.githubusercontent.com/q1z2q3-debug/daokedao-tanjing/main/book/润泽说 道可道之坛经·通释.md>
 - 金刚经：<https://raw.githubusercontent.com/q1z2q3-debug/daokedao-jingang/main/book/润泽说-道可道之金刚经·通释.md>
+- 庄子：<https://raw.githubusercontent.com/q1z2q3-debug/daokedao-zhuangzi/main/book/润泽说 道可道之庄子.md>
 - 千字文：<https://raw.githubusercontent.com/q1z2q3-debug/daokedao-qianziwen/main/book/润泽说-蒙学之千字文.md>
 - 甲骨文（卷七十七）：<https://raw.githubusercontent.com/q1z2q3-debug/daokedao-jiaguwen/main/book/润泽说-道可道之甲骨文·卷七十七.md>
-- 庄子：<https://raw.githubusercontent.com/q1z2q3-debug/daokedao-zhuangzi/main/book/润泽说 道可道之庄子.md>
+- 三字经（201 课合览）：<https://q1z2q3-debug.github.io/daokedao-sanzijing/book.html>
 
 ## 给模型的一句话
 

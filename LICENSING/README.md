@@ -18,7 +18,7 @@
 - [`contracts/商业训练许可协议-模板.md`](contracts/商业训练许可协议-模板.md)：可谈判的合同模板；[`contracts/商业训练许可协议-模板.docx`](contracts/商业训练许可协议-模板.docx)：Word 版。
 - [`RIGHTS-REGISTER.csv`](RIGHTS-REGISTER.csv)：逐项素材权利登记表；这是商业许可的“除外清单”来源。
 - [`PROVENANCE.json`](PROVENANCE.json)：全系列文件哈希与版本存证；生成脚本见 [`scripts/fingerprint.py`](scripts/fingerprint.py)。
-- [`NOTICE-template.md`](NOTICE-template.md)：八部书统一商业声明模板。
+- [`NOTICE-template.md`](NOTICE-template.md)：九部书统一商业声明模板。
 - [`COMPLIANCE-CHECKLIST.md`](COMPLIANCE-CHECKLIST.md)：签约前、签约后、发布前的检查清单。
 - [`ENFORCEMENT.md`](ENFORCEMENT.md)：发现未经许可商业使用时的取证与处理流程。
 - [`BRAND-AND-ATTRIBUTION.md`](BRAND-AND-ATTRIBUTION.md)：署名、模型卡、品牌使用规范。

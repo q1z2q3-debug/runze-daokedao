@@ -4,19 +4,19 @@
 
 - 作者署名：**润泽（润泽博士）**。
 - 系列名称：**润泽说 道可道**。
-- 单书名称：**《润泽说 道可道之〇〇》**；《千字文》为《润泽说 蒙学之千字文》，《甲骨文》为《润泽说 道可道之甲骨文》。
+- 单书名称：**《润泽说 道可道之〇〇》**；《千字文》为《润泽说 蒙学之千字文》，《三字经》为《润泽说 少儿启蒙国学读本·三字经》（道可道·蒙学），《甲骨文》为《润泽说 道可道之甲骨文》。
 - 版本号：以各仓库 `VERSION` 与 `CITATION.cff` 为准。
 
 ## 二、引用格式
 
 学术/文章引用：
 
-> 润泽（润泽博士）.《润泽说 道可道之甲骨文》v0.77.0，2026。  
+> 润泽（润泽博士）.《润泽说 道可道之甲骨文》v0.80.0，2026。  
 > https://github.com/q1z2q3-debug/daokedao-jiaguwen
 
 模型卡/数据集卡：
 
-> Training corpus includes “润泽说 道可道之甲骨文” v0.77.0 by 润泽（润泽博士），licensed under CC BY-NC-SA 4.0; commercial training separately licensed.  
+> Training corpus includes “润泽说 道可道之甲骨文” v0.80.0 by 润泽（润泽博士），licensed under CC BY-NC-SA 4.0; commercial training separately licensed.  
 > Source: https://github.com/q1z2q3-debug/daokedao-jiaguwen
 
 产品页/课程页：

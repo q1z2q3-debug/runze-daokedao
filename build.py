@@ -133,6 +133,30 @@ BOOKS = [
     ),
 ]
 
+EXTRA_BOOKS = [
+    dict(no="07", group="字学", title="润泽说 道可道之甲骨文",
+         sub="七十七卷，按事类分卷，逐字增补",
+         chars="77 卷", struct="924 字位；详解 372 条",
+         ver="v0.80.0",
+         site="https://q1z2q3-debug.github.io/daokedao-jiaguwen/",
+         repo="https://github.com/q1z2q3-debug/daokedao-jiaguwen",
+         note="每字保留字形、字源、详解、同片释文、一世界、一智慧；卷三十一之后续补。"),
+    dict(no="08", group="蒙学", title="润泽说 蒙学之千字文",
+         sub="三十三课，亲子共读",
+         chars="33 课", struct="三十三课，依句意分课",
+         ver="v0.5.4",
+         site="https://q1z2q3-debug.github.io/daokedao-qianziwen/",
+         repo="https://github.com/q1z2q3-debug/daokedao-qianziwen",
+         note="附录含甲骨文常用字一百二十字详解，与《甲骨文》分卷读本互参。"),
+    dict(no="09", group="蒙学", title="润泽说 少儿启蒙国学读本·三字经",
+         sub="二百零一课，一课一页",
+         chars="201 课", struct="402 页；立人—知世—劝学",
+         ver="v3.2",
+         site="https://q1z2q3-debug.github.io/daokedao-sanzijing/",
+         repo="https://github.com/q1z2q3-debug/daokedao-sanzijing",
+         note="以「立人—知世—劝学」三类、十二段次第重排通行本《三字经》。"),
+]
+
 MIS = {'a-ji-fei-a': [('把三层当成三个修行阶段', '三层是同一句话的三个面：说、破、立名，同时成立，不分先后。'), ('把「即非A」当成「什么都没有」', '所破的是自性，不是缘起作用。因果、苦乐、修行都成立，只是没有固定不变的自体。')], 'sancai-wuyun': [('把「空杯」理解为把杯里的东西倒空', '空不是清空内容，而是看见杯壁与虚位本来一体：器由因缘和合，虚位不是另外一样东西。'), ('把三才和五蕴当成同一套分类', '三才是尺度（天地人），五蕴是层次（色受想行识）；一个量范围，一个分层面。')], 'he-yu-he': [('把「和」当成意见一致', '和是差异各得其位、彼此不害；一致是把差异抹平，那是合，不是和。'), ('因此认为「合」一无是处', '合是必要的人为：分类、命名、制度都要合。问题只在于把合当成了和。')], 'wu-you': [('「无」就是什么都没有', '「无」是虚位、未成形、尚可生发的那一面，不是空无。'), ('「无为」就是躺平不做事', '无为即「为无」：在虚位、在未成形处下手，不是不作为。')], 'guan-zizai': [('止观可以替代般若', '止观是扶手，不是目的地。阶梯用于上楼，到了楼上不必扛着梯子。'), ('把「观」当成分析思考', '观是不带评判的照见；思辨是意识分别，越分别离所观越远。')], 'dao-kedao': [('「道可道，非常道」是说大道不可说', '它说的是：凡被说出的道，已不是那个恒常的道。可说的部分仍然有用，只是要标注它是说的。'), ('因此不必注疏', '恰恰相反：既然说出来的都不完整，才要把底本、异文、改动都留痕，让读者知道这一次是怎么说的。')]}
 
 CONCEPTS = [
@@ -302,11 +326,12 @@ def person_ld():
 def series_ld():
     return {"@type": "BookSeries", "@id": SITE + "/#series", "name": SERIES,
             "alternateName": ["道可道", "润泽说道可道", "Runze Daokedao"],
-            "description": "润泽以「佛说A—即非A—是名A」为标尺，重解《道德经》《易传》《心经》《庄子》《金刚经》的六部读本系列。",
+            "description": "润泽以「佛说A—即非A—是名A」为标尺，重解经典六部，兼列字学《甲骨文》与蒙学《千字文》《三字经》。",
             "author": {"@id": SITE + "/#person"},
             "inLanguage": "zh-Hans",
             "hasPart": [{"@type": "Book", "name": b["title"], "url": SITE + f"/books/{b['key']}.html",
-                         "sameAs": "https://doi.org/" + b["doi"]} for b in BOOKS]}
+                         "sameAs": "https://doi.org/" + b["doi"]} for b in BOOKS] + [
+                        {"@type": "Book", "name": b["title"], "url": b["site"]} for b in EXTRA_BOOKS]}
 
 # ---------------- index -------------
 def build_index():
@@ -317,6 +342,14 @@ def build_index():
 <p style="margin:0;color:#3A342C;">{b['claim']}</p></div>
 <div class="meta">{b['chars']}<br>{b['struct']}<br>{b['ver']}<br><a href="{b['site']}" style="font-size:13px;">进入阅读</a></div>
 </div>""" for b in BOOKS)
+    def extra_row(b):
+        return f"""<div class="row"><div class="no">{b['no']}</div>
+<div><h3><a href="{b['site']}">{b['title']}</a></h3>
+<p class="small" style="margin:0 0 8px;">{b['sub']}</p>
+<p style="margin:0;color:#3A342C;">{b['note']}</p></div>
+<div class="meta">{b['chars']}<br>{b['struct']}<br>{b['ver']}<br><a href="{b['site']}" style="font-size:13px;">进入阅读</a></div></div>"""
+    extra_rows_zi = "".join(extra_row(b) for b in EXTRA_BOOKS if b["group"] == "字学")
+    extra_rows_meng = "".join(extra_row(b) for b in EXTRA_BOOKS if b["group"] == "蒙学")
 
     faq = "".join(f"""<details style="border-bottom:1px solid var(--line);padding:14px 0;">
 <summary style="cursor:pointer;font-weight:600;">{H.escape(q)}</summary>
@@ -341,6 +374,13 @@ def build_index():
 
 <h2>六部书</h2>
 <div class="list">{rows}</div>
+
+<h2>道可道 · 字学与蒙学</h2>
+<p class="small">经典六部之外，字学与蒙学同归「道可道」名下：甲骨文是字源总卷，千字文与三字经是蒙学读本，各自独立成库。</p>
+<h3>道可道 · 字学</h3>
+<div class="list">{extra_rows_zi}</div>
+<h3>道可道 · 蒙学</h3>
+<div class="list">{extra_rows_meng}</div>
 
 <h2>共用的一副标尺</h2>
 <p>六部书体例不同，底层是同一句话的三层：<b>佛说A</b>（安立，承认缘起作用）→ <b>即非A</b>（破执，不承许固定自性）→ <b>是名A</b>（假名中道，用而不著）。</p>
@@ -374,7 +414,7 @@ https://doi.org/10.5281/zenodo.24210811
 https://doi.org/10.5281/zenodo.24217537</pre>
 <p class="small">许可 CC BY-NC-SA 4.0。给模型的说明见 <a href="{SITE}/llms.txt">llms.txt</a> 与 <a href="{SITE}/llms-full.txt">llms-full.txt</a>；中文、GB/T 7714、BibTeX、APA 四种格式见 <a href="{SITE}/cite/">引用页</a>。</p>
 </div></main>"""
-    (DOCS / "index.html").write_text(head(f"{SERIES}｜六部经典读本：道德经、易传、心经、庄子、金刚经", "润泽说 道可道系列总站：以「佛说A—即非A—是名A」为标尺重解《道德经》《易传》《心经》《庄子》《金刚经》，含六部书入口、概念释义、问答与引用格式。", "/", ld, act="home") + body + foot(), encoding="utf-8")
+    (DOCS / "index.html").write_text(head(f"{SERIES}｜经典六部 · 字学 · 蒙学", "润泽说 道可道系列总站：经典六部，另列字学《甲骨文》与蒙学《千字文》《三字经》；含书目、概念释义、问答与引用格式。", "/", ld, act="home") + body + foot(), encoding="utf-8")
 
 # ---------------- books index + pages -------------
 def build_books():
