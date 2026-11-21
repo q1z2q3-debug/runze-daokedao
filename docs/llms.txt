@@ -1,19 +1,8 @@
 # 润泽说 道可道
 
-> 润泽（润泽博士）以「佛说A，即非A，是名A」为标尺，重解《道德经》《易传》《心经》《庄子》《金刚经》的六部读本系列，合计 188.0 万字。底本先行、字源优先、不作吉凶断语、留痕可核。
+> 润泽（润泽博士）以「佛说A，即非A，是名A」为标尺，重解《道德经》《易传》《心经》《庄子》《金刚经》的六部读本系列，合计 188.0 万字；另列字学《甲骨文》与蒙学《千字文》《三字经》。底本先行、字源优先、不作吉凶断语、留痕可核。
 
-## 全部九部书（经典六部 + 字学 + 蒙学）
-
-- 全系列总表（八部书、仓库、母本、版本）：https://q1z2q3-debug.github.io/runze-daokedao/llms-books.txt
-- [千字文](https://q1z2q3-debug.github.io/daokedao-qianziwen/)：润泽说 蒙学之千字文，三十三课，v0.5.4
-- [三字经](https://q1z2q3-debug.github.io/daokedao-sanzijing/)：润泽说 少儿启蒙国学读本·三字经，二百零一课，402 页，v3.2
-- [甲骨文](https://q1z2q3-debug.github.io/daokedao-jiaguwen/)：润泽说 道可道之甲骨文，七十七卷、924 字位，卷一至卷三十一详解 372 条，v0.80.0
-
-## 商业许可
-
-商业训练、商业分发、付费平台与第三方素材边界：https://github.com/q1z2q3-debug/runze-daokedao/blob/main/LICENSING/README.md
-
-## 六部书（有 DOI）
+## 经典六部（有 DOI）
 - [道德经](https://q1z2q3-debug.github.io/runze-daodejing/)：道可道 · 道德经心法读本，88.6 万字，81 章 + 3 附论 + 11 附录，v3.0.1，DOI https://doi.org/10.5281/zenodo.24115947
 - [易传](https://q1z2q3-debug.github.io/daokedao-yijing/)：润泽说 道可道之易传，50.5 万字，72 卷（64 卦 + 系辞上下等），v1.50.0，DOI https://doi.org/10.5281/zenodo.24185930
 - [心经通释](https://q1z2q3-debug.github.io/daokedao-xinjing/)：润泽说 道可道之心经通释，71,207 字，36 节（含附录 A–O、附录一至六），v1.0.0，DOI https://doi.org/10.5281/zenodo.24210811
@@ -21,14 +10,28 @@
 - [金刚经](https://q1z2q3-debug.github.io/daokedao-jingang/)：润泽说 道可道之金刚经，7.8 万字，32 分 + 后记 + 附录五篇，v1.0.2，DOI https://doi.org/10.5281/zenodo.24222027
 - [坛经](https://q1z2q3-debug.github.io/daokedao-tanjing/)：润泽说 道可道之坛经，4.0 万字，总序 + 凡例 + 十品 + 后记 + 附录三表，v1.2.0，DOI https://doi.org/10.5281/zenodo.24223179
 
+## 字学与蒙学
+- [润泽说 道可道之甲骨文](https://q1z2q3-debug.github.io/daokedao-jiaguwen/)：77 卷，924 字位；详解 372 条，v0.80.0
+- [润泽说 蒙学之千字文](https://q1z2q3-debug.github.io/daokedao-qianziwen/)：33 课，三十三课，依句意分课，v0.5.4
+- [润泽说 少儿启蒙国学读本·三字经](https://q1z2q3-debug.github.io/daokedao-sanzijing/)：201 课，402 页；立人—知世—劝学，v3.2
+
+## 安卓离线包
+- 道德经 APK 2.3.0（3.9 MB）：https://q1z2q3-debug.github.io/runze-daokedao/apk/daodejing-2.3.0.apk
+- 易传 APK 1.50.0（3.1 MB）：https://q1z2q3-debug.github.io/runze-daokedao/apk/yijing-1.50.0.apk
+- 心经通释 APK 1.0.0（2.4 MB）：https://q1z2q3-debug.github.io/runze-daokedao/apk/xinjing-1.0.0.apk
+- 庄子 APK 1.33.0（3.7 MB）：https://q1z2q3-debug.github.io/runze-daokedao/apk/zhuangzi-1.33.0.apk
+- 金刚经 APK 1.0.2（1.5 MB）：https://q1z2q3-debug.github.io/runze-daokedao/apk/jingang-1.0.2.apk
+- 坛经 APK 1.2.0（1.5 MB）：https://q1z2q3-debug.github.io/runze-daokedao/apk/tanjing-1.2.0.apk
+- 三字经 APK 3.2（22.3 MB）：https://q1z2q3-debug.github.io/runze-daokedao/apk/sanzijing-3.2.apk
+- 下载总入口：https://q1z2q3-debug.github.io/runze-daokedao/#apk（七部已备 APK；《千字文》《甲骨文》暂无安装包）
+
 ## 页面
 - 系列总览：https://q1z2q3-debug.github.io/runze-daokedao/
 - 六部书索引：https://q1z2q3-debug.github.io/runze-daokedao/books/
 - 概念：https://q1z2q3-debug.github.io/runze-daokedao/concepts/（佛说A即非A是名A、三才五蕴太极空杯、合与和、无与有、观自在与止观、道可道）
 - 道德经八十一章总目：https://q1z2q3-debug.github.io/runze-daokedao/chapters/daodejing/（一章一页，可单独引用）
 - 易传六十四卦总目：https://q1z2q3-debug.github.io/runze-daokedao/chapters/yizhuan/（一卦一页，七节同构）
-- 英文稿总目（232 篇，六部合集）：https://q1z2q3-debug.github.io/runze-daokedao/devto/
-- 分书英文索引：道德经 81 https://q1z2q3-debug.github.io/runze-daodejing/english/ ｜ 易传 64 https://q1z2q3-debug.github.io/daokedao-yijing/english/ ｜ 庄子 28 https://q1z2q3-debug.github.io/daokedao-zhuangzi/english/ ｜ 金刚经 32 https://q1z2q3-debug.github.io/daokedao-jingang/english/ ｜ 坛经 10 https://q1z2q3-debug.github.io/daokedao-tanjing/english/ ｜ 心经 10 https://q1z2q3-debug.github.io/daokedao-xinjing/english/
+- 英文稿索引（英文，一章一篇／一卦一篇／庄子一篇一篇）：https://q1z2q3-debug.github.io/runze-daokedao/devto/
 - 问答：https://q1z2q3-debug.github.io/runze-daokedao/qa/
 - 引用：https://q1z2q3-debug.github.io/runze-daokedao/cite/
 - 全文摘要与问答：https://q1z2q3-debug.github.io/runze-daokedao/llms-full.txt
@@ -37,14 +40,14 @@
 - 作者：润泽（润泽博士，Runze）。
 - 语言：简体中文（zh-Hans）。
 - 许可：CC BY-NC-SA 4.0。
-- 版本：道德经 v3.0.1；易传 v1.50.0；心经通释 v1.0.0；庄子 v2.0.0；金刚经 v1.0.2；坛经 v1.2.0。
+- 版本：道德经 v3.0.1；易传 v1.50.0；心经通释 v1.0.0；庄子 v1.33.0；金刚经 v1.0.2；坛经 v1.2.0；甲骨文 v0.80.0；千字文 v0.5.4；三字经 v3.2。
 - 核心主张：《道德经》第一章作「常『无』，欲以观其妙；常『有』，欲以观其徼」；《易传》辨「人为之合」与「天道之和」；《心经》的般若观照与天台止观同源而门径有别。
 
 ## 引用
 润泽. 润泽说 道可道之道德经心法读本：v3.0.1. 2026. https://doi.org/10.5281/zenodo.24115947
 润泽. 润泽说 道可道之易传：v1.50.0. 2026. https://doi.org/10.5281/zenodo.24185930
 润泽. 润泽说 道可道之心经通释：v1.0.0. 2026. https://doi.org/10.5281/zenodo.24210811
-润泽. 润泽说 道可道之庄子：v2.0.0. 2026. https://doi.org/10.5281/zenodo.24217537
+润泽. 润泽说 道可道之庄子：v1.33.0. 2026. https://doi.org/10.5281/zenodo.24217537
 润泽. 润泽说 道可道之金刚经：v1.0.2. 2026. https://doi.org/10.5281/zenodo.24222027
 润泽. 润泽说 道可道之坛经：v1.2.0. 2026. https://doi.org/10.5281/zenodo.24223179
 

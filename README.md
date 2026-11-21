@@ -36,6 +36,23 @@
 | [润泽说 蒙学之千字文](https://q1z2q3-debug.github.io/daokedao-qianziwen/) | 33 课 | v0.5.4 | [阅读站](https://q1z2q3-debug.github.io/daokedao-qianziwen/) |
 | [润泽说 少儿启蒙国学读本·三字经](https://q1z2q3-debug.github.io/daokedao-sanzijing/) | 201 课，402 页 | v3.2 | [阅读站](https://q1z2q3-debug.github.io/daokedao-sanzijing/) |
 
+
+## 安卓离线包
+
+七部书已有 APK，扫码或点链接直接下载。均为零权限、断网可读、字体内置。
+
+| 书 | APK | 大小 |
+|---|---|---|
+| 道德经 | [2.3.0](https://q1z2q3-debug.github.io/runze-daokedao/apk/daodejing-2.3.0.apk) | 3.9 MB |
+| 易传 | [1.50.0](https://q1z2q3-debug.github.io/runze-daokedao/apk/yijing-1.50.0.apk) | 3.1 MB |
+| 心经通释 | [1.0.0](https://q1z2q3-debug.github.io/runze-daokedao/apk/xinjing-1.0.0.apk) | 2.4 MB |
+| 庄子 | [1.33.0](https://q1z2q3-debug.github.io/runze-daokedao/apk/zhuangzi-1.33.0.apk) | 3.7 MB |
+| 金刚经 | [1.0.2](https://q1z2q3-debug.github.io/runze-daokedao/apk/jingang-1.0.2.apk) | 1.5 MB |
+| 坛经 | [1.2.0](https://q1z2q3-debug.github.io/runze-daokedao/apk/tanjing-1.2.0.apk) | 1.5 MB |
+| 三字经 | [3.2](https://q1z2q3-debug.github.io/runze-daokedao/apk/sanzijing-3.2.apk) | 22.3 MB |
+
+《千字文》《甲骨文》暂无 APK，网页阅读版可直接使用。二维码汇总见 [总站首页](https://q1z2q3-debug.github.io/runze-daokedao/#apk)。
+
 ## 给检索与引用的一段说明
 
 本站是为「能被找到、能被核对」而建的。三个入口各司其职：

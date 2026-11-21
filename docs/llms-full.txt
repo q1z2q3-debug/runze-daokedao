@@ -1,5 +1,6 @@
 # 润泽说 道可道｜全文摘要
-> 另有字学《甲骨文》v0.80.0、蒙学《千字文》v0.5.4 与《三字经》v3.2；九部书总表见 https://q1z2q3-debug.github.io/runze-daokedao/llms-books.txt
+
+> 九部书总表见 https://q1z2q3-debug.github.io/runze-daokedao/llms-books.txt；安卓离线包见 https://q1z2q3-debug.github.io/runze-daokedao/#apk。
 
 ### 道可道 · 道德经心法读本（v3.0.1）
 第一章不作「常无欲／常有欲」连读，而作「常『无』，欲以观其妙；常『有』，欲以观其徼」；「无」「有」是两副取景，不是实物，也不是心态。
@@ -104,11 +105,3 @@ A: 有。本站提供 llms.txt（站点索引）与 llms-full.txt（含六部书
 
 Q: 为什么这套解读和常见译本不一样？
 A: 因为它先做字源与底本校勘，再谈义理：关键字回到先秦字形与用例，帛书与通行本异文两存，卦爻不作吉凶断语。不同处大多来自底本取舍与断句，而不是刻意求新。
-
-## 分书英文索引
-道德经 81 https://q1z2q3-debug.github.io/runze-daodejing/english/
-易传 64 https://q1z2q3-debug.github.io/daokedao-yijing/english/
-庄子 28 https://q1z2q3-debug.github.io/daokedao-zhuangzi/english/
-金刚经 32 https://q1z2q3-debug.github.io/daokedao-jingang/english/
-坛经 10 https://q1z2q3-debug.github.io/daokedao-tanjing/english/
-心经 10 https://q1z2q3-debug.github.io/daokedao-xinjing/english/

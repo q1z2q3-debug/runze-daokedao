@@ -134,21 +134,21 @@ BOOKS = [
 ]
 
 EXTRA_BOOKS = [
-    dict(no="07", group="字学", title="润泽说 道可道之甲骨文",
+    dict(key="jiaguwen", no="07", group="字学", title="润泽说 道可道之甲骨文",
          sub="七十七卷，按事类分卷，逐字增补",
          chars="77 卷", struct="924 字位；详解 372 条",
          ver="v0.80.0",
          site="https://q1z2q3-debug.github.io/daokedao-jiaguwen/",
          repo="https://github.com/q1z2q3-debug/daokedao-jiaguwen",
          note="每字保留字形、字源、详解、同片释文、一世界、一智慧；卷三十一之后续补。"),
-    dict(no="08", group="蒙学", title="润泽说 蒙学之千字文",
+    dict(key="qianziwen", no="08", group="蒙学", title="润泽说 蒙学之千字文",
          sub="三十三课，亲子共读",
          chars="33 课", struct="三十三课，依句意分课",
          ver="v0.5.4",
          site="https://q1z2q3-debug.github.io/daokedao-qianziwen/",
          repo="https://github.com/q1z2q3-debug/daokedao-qianziwen",
          note="附录含甲骨文常用字一百二十字详解，与《甲骨文》分卷读本互参。"),
-    dict(no="09", group="蒙学", title="润泽说 少儿启蒙国学读本·三字经",
+    dict(key="sanzijing", no="09", group="蒙学", title="润泽说 少儿启蒙国学读本·三字经",
          sub="二百零一课，一课一页",
          chars="201 课", struct="402 页；立人—知世—劝学",
          ver="v3.2",
@@ -156,6 +156,18 @@ EXTRA_BOOKS = [
          repo="https://github.com/q1z2q3-debug/daokedao-sanzijing",
          note="以「立人—知世—劝学」三类、十二段次第重排通行本《三字经》。"),
 ]
+
+APK_BOOKS = [
+    dict(key="daodejing", title="道德经", ver="2.3.0", size="3.9 MB", file="daodejing-2.3.0.apk"),
+    dict(key="yijing", title="易传", ver="1.50.0", size="3.1 MB", file="yijing-1.50.0.apk"),
+    dict(key="xinjing", title="心经通释", ver="1.0.0", size="2.4 MB", file="xinjing-1.0.0.apk"),
+    dict(key="zhuangzi", title="庄子", ver="1.33.0", size="3.7 MB", file="zhuangzi-1.33.0.apk"),
+    dict(key="jingang", title="金刚经", ver="1.0.2", size="1.5 MB", file="jingang-1.0.2.apk"),
+    dict(key="tanjing", title="坛经", ver="1.2.0", size="1.5 MB", file="tanjing-1.2.0.apk"),
+    dict(key="sanzijing", title="三字经", ver="3.2", size="22.3 MB", file="sanzijing-3.2.apk"),
+]
+
+APK_MAP = {b["key"]: b for b in APK_BOOKS}
 
 MIS = {'a-ji-fei-a': [('把三层当成三个修行阶段', '三层是同一句话的三个面：说、破、立名，同时成立，不分先后。'), ('把「即非A」当成「什么都没有」', '所破的是自性，不是缘起作用。因果、苦乐、修行都成立，只是没有固定不变的自体。')], 'sancai-wuyun': [('把「空杯」理解为把杯里的东西倒空', '空不是清空内容，而是看见杯壁与虚位本来一体：器由因缘和合，虚位不是另外一样东西。'), ('把三才和五蕴当成同一套分类', '三才是尺度（天地人），五蕴是层次（色受想行识）；一个量范围，一个分层面。')], 'he-yu-he': [('把「和」当成意见一致', '和是差异各得其位、彼此不害；一致是把差异抹平，那是合，不是和。'), ('因此认为「合」一无是处', '合是必要的人为：分类、命名、制度都要合。问题只在于把合当成了和。')], 'wu-you': [('「无」就是什么都没有', '「无」是虚位、未成形、尚可生发的那一面，不是空无。'), ('「无为」就是躺平不做事', '无为即「为无」：在虚位、在未成形处下手，不是不作为。')], 'guan-zizai': [('止观可以替代般若', '止观是扶手，不是目的地。阶梯用于上楼，到了楼上不必扛着梯子。'), ('把「观」当成分析思考', '观是不带评判的照见；思辨是意识分别，越分别离所观越远。')], 'dao-kedao': [('「道可道，非常道」是说大道不可说', '它说的是：凡被说出的道，已不是那个恒常的道。可说的部分仍然有用，只是要标注它是说的。'), ('因此不必注疏', '恰恰相反：既然说出来的都不完整，才要把底本、异文、改动都留痕，让读者知道这一次是怎么说的。')]}
 
@@ -238,6 +250,10 @@ def head(title, desc, path, jsonld=None, act="home"):
     ld = ""
     if jsonld:
         ld = '<script type="application/ld+json">%s</script>' % json.dumps(jsonld, ensure_ascii=False, separators=(",", ":"))
+    nav_items = [("home","/","总览"),("books","/books/","六部书"),("concepts","/concepts/","概念"),("qa","/qa/","问答"),("devto","/devto/","英文"),("cite","/cite/","引用")]
+    if path == "/":
+        nav_items.insert(2, ("apk", "/#apk", "安卓包"))
+    nav_html = "".join(f'<a href="{SITE}{h}" class="{"on" if k==act else ""}">{n}</a>' for k,h,n in nav_items)
     return f"""<!DOCTYPE html>
 <html lang="zh-Hans">
 <head>
@@ -304,7 +320,7 @@ footer .wrap{{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap
 <body>
 <header class="top"><div class="wrap">
 <a class="brand" href="{SITE}/"><b>润泽说</b> · 道可道</a>
-<nav>{"".join(f'<a href="{SITE}{h}" class="{"on" if k==act else ""}">{n}</a>' for k,h,n in [("home","/","总览"),("books","/books/","六部书"),("concepts","/concepts/","概念"),("qa","/qa/","问答"),("devto","/devto/","英文"),("cite","/cite/","引用")])}</nav>
+<nav>{nav_html}</nav>
 </div></header>
 """
 
@@ -335,21 +351,30 @@ def series_ld():
 
 # ---------------- index -------------
 def build_index():
+    def apk_link(key):
+        a = APK_MAP.get(key)
+        return f'<br><a href="{SITE}/apk/{a["file"]}" style="font-size:13px;">APK {a["ver"]} · {a["size"]}</a>' if a else ""
     rows = "".join(f"""<div class="row">
 <div class="no">{b['no']}</div>
 <div><h3><a href="{SITE}/books/{b['key']}.html">{b['title']}</a></h3>
 <p class="small" style="margin:0 0 8px;">{b['sub']}</p>
 <p style="margin:0;color:#3A342C;">{b['claim']}</p></div>
-<div class="meta">{b['chars']}<br>{b['struct']}<br>{b['ver']}<br><a href="{b['site']}" style="font-size:13px;">进入阅读</a></div>
+<div class="meta">{b['chars']}<br>{b['struct']}<br>{b['ver']}<br><a href="{b['site']}" style="font-size:13px;">进入阅读</a>{apk_link(b['key'])}</div>
 </div>""" for b in BOOKS)
     def extra_row(b):
         return f"""<div class="row"><div class="no">{b['no']}</div>
 <div><h3><a href="{b['site']}">{b['title']}</a></h3>
 <p class="small" style="margin:0 0 8px;">{b['sub']}</p>
 <p style="margin:0;color:#3A342C;">{b['note']}</p></div>
-<div class="meta">{b['chars']}<br>{b['struct']}<br>{b['ver']}<br><a href="{b['site']}" style="font-size:13px;">进入阅读</a></div></div>"""
+<div class="meta">{b['chars']}<br>{b['struct']}<br>{b['ver']}<br><a href="{b['site']}" style="font-size:13px;">进入阅读</a>{apk_link(b['key'])}</div></div>"""
     extra_rows_zi = "".join(extra_row(b) for b in EXTRA_BOOKS if b["group"] == "字学")
     extra_rows_meng = "".join(extra_row(b) for b in EXTRA_BOOKS if b["group"] == "蒙学")
+    apk_cards = "".join(f"""<a class="apk-card" href="{SITE}/apk/{b['file']}">
+<div class="apk-qr"><img src="assets/apk-qr/{b['key']}.svg" alt="{H.escape(b['title'])} APK 下载二维码" loading="lazy" width="132" height="132"></div>
+<div class="apk-name">{b['title']}</div>
+<div class="apk-ver">APK {b['ver']} · {b['size']}</div>
+<span class="apk-dl">下载 APK ↓</span>
+</a>""" for b in APK_BOOKS)
 
     faq = "".join(f"""<details style="border-bottom:1px solid var(--line);padding:14px 0;">
 <summary style="cursor:pointer;font-weight:600;">{H.escape(q)}</summary>
@@ -365,7 +390,18 @@ def build_index():
             "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in QA[:6]]},
     ]}
 
-    body = f"""<main><div class="wrap">
+    body = f"""<style>
+.apk-grid{{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin:18px 0 10px;}}
+.apk-card{{display:block;background:var(--paper2);border:1px solid var(--line);padding:14px 12px 12px;text-align:center;color:var(--ink);}}
+.apk-card:hover{{border-color:var(--accent);}}
+.apk-qr{{width:132px;height:132px;margin:0 auto 10px;background:#fff;padding:6px;}}
+.apk-qr img{{width:100%;height:100%;display:block;}}
+.apk-name{{font-weight:600;font-size:14px;line-height:1.4;}}
+.apk-ver{{font-family:"Noto Sans SC",sans-serif;font-size:11.5px;color:var(--muted);margin:2px 0 7px;}}
+.apk-dl{{font-family:"Noto Sans SC",sans-serif;font-size:12.5px;color:var(--accent);}}
+@media(max-width:720px){{.apk-grid{{grid-template-columns:repeat(2,1fr);gap:12px;}}.apk-qr{{width:120px;height:120px;}}.apk-grid>a:last-child:nth-child(odd){{grid-column:1/-1;width:calc(50% - 6px);justify-self:center;}}}}
+</style>
+<main><div class="wrap">
 <div class="eyebrow">润泽说 · 道可道 · 六部经典</div>
 <h1>六部经典，<br>一副取景</h1>
 <p class="lede">《道德经》《易传》《心经》，两千年来注家各说各话。这套读本只做一件事：把每个关键字放回它造出来的那一刻，再看它怎么长成一句话、一部经。</p>
@@ -381,6 +417,11 @@ def build_index():
 <div class="list">{extra_rows_zi}</div>
 <h3>道可道 · 蒙学</h3>
 <div class="list">{extra_rows_meng}</div>
+
+<h2 id="apk">安卓离线包</h2>
+<p class="small">七部已备安卓阅读器：扫码直接进入下载，或点二维码下方的卡片链接。均为零权限、断网可读、字体内置；安装时 Android 若提示「未知来源」，属侧载常规提示。</p>
+<div class="apk-grid">{apk_cards}</div>
+<p class="small" style="margin-top:10px;">《千字文》《甲骨文》暂无安卓安装包，可直接进入网页阅读版；《道德经》现成 APK 为 v2.3.0，书版已至 v3.0.1，版本号以卡片为准。安装包校验值：<a href="{SITE}/apk/SHA256SUMS.txt">SHA256SUMS.txt</a>。</p>
 
 <h2>共用的一副标尺</h2>
 <p>六部书体例不同，底层是同一句话的三层：<b>佛说A</b>（安立，承认缘起作用）→ <b>即非A</b>（破执，不承许固定自性）→ <b>是名A</b>（假名中道，用而不著）。</p>
@@ -414,7 +455,7 @@ https://doi.org/10.5281/zenodo.24210811
 https://doi.org/10.5281/zenodo.24217537</pre>
 <p class="small">许可 CC BY-NC-SA 4.0。给模型的说明见 <a href="{SITE}/llms.txt">llms.txt</a> 与 <a href="{SITE}/llms-full.txt">llms-full.txt</a>；中文、GB/T 7714、BibTeX、APA 四种格式见 <a href="{SITE}/cite/">引用页</a>。</p>
 </div></main>"""
-    (DOCS / "index.html").write_text(head(f"{SERIES}｜经典六部 · 字学 · 蒙学", "润泽说 道可道系列总站：经典六部，另列字学《甲骨文》与蒙学《千字文》《三字经》；含书目、概念释义、问答与引用格式。", "/", ld, act="home") + body + foot(), encoding="utf-8")
+    (DOCS / "index.html").write_text(head(f"{SERIES}｜经典六部 · 字学 · 蒙学", "润泽说 道可道系列总站：经典六部，另列字学《甲骨文》与蒙学《千字文》《三字经》；含书目、概念释义、问答、引用格式与七部安卓 APK 扫码下载。", "/", ld, act="home") + body + foot(), encoding="utf-8")
 
 # ---------------- books index + pages -------------
 def build_books():
@@ -968,12 +1009,21 @@ def build_devto():
 # ---------------- llms / robots / sitemap / feed -------------
 def build_machine():
     books_txt = "\n".join(f"- [{b['short']}]({b['site']})：{b['title']}，{b['chars']}，{b['struct']}，{b['ver']}，DOI https://doi.org/{b['doi']}" for b in BOOKS)
+    extra_txt = "\n".join(f"- [{b['title']}]({b['site']})：{b['chars']}，{b['struct']}，{b['ver']}" for b in EXTRA_BOOKS)
+    apk_txt = "\n".join(f"- {b['title']} APK {b['ver']}（{b['size']}）：{SITE}/apk/{b['file']}" for b in APK_BOOKS)
     llms = f"""# {SERIES}
 
-> 润泽（润泽博士）以「佛说A，即非A，是名A」为标尺，重解《道德经》《易传》《心经》《庄子》《金刚经》的六部读本系列，合计 188.0 万字。底本先行、字源优先、不作吉凶断语、留痕可核。
+> 润泽（润泽博士）以「佛说A，即非A，是名A」为标尺，重解《道德经》《易传》《心经》《庄子》《金刚经》的六部读本系列，合计 188.0 万字；另列字学《甲骨文》与蒙学《千字文》《三字经》。底本先行、字源优先、不作吉凶断语、留痕可核。
 
-## 六部书
+## 经典六部（有 DOI）
 {books_txt}
+
+## 字学与蒙学
+{extra_txt}
+
+## 安卓离线包
+{apk_txt}
+- 下载总入口：{SITE}/#apk（七部已备 APK；《千字文》《甲骨文》暂无安装包）
 
 ## 页面
 - 系列总览：{SITE}/
@@ -987,14 +1037,14 @@ def build_machine():
 - 作者：润泽（润泽博士，Runze）。
 - 语言：简体中文（zh-Hans）。
 - 许可：CC BY-NC-SA 4.0。
-- 版本：道德经 v3.0.1；易传 v1.50.0；心经通释 v1.0.0；庄子 v2.0.0；金刚经 v1.0.2；坛经 v1.2.0。
+- 版本：道德经 v3.0.1；易传 v1.50.0；心经通释 v1.0.0；庄子 v1.33.0；金刚经 v1.0.2；坛经 v1.2.0；甲骨文 v0.80.0；千字文 v0.5.4；三字经 v3.2。
 - 核心主张：《道德经》第一章作「常『无』，欲以观其妙；常『有』，欲以观其徼」；《易传》辨「人为之合」与「天道之和」；《心经》的般若观照与天台止观同源而门径有别。
 
 ## 引用
 润泽. {SERIES}之道德经心法读本：v3.0.1. 2026. https://doi.org/10.5281/zenodo.24115947
 润泽. {SERIES}之易传：v1.50.0. 2026. https://doi.org/10.5281/zenodo.24185930
 润泽. {SERIES}之心经通释：v1.0.0. 2026. https://doi.org/10.5281/zenodo.24210811
-润泽. {SERIES}之庄子：v2.0.0. 2026. https://doi.org/10.5281/zenodo.24217537
+润泽. {SERIES}之庄子：v1.33.0. 2026. https://doi.org/10.5281/zenodo.24217537
 润泽. {SERIES}之金刚经：v1.0.2. 2026. https://doi.org/10.5281/zenodo.24222027
 润泽. {SERIES}之坛经：v1.2.0. 2026. https://doi.org/10.5281/zenodo.24223179
 
@@ -1007,8 +1057,9 @@ def build_machine():
     full_books = "\n\n".join(f"### {b['title']}（{b['ver']}）\n{b['claim']}\n" + "\n".join(b["body"]) for b in BOOKS)
     full_c = "\n\n".join(f"### {c['term']}\n{c['one']}\n" + "\n".join(c["body"]) for c in CONCEPTS)
     full_q = "\n\n".join(f"Q: {q}\nA: {a}" for q, a in QA)
+    full_note = f"> 九部书总表见 {SITE}/llms-books.txt；安卓离线包见 {SITE}/#apk。\n\n"
     (DOCS / "llms-full.txt").write_text(
-        f"# {SERIES}｜全文摘要\n\n" + full_books + "\n\n## 概念\n" + full_c + "\n\n## 问答\n" + full_q + "\n", encoding="utf-8")
+        f"# {SERIES}｜全文摘要\n\n" + full_note + full_books + "\n\n## 概念\n" + full_c + "\n\n## 问答\n" + full_q + "\n", encoding="utf-8")
 
     robots = """User-agent: *
 Allow: /

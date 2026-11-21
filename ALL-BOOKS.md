@@ -33,6 +33,18 @@
 | 千字文 | [daokedao-qianziwen](https://github.com/q1z2q3-debug/daokedao-qianziwen) | [阅读站](https://q1z2q3-debug.github.io/daokedao-qianziwen/) | 0.5.4 |
 | 三字经 | [daokedao-sanzijing](https://github.com/q1z2q3-debug/daokedao-sanzijing) | [阅读站](https://q1z2q3-debug.github.io/daokedao-sanzijing/) | v3.2 |
 
+## 安卓离线包
+
+- 道德经 APK 2.3.0（3.9 MB）：<https://q1z2q3-debug.github.io/runze-daokedao/apk/daodejing-2.3.0.apk>
+- 易传 APK 1.50.0（3.1 MB）：<https://q1z2q3-debug.github.io/runze-daokedao/apk/yijing-1.50.0.apk>
+- 心经通释 APK 1.0.0（2.4 MB）：<https://q1z2q3-debug.github.io/runze-daokedao/apk/xinjing-1.0.0.apk>
+- 庄子 APK 1.33.0（3.7 MB）：<https://q1z2q3-debug.github.io/runze-daokedao/apk/zhuangzi-1.33.0.apk>
+- 金刚经 APK 1.0.2（1.5 MB）：<https://q1z2q3-debug.github.io/runze-daokedao/apk/jingang-1.0.2.apk>
+- 坛经 APK 1.2.0（1.5 MB）：<https://q1z2q3-debug.github.io/runze-daokedao/apk/tanjing-1.2.0.apk>
+- 三字经 APK 3.2（22.3 MB）：<https://q1z2q3-debug.github.io/runze-daokedao/apk/sanzijing-3.2.apk>
+
+《千字文》《甲骨文》暂无安卓安装包，网页阅读版可直接使用。总站下载入口：<https://q1z2q3-debug.github.io/runze-daokedao/#apk>
+
 ## 机器读取
 
 每部书的仓库根目录都有 `llms.txt`，写明书名、入口、母本、引用与许可；优先读 Markdown 母本，再读站点 HTML。
