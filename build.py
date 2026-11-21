@@ -399,7 +399,12 @@ def build_index():
 .apk-name{{font-weight:600;font-size:14px;line-height:1.4;}}
 .apk-ver{{font-family:"Noto Sans SC",sans-serif;font-size:11.5px;color:var(--muted);margin:2px 0 7px;}}
 .apk-dl{{font-family:"Noto Sans SC",sans-serif;font-size:12.5px;color:var(--accent);}}
-@media(max-width:720px){{.apk-grid{{grid-template-columns:repeat(2,1fr);gap:12px;}}.apk-qr{{width:120px;height:120px;}}.apk-grid>a:last-child:nth-child(odd){{grid-column:1/-1;width:calc(50% - 6px);justify-self:center;}}}}
+.contact{{display:flex;gap:26px;align-items:center;flex-wrap:wrap;margin:26px 0 10px;}}
+.contact-qr{{width:168px;flex:0 0 168px;background:#fff;border:1px solid var(--line);padding:10px;}}
+.contact-qr img{{width:100%;height:auto;display:block;}}
+.contact-info h3{{margin:0 0 8px;}}
+.contact-info p{{margin:0 0 8px;color:#3A342C;}}
+@media(max-width:720px){{.apk-grid{{grid-template-columns:repeat(2,1fr);gap:12px;}}.apk-qr{{width:120px;height:120px;}}.apk-grid>a:last-child:nth-child(odd){{grid-column:1/-1;width:calc(50% - 6px);justify-self:center;}}.contact{{gap:18px;}}.contact-qr{{flex-basis:148px;width:148px;}}}}
 </style>
 <main><div class="wrap">
 <div class="eyebrow">润泽说 · 道可道 · 经典六部 · 字学 · 蒙学</div>
@@ -454,6 +459,16 @@ https://doi.org/10.5281/zenodo.24210811
 润泽. 润泽说 道可道之庄子：v1.33.0. 2026.
 https://doi.org/10.5281/zenodo.24217537</pre>
 <p class="small">许可 CC BY-NC-SA 4.0。给模型的说明见 <a href="{SITE}/llms.txt">llms.txt</a> 与 <a href="{SITE}/llms-full.txt">llms-full.txt</a>；中文、GB/T 7714、BibTeX、APA 四种格式见 <a href="{SITE}/cite/">引用页</a>。</p>
+
+<h2>联系作者</h2>
+<div class="contact">
+<div class="contact-qr"><img src="assets/contact/wechat-runze.png" alt="润泽（乔忠乾）微信二维码" loading="lazy" width="168" height="168"></div>
+<div class="contact-info">
+<h3>乔忠乾（润泽）</h3>
+<p>微信扫码添加为朋友，交流经典读本、颂钵疗愈与相关合作。</p>
+<p class="small">中国大陆　·　系列作者 润泽（润泽博士）</p>
+</div>
+</div>
 </div></main>"""
     (DOCS / "index.html").write_text(head(f"{SERIES}｜经典六部 · 字学 · 蒙学", "润泽说 道可道系列总站：经典六部，另列字学《甲骨文》与蒙学《千字文》《三字经》；含书目、概念释义、问答、引用格式与七部安卓 APK 扫码下载。", "/", ld, act="home") + body + foot(), encoding="utf-8")
 
