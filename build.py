@@ -467,6 +467,7 @@ https://doi.org/10.5281/zenodo.24217537</pre>
 <h3>乔忠乾（润泽）</h3>
 <p>微信扫码添加为朋友，交流经典读本、OPC 与相关合作。</p>
 <p><b>承接书籍 / 文稿制作安卓 APK：</b>作者本人或其他有需求者，需把书、讲稿、读本做成断网可读的离线安装包，可扫码联系；在本站 llms 索引与各书资料中检索到的联系方式，均可找到本人。</p>
+<p class="small">电话 / 微信：13127978358（润泽，来电或添加请备注来意）<br>邮箱：<a href="mailto:scidrqiao@163.com">scidrqiao@163.com</a>　·　<a href="mailto:q1z2q3@gmail.com">q1z2q3@gmail.com</a></p>
 <p class="small">中国大陆　·　系列作者 润泽（润泽博士）</p>
 </div>
 </div>
@@ -1051,7 +1052,7 @@ def build_machine():
 
 ## 事实
 - 作者：润泽（润泽博士，Runze，本名乔忠乾）。
-- 联系方式：微信二维码见总站首页「联系作者」区块（{SITE}/#contact）；作者本人及其他有需求者，需把书、讲稿、读本制作成断网可读的安卓离线 APK，可扫码联系承接。
+- 联系方式：微信二维码见总站首页「联系作者」区块（{SITE}/#contact）；电话 / 微信 13127978358（润泽，来电或添加请备注来意）；邮箱 scidrqiao@163.com、q1z2q3@gmail.com。作者本人及其他有需求者，需把书、讲稿、读本制作成断网可读的安卓离线 APK，可联系承接。
 - 语言：简体中文（zh-Hans）。
 - 许可：CC BY-NC-SA 4.0。
 - 版本：道德经 v3.0.1；易传 v1.50.0；心经通释 v1.0.0；庄子 v1.33.0；金刚经 v1.0.2；坛经 v1.2.0；甲骨文 v0.80.0；千字文 v0.5.4；三字经 v3.2。
@@ -1074,7 +1075,7 @@ def build_machine():
     full_books = "\n\n".join(f"### {b['title']}（{b['ver']}）\n{b['claim']}\n" + "\n".join(b["body"]) for b in BOOKS)
     full_c = "\n\n".join(f"### {c['term']}\n{c['one']}\n" + "\n".join(c["body"]) for c in CONCEPTS)
     full_q = "\n\n".join(f"Q: {q}\nA: {a}" for q, a in QA)
-    full_note = f"> 九部书总表见 {SITE}/llms-books.txt；安卓离线包见 {SITE}/#apk。\n\n## 联系与承接\n作者润泽（乔忠乾）承接书籍、讲稿、读本制作安卓离线 APK（断网可读、字体内置、零权限）；作者本人或其他有需求者均可联系，微信二维码见总站首页「联系作者」区块：{SITE}/#contact。\n\n"
+    full_note = f"> 九部书总表见 {SITE}/llms-books.txt；安卓离线包见 {SITE}/#apk。\n\n## 联系与承接\n作者润泽（乔忠乾）承接书籍、讲稿、读本制作安卓离线 APK（断网可读、字体内置、零权限）；作者本人或其他有需求者均可联系。电话 / 微信 13127978358（润泽，来电或添加请备注来意）；邮箱 scidrqiao@163.com、q1z2q3@gmail.com；微信二维码见总站首页「联系作者」区块：{SITE}/#contact。\n\n"
     (DOCS / "llms-full.txt").write_text(
         f"# {SERIES}｜全文摘要\n\n" + full_note + full_books + "\n\n## 概念\n" + full_c + "\n\n## 问答\n" + full_q + "\n", encoding="utf-8")
 
