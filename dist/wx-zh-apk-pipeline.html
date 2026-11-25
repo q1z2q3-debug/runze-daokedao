@@ -1,0 +1,110 @@
+<p style="font-size:16px;color:#3A342C;line-height:1.9;margin:14px 0;letter-spacing:.3px;">写了一部《周易》的读本，收工时是 72 卷、50.5 万字、A4 排版 704 页。到这一步，「它讲了什么」已经不是最难的问题，「别人怎么读到它」才是——在地铁上、在没网的地方、在手机上。</p>
+<p style="font-size:16px;color:#3A342C;line-height:1.9;margin:14px 0;letter-spacing:.3px;">仓库：<a href="https://github.com/q1z2q3-debug/daokedao-yijing" style="color:#8C3A2E;text-decoration:none;border-bottom:1px solid rgba(140,58,46,.28);">q1z2q3-debug/daokedao-yijing</a>　在线阅读：<a href="https://q1z2q3-debug.github.io/daokedao-yijing/" style="color:#8C3A2E;text-decoration:none;border-bottom:1px solid rgba(140,58,46,.28);">q1z2q3-debug.github.io/daokedao-yijing</a></p>
+<h2 style="font-size:19px;font-weight:700;color:#1B1917;margin:28px 0 14px;padding-left:10px;border-left:4px solid #8C3A2E;line-height:1.5;">一个源，四件产物</h2>
+<p style="font-size:16px;color:#3A342C;line-height:1.9;margin:14px 0;letter-spacing:.3px;">规矩只有一条：<strong style="color:#1B1917;">HTML 是唯一成品，其余都从它派生。</strong></p>
+<table style="width:100%;border-collapse:collapse;margin:18px 0;font-size:14px;">
+<thead>
+<tr>
+<th style="border:1px solid #DCD3C4;background:#F1ECE2;padding:9px 10px;text-align:left;color:#1B1917;font-weight:600;">产物</th>
+<th style="border:1px solid #DCD3C4;background:#F1ECE2;padding:9px 10px;text-align:left;color:#1B1917;font-weight:600;">做法</th>
+<th style="border:1px solid #DCD3C4;background:#F1ECE2;padding:9px 10px;text-align:left;color:#1B1917;font-weight:600;">体量</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="border:1px solid #DCD3C4;padding:9px 10px;color:#3A342C;line-height:1.7;">阅读页</td>
+<td style="border:1px solid #DCD3C4;padding:9px 10px;color:#3A342C;line-height:1.7;">Markdown → pandoc → 单文件 HTML</td>
+<td style="border:1px solid #DCD3C4;padding:9px 10px;color:#3A342C;line-height:1.7;">1.75 MB</td>
+</tr>
+<tr>
+<td style="border:1px solid #DCD3C4;padding:9px 10px;color:#3A342C;line-height:1.7;">成书 PDF</td>
+<td style="border:1px solid #DCD3C4;padding:9px 10px;color:#3A342C;line-height:1.7;">Chromium 打印，分段后合并</td>
+<td style="border:1px solid #DCD3C4;padding:9px 10px;color:#3A342C;line-height:1.7;">29 MB／704 页</td>
+</tr>
+<tr>
+<td style="border:1px solid #DCD3C4;padding:9px 10px;color:#3A342C;line-height:1.7;">离线包</td>
+<td style="border:1px solid #DCD3C4;padding:9px 10px;color:#3A342C;line-height:1.7;">同一个 HTML 塞进 WebView 壳</td>
+<td style="border:1px solid #DCD3C4;padding:9px 10px;color:#3A342C;line-height:1.7;">3.0 MB APK</td>
+</tr>
+<tr>
+<td style="border:1px solid #DCD3C4;padding:9px 10px;color:#3A342C;line-height:1.7;">检索站</td>
+<td style="border:1px solid #DCD3C4;padding:9px 10px;color:#3A342C;line-height:1.7;">由同一个 HTML 拆成 70 页</td>
+<td style="border:1px solid #DCD3C4;padding:9px 10px;color:#3A342C;line-height:1.7;">4.5 MB</td>
+</tr>
+</tbody>
+</table>
+<p style="font-size:16px;color:#3A342C;line-height:1.9;margin:14px 0;letter-spacing:.3px;">APK 不是第二套实现，它就是那个文件加字体内嵌。</p>
+<h2 style="font-size:19px;font-weight:700;color:#1B1917;margin:28px 0 14px;padding-left:10px;border-left:4px solid #8C3A2E;line-height:1.5;">第一步：让 HTML 真的能离线</h2>
+<p style="font-size:16px;color:#3A342C;line-height:1.9;margin:14px 0;letter-spacing:.3px;">原页面从 CDN 取字体，联网没事，飞行模式就是一片宋体缺失。构建时改成内嵌子集：</p>
+<pre style="margin:16px 0;padding:14px 14px;background:#F5F1E8;border-radius:6px;overflow-x:auto;"><code class="language-bash">pyftsubset NotoSerifSC-Regular.otf \
+  --text-file=charset.txt \
+  --unicodes=&quot;U+4DC0-4DFF,U+2630-2640&quot; \
+  --flavor=woff2 --layout-features='*'
+</code></pre>
+<p style="font-size:16px;color:#3A342C;line-height:1.9;margin:14px 0;letter-spacing:.3px;">两处值得抄：</p>
+<ul style="margin:14px 0;padding-left:22px;color:#3A342C;">
+<li style="font-size:16px;line-height:1.9;margin:8px 0;"><strong style="color:#1B1917;">字符集从正文里扫，不靠猜。</strong> 全书实际用字 3,100 个，两个字重压缩后约 2.5 MB；换成完整 CJK 字体就是 20 MB。</li>
+<li style="font-size:16px;line-height:1.9;margin:8px 0;"><strong style="color:#1B1917;">别漏符号区段。</strong> 卦符 <code style="font-family:Menlo,Consolas,monospace;font-size:13px;line-height:1.7;color:#2B2620;">䷀</code>—<code style="font-family:Menlo,Consolas,monospace;font-size:13px;line-height:1.7;color:#2B2620;">䷿</code> 在 U+4DC0–U+4DFF，三爻符号 <code style="font-family:Menlo,Consolas,monospace;font-size:13px;line-height:1.7;color:#2B2620;">☰</code>—<code style="font-family:Menlo,Consolas,monospace;font-size:13px;line-height:1.7;color:#2B2620;">☷</code> 在 U+2630–U+2640，都<strong style="color:#1B1917;">不在</strong> CJK 统一汉字区。按 <code style="font-family:Menlo,Consolas,monospace;font-size:13px;line-height:1.7;color:#2B2620;">\u4e00-\u9fff</code> 取字集，这些字全变豆腐块。</li>
+</ul>
+<p style="font-size:16px;color:#3A342C;line-height:1.9;margin:14px 0;letter-spacing:.3px;">结果：文件里<strong style="color:#1B1917;">外链清零</strong>，字体 base64 内嵌，1.75 MB，断网可开。</p>
+<h2 style="font-size:19px;font-weight:700;color:#1B1917;margin:28px 0 14px;padding-left:10px;border-left:4px solid #8C3A2E;line-height:1.5;">第二步：不上 Gradle 也能出 APK</h2>
+<p style="font-size:16px;color:#3A342C;line-height:1.9;margin:14px 0;letter-spacing:.3px;">环境里没有 Android Studio，而一个 WebView 壳本来也不需要它。六步：</p>
+<pre style="margin:16px 0;padding:14px 14px;background:#F5F1E8;border-radius:6px;overflow-x:auto;"><code class="language-plaintext">aapt2 compile  → res.zip
+aapt2 link     → 资源 + R.java + assets + manifest
+javac          → classes
+d8             → classes.dex
+zipalign       → 4 字节对齐
+apksigner      → v1/v2/v3
+</code></pre>
+<p style="font-size:16px;color:#3A342C;line-height:1.9;margin:14px 0;letter-spacing:.3px;">两个坑：</p>
+<ol style="margin:14px 0;padding-left:22px;color:#3A342C;">
+<li style="font-size:16px;line-height:1.9;margin:8px 0;"><strong style="color:#1B1917;"><code style="font-family:Menlo,Consolas,monospace;font-size:13px;line-height:1.7;color:#2B2620;">platform-34_r03.zip</code> 是 404。</strong> <code style="font-family:Menlo,Consolas,monospace;font-size:13px;line-height:1.7;color:#2B2620;">build-tools_r34-linux.zip</code> 正常，配对的 platform 包已经下架；改用 <code style="font-family:Menlo,Consolas,monospace;font-size:13px;line-height:1.7;color:#2B2620;">platform-35_r02.zip</code> 取 <code style="font-family:Menlo,Consolas,monospace;font-size:13px;line-height:1.7;color:#2B2620;">android.jar</code>，manifest 里 <code style="font-family:Menlo,Consolas,monospace;font-size:13px;line-height:1.7;color:#2B2620;">targetSdk 34</code>，没问题。</li>
+<li style="font-size:16px;line-height:1.9;margin:8px 0;"><strong style="color:#1B1917;">手机版式要用手机视口验，不是窄桌面窗口。</strong> Chromium <code style="font-family:Menlo,Consolas,monospace;font-size:13px;line-height:1.7;color:#2B2620;">--window-size=420</code> 不认 <code style="font-family:Menlo,Consolas,monospace;font-size:13px;line-height:1.7;color:#2B2620;">&lt;meta name="viewport"&gt;</code>，页面按桌面宽度渲染，右边被裁掉——一个假溢出。Playwright 用 <code style="font-family:Menlo,Consolas,monospace;font-size:13px;line-height:1.7;color:#2B2620;">is_mobile=True</code> 复核，<code style="font-family:Menlo,Consolas,monospace;font-size:13px;line-height:1.7;color:#2B2620;">scrollWidth == 390</code>，其实一点没溢出。差点去改一段本来就对的 CSS。</li>
+</ol>
+<p style="font-size:16px;color:#3A342C;line-height:1.9;margin:14px 0;letter-spacing:.3px;">manifest 里<strong style="color:#1B1917;">零权限</strong>，连 <code style="font-family:Menlo,Consolas,monospace;font-size:13px;line-height:1.7;color:#2B2620;">INTERNET</code> 都没有：</p>
+<pre style="margin:16px 0;padding:14px 14px;background:#F5F1E8;border-radius:6px;overflow-x:auto;"><code class="language-xml">&lt;uses-permission android:name=&quot;android.permission.INTERNET&quot; /&gt; &lt;!-- 删掉 --&gt;
+</code></pre>
+<p style="font-size:16px;color:#3A342C;line-height:1.9;margin:14px 0;letter-spacing:.3px;">壳里再加 <code style="font-family:Menlo,Consolas,monospace;font-size:13px;line-height:1.7;color:#2B2620;">setBlockNetworkLoads(true)</code>，正文里就算混进一个 <code style="font-family:Menlo,Consolas,monospace;font-size:13px;line-height:1.7;color:#2B2620;">&lt;img&gt;</code> 也发不出去。<code style="font-family:Menlo,Consolas,monospace;font-size:13px;line-height:1.7;color:#2B2620;">versionCode 15000</code> 对应 <code style="font-family:Menlo,Consolas,monospace;font-size:13px;line-height:1.7;color:#2B2620;">1.50.0</code>，下一版 <code style="font-family:Menlo,Consolas,monospace;font-size:13px;line-height:1.7;color:#2B2620;">15100</code>，同一签名密钥可直接覆盖安装。</p>
+<h2 style="font-size:19px;font-weight:700;color:#1B1917;margin:28px 0 14px;padding-left:10px;border-left:4px solid #8C3A2E;line-height:1.5;">第三步：一本书拆成 70 页，因为单个大页面谁也搜不到</h2>
+<p style="font-size:16px;color:#3A342C;line-height:1.9;margin:14px 0;letter-spacing:.3px;">如果只发一个 1.75 MB 的整书页：只有一个 <code style="font-family:Menlo,Consolas,monospace;font-size:13px;line-height:1.7;color:#2B2620;">&lt;title&gt;</code>、没有 description、没有 canonical，「未济卦 解读」这种长尾词一个也接不住。</p>
+<p style="font-size:16px;color:#3A342C;line-height:1.9;margin:14px 0;letter-spacing:.3px;">于是站点构建按 <code style="font-family:Menlo,Consolas,monospace;font-size:13px;line-height:1.7;color:#2B2620;">&lt;h1&gt;</code> 切分同一份 HTML，逐段套模板：</p>
+<ul style="margin:14px 0;padding-left:22px;color:#3A342C;">
+<li style="font-size:16px;line-height:1.9;margin:8px 0;"><code style="font-family:Menlo,Consolas,monospace;font-size:13px;line-height:1.7;color:#2B2620;">/p/64-weiji/</code> —— 每卦一个目录，独立 canonical，描述取本段开头的卷眼（50–75 字）</li>
+<li style="font-size:16px;line-height:1.9;margin:8px 0;">上一卦／下一卦链接，爬虫从任何一页都能走通全链</li>
+<li style="font-size:16px;line-height:1.9;margin:8px 0;"><code style="font-family:Menlo,Consolas,monospace;font-size:13px;line-height:1.7;color:#2B2620;">sitemap.xml</code>（72 条）、<code style="font-family:Menlo,Consolas,monospace;font-size:13px;line-height:1.7;color:#2B2620;">robots.txt</code>、<code style="font-family:Menlo,Consolas,monospace;font-size:13px;line-height:1.7;color:#2B2620;">llms.txt</code>（给 AI 爬虫的纯文本摘要）</li>
+<li style="font-size:16px;line-height:1.9;margin:8px 0;">JSON-LD：每页 <code style="font-family:Menlo,Consolas,monospace;font-size:13px;line-height:1.7;color:#2B2620;">Article</code>，首页 <code style="font-family:Menlo,Consolas,monospace;font-size:13px;line-height:1.7;color:#2B2620;">Book</code> + <code style="font-family:Menlo,Consolas,monospace;font-size:13px;line-height:1.7;color:#2B2620;">hasPart</code></li>
+<li style="font-size:16px;line-height:1.9;margin:8px 0;">一张 1200×630 分享图，用 Pillow 确定性生成，不用手搓</li>
+</ul>
+<p style="font-size:16px;color:#3A342C;line-height:1.9;margin:14px 0;letter-spacing:.3px;">生成器约 250 行 Python，一秒跑完：</p>
+<pre style="margin:16px 0;padding:14px 14px;background:#F5F1E8;border-radius:6px;overflow-x:auto;"><code class="language-bash">python3 scripts/build-site.py   # 70 页 + sitemap + robots + llms.txt
+</code></pre>
+<p style="font-size:16px;color:#3A342C;line-height:1.9;margin:14px 0;letter-spacing:.3px;">两条后见之明：</p>
+<ul style="margin:14px 0;padding-left:22px;color:#3A342C;">
+<li style="font-size:16px;line-height:1.9;margin:8px 0;"><strong style="color:#1B1917;">描述从正文取，不要拼标题。</strong> 第一版把标题、署名、首段拼在一起，产出 <code style="font-family:Menlo,Consolas,monospace;font-size:13px;line-height:1.7;color:#2B2620;">第 64 卦：未济。下 经｜未济 润泽说易 到不了岸…</code> 这种垃圾；改取卷眼就干净了。</li>
+<li style="font-size:16px;line-height:1.9;margin:8px 0;"><strong style="color:#1B1917;">生成器要进仓库。</strong> 页面是构建产物，源一动，站点应该一条命令就重新正确，而不是一个手改过的 HTML 文件夹。</li>
+</ul>
+<h2 style="font-size:19px;font-weight:700;color:#1B1917;margin:28px 0 14px;padding-left:10px;border-left:4px solid #8C3A2E;line-height:1.5;">第四步：发版</h2>
+<p style="font-size:16px;color:#3A342C;line-height:1.9;margin:14px 0;letter-spacing:.3px;">GitHub 附件有几个脾气：</p>
+<ul style="margin:14px 0;padding-left:22px;color:#3A342C;">
+<li style="font-size:16px;line-height:1.9;margin:8px 0;"><strong style="color:#1B1917;">非 ASCII 文件名会被洗掉。</strong> <code style="font-family:Menlo,Consolas,monospace;font-size:13px;line-height:1.7;color:#2B2620;">道可道-易传-1.50.0.apk</code> 传上去变成 <code style="font-family:Menlo,Consolas,monospace;font-size:13px;line-height:1.7;color:#2B2620;">-.-1.50.0.apk</code>。附件名一律 ASCII，中文标题放 release 正文。</li>
+<li style="font-size:16px;line-height:1.9;margin:8px 0;"><strong style="color:#1B1917;">上传要带 <code style="font-family:Menlo,Consolas,monospace;font-size:13px;line-height:1.7;color:#2B2620;">Accept: application/vnd.github+json</code></strong>，否则 <code style="font-family:Menlo,Consolas,monospace;font-size:13px;line-height:1.7;color:#2B2620;">uploads.github.com</code> 回一个 HTML 400，什么也不说。</li>
+<li style="font-size:16px;line-height:1.9;margin:8px 0;">打 <code style="font-family:Menlo,Consolas,monospace;font-size:13px;line-height:1.7;color:#2B2620;">v*</code> tag 的 workflow 会自动挂上 PDF、APK 与提示词 PDF，发版就是打一个 tag。</li>
+</ul>
+<h2 style="font-size:19px;font-weight:700;color:#1B1917;margin:28px 0 14px;padding-left:10px;border-left:4px solid #8C3A2E;line-height:1.5;">给同类项目的话</h2>
+<ol style="margin:14px 0;padding-left:22px;color:#3A342C;">
+<li style="font-size:16px;line-height:1.9;margin:8px 0;">选一件产物当唯一真相，其余全部派生。书、PDF、APK 分开维护，两版之内必然打架。</li>
+<li style="font-size:16px;line-height:1.9;margin:8px 0;">字体子集从真实语料扫，符号区段单独补。</li>
+<li style="font-size:16px;line-height:1.9;margin:8px 0;">长文本要拆页、要有描述；一个巨页在搜索结果里等于不存在。</li>
+<li style="font-size:16px;line-height:1.9;margin:8px 0;">零权限是优点。一个连不上网的阅读器，也就泄不了任何东西——用户是看得见的。</li>
+</ol>
+<p style="font-size:16px;color:#3A342C;line-height:1.9;margin:14px 0;letter-spacing:.3px;">书是 CC BY-NC-SA 4.0。APK 在 <a href="https://github.com/q1z2q3-debug/daokedao-yijing/releases/latest" style="color:#8C3A2E;text-decoration:none;border-bottom:1px solid rgba(140,58,46,.28);">releases</a>，3 MB，无权限，飞行模式可用。</p>
+<h2 style="font-size:19px;font-weight:700;color:#1B1917;margin:28px 0 14px;padding-left:10px;border-left:4px solid #8C3A2E;line-height:1.5;">做完之后再补一件事：让它能被引用</h2>
+<p style="font-size:16px;color:#3A342C;line-height:1.9;margin:14px 0;letter-spacing:.3px;">站点、PDF、APK 都是「给人看」的，但学术与档案场景要的是「能被引用」。所以这一版又加了两处：</p>
+<ul style="margin:14px 0;padding-left:22px;color:#3A342C;">
+<li style="font-size:16px;line-height:1.9;margin:8px 0;"><strong style="color:#1B1917;">Zenodo 存档，DOI <code style="font-family:Menlo,Consolas,monospace;font-size:13px;line-height:1.7;color:#2B2620;">10.5281/zenodo.24185930</code></strong>：成书 PDF、HTML、Markdown、提示词 PDF、APK 五件一并存缴，许可 CC BY-NC-SA 4.0，旧版 DOI 永不变更。</li>
+<li style="font-size:16px;line-height:1.9;margin:8px 0;"><strong style="color:#1B1917;">HuggingFace 数据集 <code style="font-family:Menlo,Consolas,monospace;font-size:13px;line-height:1.7;color:#2B2620;">q1z2q3/daokedao-yijing</code></strong>：72 卷全文可直接做语料检索，卡片里带 DOI 回指。</li>
+</ul>
+<p style="font-size:16px;color:#3A342C;line-height:1.9;margin:14px 0;letter-spacing:.3px;">站点也补了一页 <code style="font-family:Menlo,Consolas,monospace;font-size:13px;line-height:1.7;color:#2B2620;">/cite/</code>，GB/T 7714、APA、BibTeX 三式直接粘。一句话：书要能被找到，也要能被署名引用。</p>
+<blockquote style="margin:18px 0;padding:12px 16px;background:#F1ECE2;border-left:3px solid #DCD3C4;color:#6B6152;font-size:15px;line-height:1.8;">
+<p style="font-size:16px;color:#3A342C;line-height:1.9;margin:14px 0;letter-spacing:.3px;">润泽说易. 《润泽说 道可道之易传》: v1.50.0[M/OL]. 2026-11-13. <a href="https://doi.org/10.5281/zenodo.24185930" style="color:#8C3A2E;text-decoration:none;border-bottom:1px solid rgba(140,58,46,.28);">https://doi.org/10.5281/zenodo.24185930</a></p>
+</blockquote>

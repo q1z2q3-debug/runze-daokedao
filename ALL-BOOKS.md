@@ -9,7 +9,7 @@
 
 ## 书库分层
 
-### 道可道 · 经典六部
+### 道可道 · 经典七部
 
 | 书 | 仓库 | 入口 | 版本 |
 |---|---|---|---|
@@ -19,6 +19,7 @@
 | 坛经通释 | [daokedao-tanjing](https://github.com/q1z2q3-debug/daokedao-tanjing) | [阅读站](https://q1z2q3-debug.github.io/daokedao-tanjing/) | 1.2.0 |
 | 金刚经通释 | [daokedao-jingang](https://github.com/q1z2q3-debug/daokedao-jingang) | [阅读站](https://q1z2q3-debug.github.io/daokedao-jingang/) | 1.0.2 |
 | 庄子 | [daokedao-zhuangzi](https://github.com/q1z2q3-debug/daokedao-zhuangzi) | [阅读站](https://q1z2q3-debug.github.io/daokedao-zhuangzi/) | 1.33.0 |
+| 尚书 | [daokedao-shangshu](https://github.com/q1z2q3-debug/daokedao-shangshu) | [阅读站](https://q1z2q3-debug.github.io/daokedao-shangshu/) · [校勘台](https://q1z2q3-debug.github.io/daokedao-shangshu/jiaokan.html) | 0.3.8 |
 
 ### 道可道 · 字学
 
@@ -42,6 +43,7 @@
 - 金刚经 APK 1.0.2（1.5 MB）：<https://q1z2q3-debug.github.io/runze-daokedao/apk/jingang-1.0.2.apk>
 - 坛经 APK 1.2.0（1.5 MB）：<https://q1z2q3-debug.github.io/runze-daokedao/apk/tanjing-1.2.0.apk>
 - 三字经 APK 3.2（22.3 MB）：<https://q1z2q3-debug.github.io/runze-daokedao/apk/sanzijing-3.2.apk>
+- 尚书 APK 0.3.0（510 KB）：<https://q1z2q3-debug.github.io/runze-daokedao/apk/shangshu-0.3.0.apk>
 
 《千字文》《甲骨文》暂无安卓安装包，网页阅读版可直接使用。总站下载入口：<https://q1z2q3-debug.github.io/runze-daokedao/#apk>
 
@@ -58,6 +60,7 @@
 - 千字文：<https://raw.githubusercontent.com/q1z2q3-debug/daokedao-qianziwen/main/book/润泽说-蒙学之千字文.md>
 - 甲骨文（卷七十七）：<https://raw.githubusercontent.com/q1z2q3-debug/daokedao-jiaguwen/main/book/润泽说-道可道之甲骨文·卷七十七.md>
 - 三字经（201 课合览）：<https://q1z2q3-debug.github.io/daokedao-sanzijing/book.html>
+- 尚书（五十八篇逐篇 md + 七件附录）：<https://github.com/q1z2q3-debug/daokedao-shangshu/tree/main/book>；校勘数据表：<https://github.com/q1z2q3-debug/daokedao-shangshu/tree/main/data>
 
 ## 给模型的一句话
 
