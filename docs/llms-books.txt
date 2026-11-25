@@ -43,7 +43,7 @@
 - 金刚经 APK 1.0.2（1.5 MB）：<https://q1z2q3-debug.github.io/runze-daokedao/apk/jingang-1.0.2.apk>
 - 坛经 APK 1.2.0（1.5 MB）：<https://q1z2q3-debug.github.io/runze-daokedao/apk/tanjing-1.2.0.apk>
 - 三字经 APK 3.2（22.3 MB）：<https://q1z2q3-debug.github.io/runze-daokedao/apk/sanzijing-3.2.apk>
-- 尚书 APK 0.3.0（510 KB）：<https://q1z2q3-debug.github.io/runze-daokedao/apk/shangshu-0.3.0.apk>
+- 尚书 APK 0.3.8（559 KB，内含校勘台）：<https://q1z2q3-debug.github.io/runze-daokedao/apk/shangshu-0.3.8.apk>
 
 《千字文》《甲骨文》暂无安卓安装包，网页阅读版可直接使用。总站下载入口：<https://q1z2q3-debug.github.io/runze-daokedao/#apk>
 
