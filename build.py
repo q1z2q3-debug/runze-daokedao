@@ -137,7 +137,7 @@ BOOKS = [
         en="Shangshu: The Fifty-Eight Chapters, with a Collation Desk",
         sub="五十八篇，一篇一页，七节同构；附七件附录与校勘台",
         chars="26.0 万字", struct="58 篇 + 7 附录 + 校勘台（511 条账目）",
-        ver="v0.3.8",
+        ver="v0.3.9",
         site="https://q1z2q3-debug.github.io/daokedao-shangshu/",
         repo="https://github.com/q1z2q3-debug/daokedao-shangshu",
         doi="",
@@ -203,7 +203,7 @@ APK_BOOKS = [
     dict(key="jingang", title="金刚经", ver="1.0.2", size="1.5 MB", file="jingang-1.0.2.apk"),
     dict(key="tanjing", title="坛经", ver="1.2.0", size="1.5 MB", file="tanjing-1.2.0.apk"),
     dict(key="sanzijing", title="三字经", ver="3.2", size="22.3 MB", file="sanzijing-3.2.apk"),
-    dict(key="shangshu", title="尚书", ver="0.3.8", size="559 KB", file="shangshu-0.3.8.apk"),
+    dict(key="shangshu", title="尚书", ver="0.3.9", size="643 KB", file="shangshu-0.3.9.apk"),
     dict(key="mengzi", title="孟子", ver="0.37.0", size="3.1 MB", file="mengzi-0.37.0.apk"),
 ]
 
@@ -470,7 +470,7 @@ def build_index():
 <div class="list">{extra_rows_meng}</div>
 
 <h2 id="apk">安卓离线包</h2>
-<p class="small">八部已备安卓阅读器：扫码直接进入下载，或点二维码下方的卡片链接。均为零权限、断网可读、字体内置；安装时 Android 若提示「未知来源」，属侧载常规提示。</p>
+<p class="small">九部已备安卓阅读器（经典八部＋《三字经》）：扫码直接进入下载，或点二维码下方的卡片链接。均为零权限、断网可读、字体内置；安装时 Android 若提示「未知来源」，属侧载常规提示。</p>
 <div class="apk-grid">{apk_cards}</div>
 <p class="small" style="margin-top:10px;">《千字文》《甲骨文》暂无安卓安装包，可直接进入网页阅读版；《道德经》现成 APK 为 v2.3.0，书版已至 v3.0.1，版本号以卡片为准。安装包校验值：<a href="{SITE}/apk/SHA256SUMS.txt">SHA256SUMS.txt</a>。</p>
 
@@ -518,7 +518,7 @@ https://doi.org/10.5281/zenodo.24217537</pre>
 </div>
 </div>
 </div></main>"""
-    (DOCS / "index.html").write_text(head(f"{SERIES}｜经典八部 · 字学 · 蒙学", "润泽说 道可道系列总站：经典八部，另列字学《甲骨文》与蒙学《千字文》《三字经》；含书目、概念释义、问答、引用格式与八部安卓 APK 扫码下载。", "/", ld, act="home") + body + foot(), encoding="utf-8")
+    (DOCS / "index.html").write_text(head(f"{SERIES}｜经典八部 · 字学 · 蒙学", "润泽说 道可道系列总站：经典八部，另列字学《甲骨文》与蒙学《千字文》《三字经》；含书目、概念释义、问答、引用格式与九部安卓 APK 扫码下载。", "/", ld, act="home") + body + foot(), encoding="utf-8")
 
 # ---------------- books index + pages -------------
 def build_books():
@@ -1106,7 +1106,7 @@ def build_machine():
 
 ## 安卓离线包
 {apk_txt}
-- 下载总入口：{SITE}/#apk（八部已备 APK；《千字文》《甲骨文》暂无安装包）
+- 下载总入口：{SITE}/#apk（九部已备 APK：经典八部＋《三字经》；《千字文》《甲骨文》暂无安装包）
 
 ## 页面
 - 系列总览：{SITE}/

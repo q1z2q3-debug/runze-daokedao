@@ -19,7 +19,7 @@
 | 坛经通释 | [daokedao-tanjing](https://github.com/q1z2q3-debug/daokedao-tanjing) | [阅读站](https://q1z2q3-debug.github.io/daokedao-tanjing/) | 1.2.0 |
 | 金刚经通释 | [daokedao-jingang](https://github.com/q1z2q3-debug/daokedao-jingang) | [阅读站](https://q1z2q3-debug.github.io/daokedao-jingang/) | 1.0.2 |
 | 庄子 | [daokedao-zhuangzi](https://github.com/q1z2q3-debug/daokedao-zhuangzi) | [阅读站](https://q1z2q3-debug.github.io/daokedao-zhuangzi/) | 1.33.0 |
-| 尚书 | [daokedao-shangshu](https://github.com/q1z2q3-debug/daokedao-shangshu) | [阅读站](https://q1z2q3-debug.github.io/daokedao-shangshu/) · [校勘台](https://q1z2q3-debug.github.io/daokedao-shangshu/jiaokan.html) | 0.3.8 |
+| 尚书 | [daokedao-shangshu](https://github.com/q1z2q3-debug/daokedao-shangshu) | [阅读站](https://q1z2q3-debug.github.io/daokedao-shangshu/) · [校勘台](https://q1z2q3-debug.github.io/daokedao-shangshu/jiaokan.html) | 0.3.9 |
 | 孟子 | [daokedao-mengzi](https://github.com/q1z2q3-debug/daokedao-mengzi) | [阅读站](https://q1z2q3-debug.github.io/daokedao-mengzi/) · [全本离线版](https://q1z2q3-debug.github.io/daokedao-mengzi/dl/mengzi-v0.37.0-全本离线.html) · [体检报告](https://github.com/q1z2q3-debug/daokedao-mengzi/blob/main/AUDIT-v0.37.0.md) | 0.37.0 |
 
 ### 道可道 · 字学
@@ -44,7 +44,7 @@
 - 金刚经 APK 1.0.2（1.5 MB）：<https://q1z2q3-debug.github.io/runze-daokedao/apk/jingang-1.0.2.apk>
 - 坛经 APK 1.2.0（1.5 MB）：<https://q1z2q3-debug.github.io/runze-daokedao/apk/tanjing-1.2.0.apk>
 - 三字经 APK 3.2（22.3 MB）：<https://q1z2q3-debug.github.io/runze-daokedao/apk/sanzijing-3.2.apk>
-- 尚书 APK 0.3.8（559 KB，内含校勘台）：<https://q1z2q3-debug.github.io/runze-daokedao/apk/shangshu-0.3.8.apk>
+- 尚书 APK 0.3.9（643 KB，内含校勘台，新图标）：<https://q1z2q3-debug.github.io/runze-daokedao/apk/shangshu-0.3.9.apk>
 - 孟子 APK 0.37.0（3.1 MB，261 章页 + 261 图）：<https://q1z2q3-debug.github.io/runze-daokedao/apk/mengzi-0.37.0.apk>
 
 《千字文》《甲骨文》暂无安卓安装包，网页阅读版可直接使用。总站下载入口：<https://q1z2q3-debug.github.io/runze-daokedao/#apk>

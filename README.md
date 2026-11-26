@@ -39,7 +39,7 @@
 
 ## 安卓离线包
 
-八部书已有 APK，扫码或点链接直接下载。均为零权限、断网可读、字体内置。
+经典八部与《三字经》已有 APK，扫码或点链接直接下载。均为零权限、断网可读、字体内置。
 
 | 书 | APK | 大小 |
 |---|---|---|
@@ -50,6 +50,8 @@
 | 金刚经 | [1.0.2](https://q1z2q3-debug.github.io/runze-daokedao/apk/jingang-1.0.2.apk) | 1.5 MB |
 | 坛经 | [1.2.0](https://q1z2q3-debug.github.io/runze-daokedao/apk/tanjing-1.2.0.apk) | 1.5 MB |
 | 三字经 | [3.2](https://q1z2q3-debug.github.io/runze-daokedao/apk/sanzijing-3.2.apk) | 22.3 MB |
+| 尚书 | [0.3.9](https://q1z2q3-debug.github.io/runze-daokedao/apk/shangshu-0.3.9.apk) | 643 KB |
+| 孟子 | [0.37.0](https://q1z2q3-debug.github.io/runze-daokedao/apk/mengzi-0.37.0.apk) | 3.1 MB |
 
 《千字文》《甲骨文》暂无 APK，网页阅读版可直接使用。二维码汇总见 [总站首页](https://q1z2q3-debug.github.io/runze-daokedao/#apk)。
 

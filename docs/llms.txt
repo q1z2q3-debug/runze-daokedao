@@ -26,7 +26,7 @@
 - [庄子](https://q1z2q3-debug.github.io/daokedao-zhuangzi/)：润泽说 道可道之庄子，29.8 万字，28 篇 + 附录（内七 / 外十五 / 杂六 / 法度），v1.33.0，DOI https://doi.org/10.5281/zenodo.24217537
 - [金刚经](https://q1z2q3-debug.github.io/daokedao-jingang/)：润泽说 道可道之金刚经，7.8 万字，32 分 + 后记 + 附录五篇，v1.0.2，DOI https://doi.org/10.5281/zenodo.24222027
 - [坛经](https://q1z2q3-debug.github.io/daokedao-tanjing/)：润泽说 道可道之坛经，4.0 万字，总序 + 凡例 + 十品 + 后记 + 附录三表，v1.2.0，DOI https://doi.org/10.5281/zenodo.24223179
-- [尚书](https://q1z2q3-debug.github.io/daokedao-shangshu/)：润泽说 道可道之尚书，26.0 万字，58 篇 + 7 附录 + 校勘台（511 条账目），v0.3.8，未送 DOI 存档
+- [尚书](https://q1z2q3-debug.github.io/daokedao-shangshu/)：润泽说 道可道之尚书，26.0 万字，58 篇 + 7 附录 + 校勘台（511 条账目），v0.3.9，未送 DOI 存档
 - [孟子](https://q1z2q3-debug.github.io/daokedao-mengzi/)：润泽说 道可道之孟子，57.1 万字，261 页 + 261 图 + 卷首页与全本离线版，v0.37.0，未送 DOI 存档
 
 ## 字学与蒙学
@@ -42,9 +42,9 @@
 - 金刚经 APK 1.0.2（1.5 MB）：https://q1z2q3-debug.github.io/runze-daokedao/apk/jingang-1.0.2.apk
 - 坛经 APK 1.2.0（1.5 MB）：https://q1z2q3-debug.github.io/runze-daokedao/apk/tanjing-1.2.0.apk
 - 三字经 APK 3.2（22.3 MB）：https://q1z2q3-debug.github.io/runze-daokedao/apk/sanzijing-3.2.apk
-- 尚书 APK 0.3.8（559 KB）：https://q1z2q3-debug.github.io/runze-daokedao/apk/shangshu-0.3.8.apk
+- 尚书 APK 0.3.9（643 KB）：https://q1z2q3-debug.github.io/runze-daokedao/apk/shangshu-0.3.9.apk
 - 孟子 APK 0.37.0（3.1 MB）：https://q1z2q3-debug.github.io/runze-daokedao/apk/mengzi-0.37.0.apk
-- 下载总入口：https://q1z2q3-debug.github.io/runze-daokedao/#apk（八部已备 APK；《千字文》《甲骨文》暂无安装包）
+- 下载总入口：https://q1z2q3-debug.github.io/runze-daokedao/#apk（九部已备 APK：经典八部＋《三字经》；《千字文》《甲骨文》暂无安装包）
 
 ## 页面
 - 系列总览：https://q1z2q3-debug.github.io/runze-daokedao/
