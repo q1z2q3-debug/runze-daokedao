@@ -52,7 +52,7 @@
 | 三字经 | [3.2](https://q1z2q3-debug.github.io/runze-daokedao/apk/sanzijing-3.2.apk) | 22.3 MB |
 | 尚书 | [0.3.9](https://q1z2q3-debug.github.io/runze-daokedao/apk/shangshu-0.3.9.apk) | 643 KB |
 | 孟子 | [0.37.0](https://q1z2q3-debug.github.io/runze-daokedao/apk/mengzi-0.37.0.apk) | 3.1 MB |
-| 论语 | [0.16.42](https://q1z2q3-debug.github.io/runze-daokedao/apk/lunyu-0.16.42.apk) | 19.3 MB |
+| 论语 | [0.16.43](https://q1z2q3-debug.github.io/runze-daokedao/apk/lunyu-0.16.43.apk) | 19.3 MB |
 | 千字文 | [0.5.4](https://q1z2q3-debug.github.io/runze-daokedao/apk/qianziwen-0.5.4.apk) | 8.3 MB |
 | 甲骨文 | [0.80.0](https://q1z2q3-debug.github.io/runze-daokedao/apk/jiaguwen-0.80.0.apk) | 8.9 MB |
 
