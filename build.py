@@ -215,15 +215,15 @@ EXTRA_BOOKS = [
 ]
 
 APK_BOOKS = [
-    dict(key="daodejing", title="道德经", ver="2.3.0", size="3.9 MB", file="daodejing-2.3.0.apk"),
+    dict(key="daodejing", title="道德经", ver="2.9.155", size="30.2 MB", file="daodejing-2.9.155.apk"),
     dict(key="yijing", title="易传", ver="1.50.0", size="3.1 MB", file="yijing-1.50.0.apk"),
     dict(key="xinjing", title="心经通释", ver="1.0.0", size="2.4 MB", file="xinjing-1.0.0.apk"),
-    dict(key="zhuangzi", title="庄子", ver="1.33.0", size="3.7 MB", file="zhuangzi-1.33.0.apk"),
+    dict(key="zhuangzi", title="庄子", ver="1.33.0", size="1.8 MB", file="zhuangzi-1.33.0.apk"),
     dict(key="jingang", title="金刚经", ver="1.0.2", size="1.5 MB", file="jingang-1.0.2.apk"),
     dict(key="tanjing", title="坛经", ver="1.2.0", size="1.5 MB", file="tanjing-1.2.0.apk"),
-    dict(key="sanzijing", title="三字经", ver="3.2", size="22.3 MB", file="sanzijing-3.2.apk"),
-    dict(key="shangshu", title="尚书", ver="0.3.9", size="643 KB", file="shangshu-0.3.9.apk"),
-    dict(key="mengzi", title="孟子", ver="0.37.0", size="3.1 MB", file="mengzi-0.37.0.apk"),
+    dict(key="sanzijing", title="三字经", ver="3.2", size="22.4 MB", file="sanzijing-3.2.apk"),
+    dict(key="shangshu", title="尚书", ver="0.3.8", size="2.3 MB", file="shangshu-0.3.8.apk"),
+    dict(key="mengzi", title="孟子", ver="0.37.0", size="4.1 MB", file="mengzi-0.37.0.apk"),
     dict(key="lunyu", title="论语", ver="0.16.43", size="19.3 MB", file="lunyu-0.16.43.apk"),
     dict(key="qianziwen", title="千字文", ver="0.5.4", size="8.3 MB", file="qianziwen-0.5.4.apk"),
     dict(key="jiaguwen", title="甲骨文", ver="0.80.0", size="8.9 MB", file="jiaguwen-0.80.0.apk"),
@@ -494,7 +494,7 @@ def build_index():
 <h2 id="apk">安卓离线包</h2>
 <p class="small">十二部已备安卓阅读器（经典九部＋字学《甲骨文》＋蒙学《千字文》《三字经》）：扫码直接进入下载，或点二维码下方的卡片链接。均为零权限、断网可读、字体内置；安装时 Android 若提示「未知来源」，属侧载常规提示。</p>
 <div class="apk-grid">{apk_cards}</div>
-<p class="small" style="margin-top:10px;">十二部书皆有安卓安装包，也可直接进入网页阅读版；《道德经》现成 APK 为 v2.3.0，书版已至 v3.0.1，版本号以卡片为准。安装包校验值：<a href="{SITE}/apk/SHA256SUMS.txt">SHA256SUMS.txt</a>。</p>
+<p class="small" style="margin-top:10px;">十二部书皆有安卓安装包，也可直接进入网页阅读版；《道德经》APK 为 v2.9.155（以仓内 VERSION 出包，书页标 v3.0.1），版本号以卡片为准。安装包校验值：<a href="{SITE}/apk/SHA256SUMS.txt">SHA256SUMS.txt</a>。</p>
 
 <h2>共用的一副标尺</h2>
 <p>九部书体例不同，底层是同一句话的三层：<b>佛说A</b>（安立，承认缘起作用）→ <b>即非A</b>（破执，不承许固定自性）→ <b>是名A</b>（假名中道，用而不著）。</p>
