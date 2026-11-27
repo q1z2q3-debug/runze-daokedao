@@ -48,6 +48,7 @@
 - 三字经 APK 3.3（22.8 MB）：https://q1z2q3-debug.github.io/runze-daokedao/apk/sanzijing-3.3.apk
 - 尚书 APK 0.3.8（2.2 MB）：https://q1z2q3-debug.github.io/runze-daokedao/apk/shangshu-0.3.8.apk
 - 孟子 APK 0.37.0（3.9 MB）：https://q1z2q3-debug.github.io/runze-daokedao/apk/mengzi-0.37.0.apk
+- 孝经 APK 0.1.5（1.1 MB）：https://q1z2q3-debug.github.io/runze-daokedao/apk/xiaojing-0.1.5.apk
 - 论语 APK 0.16.44（19.3 MB）：https://q1z2q3-debug.github.io/runze-daokedao/apk/lunyu-0.16.44.apk
 - 千字文 APK 0.5.4（7.9 MB）：https://q1z2q3-debug.github.io/runze-daokedao/apk/qianziwen-0.5.4.apk
 - 甲骨文 APK 0.80.0（8.5 MB）：https://q1z2q3-debug.github.io/runze-daokedao/apk/jiaguwen-0.80.0.apk
