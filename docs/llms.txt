@@ -38,10 +38,10 @@
 ## 安卓离线包
 - 道德经 APK 2.9.155（28.8 MB）：https://q1z2q3-debug.github.io/runze-daokedao/apk/daodejing-2.9.155.apk
 - 易传 APK 1.50.0（3 MB）：https://q1z2q3-debug.github.io/runze-daokedao/apk/yijing-1.50.0.apk
-- 心经通释 APK 1.0.0（2.3 MB）：https://q1z2q3-debug.github.io/runze-daokedao/apk/xinjing-1.0.0.apk
+- 心经通释 APK 1.0.0（3.5 MB）：https://q1z2q3-debug.github.io/runze-daokedao/apk/xinjing-1.0.0.apk
 - 庄子 APK 1.33.0（1.7 MB）：https://q1z2q3-debug.github.io/runze-daokedao/apk/zhuangzi-1.33.0.apk
 - 金刚经 APK 1.0.2（2.7 MB）：https://q1z2q3-debug.github.io/runze-daokedao/apk/jingang-1.0.2.apk
-- 坛经 APK 1.2.0（1.5 MB）：https://q1z2q3-debug.github.io/runze-daokedao/apk/tanjing-1.2.0.apk
+- 坛经 APK 1.2.0（2.4 MB）：https://q1z2q3-debug.github.io/runze-daokedao/apk/tanjing-1.2.0.apk
 - 三字经 APK 3.2（22.8 MB）：https://q1z2q3-debug.github.io/runze-daokedao/apk/sanzijing-3.2.apk
 - 尚书 APK 0.3.8（2.2 MB）：https://q1z2q3-debug.github.io/runze-daokedao/apk/shangshu-0.3.8.apk
 - 孟子 APK 0.37.0（3.9 MB）：https://q1z2q3-debug.github.io/runze-daokedao/apk/mengzi-0.37.0.apk

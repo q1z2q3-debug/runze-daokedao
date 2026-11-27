@@ -12,6 +12,11 @@
 
 # 变更记录
 
+## 2026-11-27 · 金刚经「莲瓣」、坛经「六祖」、心经「观自在」换图标重出
+
+- 金刚经 1.0.2（vcode 10201）2.7 MB、坛经 1.2.0（vcode 12001）2.4 MB、心经 1.0.0（vcode 10001）3.5 MB，均带自适应图标（anydpi-v26），签名统一为 `runze-release`。
+- 三包卡片体积同步、`SHA256SUMS.txt` 重算；文件名未变，二维码无需重出。
+
 ## 2026-11-27 · 全部安装包改用 runze-release 自签证书
 
 - 新建统一证书 `runze-release`（RSA 4096，有效期至 2054，DN `CN=Runze Daokedao, O=Daokedao, C=CN`，SHA-256 `AB:46:BE:AD:…:4F:84:EA`），密钥只存本机 `~/keys/`，不入任何仓库。
