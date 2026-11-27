@@ -494,7 +494,7 @@ def build_index():
 <h2 id="apk">安卓离线包</h2>
 <p class="small">十二部已备安卓阅读器（经典九部＋字学《甲骨文》＋蒙学《千字文》《三字经》）：扫码直接进入下载，或点二维码下方的卡片链接。均为零权限、断网可读、字体内置；安装时 Android 若提示「未知来源」，属侧载常规提示。</p>
 <div class="apk-grid">{apk_cards}</div>
-<p class="small" style="margin-top:10px;">十二部书皆有安卓安装包，也可直接进入网页阅读版；《道德经》APK 为 v2.9.155（以仓内 VERSION 出包，书页标 v3.0.1），版本号以卡片为准。安装包校验值：<a href="{SITE}/apk/SHA256SUMS.txt">SHA256SUMS.txt</a>。</p>
+<p class="small" style="margin-top:10px;">历代安装包按「只增不删」存于各书仓库的 <code>apk/versions/</code>（含 MANIFEST 与校验值），总站只挂当前版。十二部书皆有安卓安装包，也可直接进入网页阅读版；《道德经》APK 为 v2.9.155（以仓内 VERSION 出包，书页标 v3.0.1），版本号以卡片为准。安装包校验值：<a href="{SITE}/apk/SHA256SUMS.txt">SHA256SUMS.txt</a>。</p>
 
 <h2>共用的一副标尺</h2>
 <p>九部书体例不同，底层是同一句话的三层：<b>佛说A</b>（安立，承认缘起作用）→ <b>即非A</b>（破执，不承许固定自性）→ <b>是名A</b>（假名中道，用而不著）。</p>
