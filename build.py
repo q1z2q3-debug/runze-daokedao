@@ -221,7 +221,7 @@ APK_BOOKS = [
     dict(key="zhuangzi", title="庄子", ver="1.33.0", size="1.7 MB", file="zhuangzi-1.33.0.apk"),
     dict(key="jingang", title="金刚经", ver="1.0.2", size="2.7 MB", file="jingang-1.0.2.apk"),
     dict(key="tanjing", title="坛经", ver="1.2.1", size="2.4 MB", file="tanjing-1.2.1.apk"),
-    dict(key="sanzijing", title="三字经", ver="3.2", size="22.8 MB", file="sanzijing-3.2.apk"),
+    dict(key="sanzijing", title="三字经", ver="3.3", size="22.8 MB", file="sanzijing-3.3.apk"),
     dict(key="shangshu", title="尚书", ver="0.3.8", size="2.2 MB", file="shangshu-0.3.8.apk"),
     dict(key="mengzi", title="孟子", ver="0.37.0", size="3.9 MB", file="mengzi-0.37.0.apk"),
     dict(key="lunyu", title="论语", ver="0.16.43", size="18.4 MB", file="lunyu-0.16.43.apk"),

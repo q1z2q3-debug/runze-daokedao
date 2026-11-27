@@ -42,7 +42,7 @@
 - 庄子 APK 1.33.0（1.7 MB）：https://q1z2q3-debug.github.io/runze-daokedao/apk/zhuangzi-1.33.0.apk
 - 金刚经 APK 1.0.2（2.7 MB）：https://q1z2q3-debug.github.io/runze-daokedao/apk/jingang-1.0.2.apk
 - 坛经 APK 1.2.1（2.4 MB）：https://q1z2q3-debug.github.io/runze-daokedao/apk/tanjing-1.2.1.apk
-- 三字经 APK 3.2（22.8 MB）：https://q1z2q3-debug.github.io/runze-daokedao/apk/sanzijing-3.2.apk
+- 三字经 APK 3.3（22.8 MB）：https://q1z2q3-debug.github.io/runze-daokedao/apk/sanzijing-3.3.apk
 - 尚书 APK 0.3.8（2.2 MB）：https://q1z2q3-debug.github.io/runze-daokedao/apk/shangshu-0.3.8.apk
 - 孟子 APK 0.37.0（3.9 MB）：https://q1z2q3-debug.github.io/runze-daokedao/apk/mengzi-0.37.0.apk
 - 论语 APK 0.16.43（18.4 MB）：https://q1z2q3-debug.github.io/runze-daokedao/apk/lunyu-0.16.43.apk
