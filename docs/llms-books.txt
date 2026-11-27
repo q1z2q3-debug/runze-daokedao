@@ -9,7 +9,7 @@
 
 ## 书库分层
 
-### 道可道 · 经典八部
+### 道可道 · 经典九部
 
 | 书 | 仓库 | 入口 | 版本 |
 |---|---|---|---|
@@ -21,6 +21,7 @@
 | 庄子 | [daokedao-zhuangzi](https://github.com/q1z2q3-debug/daokedao-zhuangzi) | [阅读站](https://q1z2q3-debug.github.io/daokedao-zhuangzi/) | 1.33.0 |
 | 尚书 | [daokedao-shangshu](https://github.com/q1z2q3-debug/daokedao-shangshu) | [阅读站](https://q1z2q3-debug.github.io/daokedao-shangshu/) · [校勘台](https://q1z2q3-debug.github.io/daokedao-shangshu/jiaokan.html) | 0.3.9 |
 | 孟子 | [daokedao-mengzi](https://github.com/q1z2q3-debug/daokedao-mengzi) | [阅读站](https://q1z2q3-debug.github.io/daokedao-mengzi/) · [全本离线版](https://q1z2q3-debug.github.io/daokedao-mengzi/dl/mengzi-v0.37.0-全本离线.html) · [体检报告](https://github.com/q1z2q3-debug/daokedao-mengzi/blob/main/AUDIT-v0.37.0.md) | 0.37.0 |
+| 论语 | [daokedao-lunyu](https://github.com/q1z2q3-debug/daokedao-lunyu) | [阅读站](https://q1z2q3-debug.github.io/daokedao-lunyu/) · [卷首](https://q1z2q3-debug.github.io/daokedao-lunyu/book.html) | 0.16.42 |
 
 ### 道可道 · 字学
 
@@ -46,6 +47,7 @@
 - 三字经 APK 3.2（22.3 MB）：<https://q1z2q3-debug.github.io/runze-daokedao/apk/sanzijing-3.2.apk>
 - 尚书 APK 0.3.9（643 KB，内含校勘台，新图标）：<https://q1z2q3-debug.github.io/runze-daokedao/apk/shangshu-0.3.9.apk>
 - 孟子 APK 0.37.0（3.1 MB，261 章页 + 261 图）：<https://q1z2q3-debug.github.io/runze-daokedao/apk/mengzi-0.37.0.apk>
+- 论语 APK 0.16.42（19.3 MB，511 课、插图内嵌、宋体字集内置）：<https://q1z2q3-debug.github.io/runze-daokedao/apk/lunyu-0.16.42.apk>
 
 《千字文》《甲骨文》暂无安卓安装包，网页阅读版可直接使用。总站下载入口：<https://q1z2q3-debug.github.io/runze-daokedao/#apk>
 

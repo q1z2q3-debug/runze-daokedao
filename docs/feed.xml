@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-Hans">
-<title>润泽说 道可道</title><subtitle>八部经典，一副取景</subtitle>
+<title>润泽说 道可道</title><subtitle>九部经典，一副取景</subtitle>
 <link href="https://q1z2q3-debug.github.io/runze-daokedao/feed.xml" rel="self"/><link href="https://q1z2q3-debug.github.io/runze-daokedao/"/>
 <id>https://q1z2q3-debug.github.io/runze-daokedao/</id><updated>2026-11-14T00:00:00+08:00</updated>
 <author><name>润泽</name><uri>https://q1z2q3-debug.github.io/runze-daokedao/</uri></author>
@@ -20,5 +20,7 @@
 <id>https://q1z2q3-debug.github.io/runze-daokedao/books/shangshu.html</id><updated>2026-11-14T00:00:00+08:00</updated>
 <summary>五十八篇不是一篇整文，而是五种声音叠在一处：今文二十八篇是战国儒者所传，古文二十五篇是东晋以后才现的，另有伪孔传、晚出序与历代注疏。本书先把「谁在说话」分开，再谈义理——不把晚出的篇章算进道统正脉。</summary></entry><entry><title>润泽说 道可道之孟子</title><link href="https://q1z2q3-debug.github.io/runze-daokedao/books/mengzi.html"/>
 <id>https://q1z2q3-debug.github.io/runze-daokedao/books/mengzi.html</id><updated>2026-11-14T00:00:00+08:00</updated>
-<summary>孟子不是格言的集合，是一部与人当面争的书。二百六十一章里，他多半在回话——回梁惠王、回齐宣王、回公孙丑、回万章、回告子。本书按页对读，先看清他在驳谁，再看立了什么，最后看他留给后人的那句话：孟子三判，一章一判。</summary></entry>
+<summary>孟子不是格言的集合，是一部与人当面争的书。二百六十一章里，他多半在回话——回梁惠王、回齐宣王、回公孙丑、回万章、回告子。本书按页对读，先看清他在驳谁，再看立了什么，最后看他留给后人的那句话：孟子三判，一章一判。</summary></entry><entry><title>润泽说 道可道之论语</title><link href="https://q1z2q3-debug.github.io/runze-daokedao/books/lunyu.html"/>
+<id>https://q1z2q3-debug.github.io/runze-daokedao/books/lunyu.html</id><updated>2026-11-14T00:00:00+08:00</updated>
+<summary>注了两千年的书，最容易被注遮住。这部书先做一件事：把原文摆回它自己的时代，让它说自己的话；义理另开一节，标清是谁的引申。贯穿全书一条总纲——一阴一阳之谓道：学是受（阴、向内收），习是发（阳、向外放）；只学不习，是替别人保管知识，只习不学，是自己摸黑走路。</summary></entry>
 </feed>
