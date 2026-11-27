@@ -46,7 +46,9 @@
 - 尚书 APK 0.3.9（643 KB）：https://q1z2q3-debug.github.io/runze-daokedao/apk/shangshu-0.3.9.apk
 - 孟子 APK 0.37.0（3.1 MB）：https://q1z2q3-debug.github.io/runze-daokedao/apk/mengzi-0.37.0.apk
 - 论语 APK 0.16.42（19.3 MB）：https://q1z2q3-debug.github.io/runze-daokedao/apk/lunyu-0.16.42.apk
-- 下载总入口：https://q1z2q3-debug.github.io/runze-daokedao/#apk（十部已备 APK：经典九部＋《三字经》；《千字文》《甲骨文》暂无安装包）
+- 千字文 APK 0.5.4（8.3 MB）：https://q1z2q3-debug.github.io/runze-daokedao/apk/qianziwen-0.5.4.apk
+- 甲骨文 APK 0.80.0（8.9 MB）：https://q1z2q3-debug.github.io/runze-daokedao/apk/jiaguwen-0.80.0.apk
+- 下载总入口：https://q1z2q3-debug.github.io/runze-daokedao/#apk（十二部已备 APK：经典九部＋字学《甲骨文》＋蒙学《千字文》《三字经》）
 
 ## 页面
 - 系列总览：https://q1z2q3-debug.github.io/runze-daokedao/

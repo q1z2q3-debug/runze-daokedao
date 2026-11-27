@@ -48,8 +48,10 @@
 - 尚书 APK 0.3.9（643 KB，内含校勘台，新图标）：<https://q1z2q3-debug.github.io/runze-daokedao/apk/shangshu-0.3.9.apk>
 - 孟子 APK 0.37.0（3.1 MB，261 章页 + 261 图）：<https://q1z2q3-debug.github.io/runze-daokedao/apk/mengzi-0.37.0.apk>
 - 论语 APK 0.16.42（19.3 MB，511 课、插图内嵌、宋体字集内置）：<https://q1z2q3-debug.github.io/runze-daokedao/apk/lunyu-0.16.42.apk>
+- 千字文 APK 0.5.4（8.3 MB，三十三课全本 + 字源全解 + 甲骨文溯源，宋体子集）：<https://q1z2q3-debug.github.io/runze-daokedao/apk/qianziwen-0.5.4.apk>
+- 甲骨文 APK 0.80.0（8.9 MB，七十七卷 + 研究五篇，拓片内嵌、双家族宋体）：<https://q1z2q3-debug.github.io/runze-daokedao/apk/jiaguwen-0.80.0.apk>
 
-《千字文》《甲骨文》暂无安卓安装包，网页阅读版可直接使用。总站下载入口：<https://q1z2q3-debug.github.io/runze-daokedao/#apk>
+十二部书皆有安卓安装包；网页阅读版仍是主入口，包内为同一份内容。总站下载入口：<https://q1z2q3-debug.github.io/runze-daokedao/#apk>
 
 ## 机器读取
 
