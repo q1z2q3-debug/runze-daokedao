@@ -64,7 +64,7 @@ BOOKS = [
         en="Xinjing: A Full Commentary on the Heart Sutra",
         sub="三十六节，二百六十字逐句拆解",
         chars="71,207 字", struct="36 节（含附录 A–O、附录一至六）",
-        ver="v1.0.0",
+        ver="v1.1.0",
         site="https://q1z2q3-debug.github.io/daokedao-xinjing/",
         repo="https://github.com/q1z2q3-debug/daokedao-xinjing",
         doi="10.5281/zenodo.24210811",
@@ -119,7 +119,7 @@ BOOKS = [
         en="The Platform Sutra: Ten Chapters, Chapter by Chapter",
         sub="十品，一品一页，八段同构",
         chars="4.0 万字", struct="总序 + 凡例 + 十品 + 后记 + 附录三表",
-        ver="v1.2.0",
+        ver="v1.2.1",
         site="https://q1z2q3-debug.github.io/daokedao-tanjing/",
         repo="https://github.com/q1z2q3-debug/daokedao-tanjing",
         doi="10.5281/zenodo.24223179",
@@ -194,7 +194,7 @@ BOOKS = [
         en="Lunyu: Five Hundred and Eleven Lessons, Two Pages Each",
         sub="上下两论二十篇，五百一十章（另前言一篇，共 511 课）；一课两读，少儿页与成人页对照",
         chars="145.0 万字", struct="511 课（512 页）+ 专题八篇 + 论文三篇",
-        ver="v0.16.43",
+        ver="v0.16.44",
         site="https://q1z2q3-debug.github.io/daokedao-lunyu/",
         repo="https://github.com/q1z2q3-debug/daokedao-lunyu",
         doi="",
@@ -245,6 +245,20 @@ EXTRA_BOOKS = [
          site="https://q1z2q3-debug.github.io/daokedao-zhongyong/",
          repo="https://github.com/q1z2q3-debug/daokedao-zhongyong",
          note="依朱子章次分三十三章，长章补足、引文核校；与《大学》同属四书续编，各自独立成库。"),
+    dict(key="yinfujing", no="15", group="专题", title="润泽说 道可道之黄帝阴符经",
+         sub="三章三十一句，唐李筌三百字本",
+         chars="三章", struct="三章三十一句；逐句六段体例",
+         ver="v1.0.0",
+         site="https://q1z2q3-debug.github.io/daokedao-yinfujing/",
+         repo="https://github.com/q1z2q3-debug/daokedao-yinfujing",
+         note="以唐李筌三百字本为底，参敦煌残卷；不与天争机，不与物争盗。"),
+    dict(key="liuzu", no="16", group="专题", title="润泽说 道可道之六祖坛经 · 自性五句与风幡公案",
+         sub="附录六出身的重校本，单篇专题",
+         chars="一万二千字", struct="说明 · 正文五节 · 并读 · 附记",
+         ver="v0.3.0",
+         site="https://q1z2q3-debug.github.io/daokedao-liuzu/",
+         repo="https://github.com/q1z2q3-debug/daokedao-liuzu",
+         note="原拟作金刚经读本附录六，经作者判定不成立后移存本库并重写；附《金刚经》第十分、第十八分并读页。"),
 ]
 
 APK_BOOKS = [
@@ -473,6 +487,7 @@ def build_index():
     extra_rows_sishu = "".join(extra_row(b) for b in EXTRA_BOOKS if b["group"] == "四书")
     extra_rows_zi = "".join(extra_row(b) for b in EXTRA_BOOKS if b["group"] == "字学")
     extra_rows_meng = "".join(extra_row(b) for b in EXTRA_BOOKS if b["group"] == "蒙学")
+    extra_rows_zhuan = "".join(extra_row(b) for b in EXTRA_BOOKS if b["group"] == "专题")
     apk_cards = "".join(f"""<a class="apk-card" href="{SITE}/apk/{b['file']}">
 <div class="apk-qr"><img src="assets/apk-qr/{b['key']}.svg" alt="{H.escape(b['title'])} APK 下载二维码" loading="lazy" width="132" height="132"></div>
 <div class="apk-name">{b['title']}</div>
@@ -530,6 +545,10 @@ def build_index():
 <div class="list">{extra_rows_zi}</div>
 <h3>道可道 · 蒙学</h3>
 <div class="list">{extra_rows_meng}</div>
+
+<h2>道可道 · 专题与补遗</h2>
+<p class="small">《黄帝阴符经》三百余字，三章三十一句，逐句解读；《六祖坛经 · 自性五句与风幡公案》是一篇专题重校本，原拟作《金刚经》读本附录六，经作者判定后移存另库重写，附《金刚经》两分并读页。两者皆各自独立成库。</p>
+<div class="list">{extra_rows_zhuan}</div>
 
 <h2 id="apk">安卓离线包</h2>
 <p class="small">十四部已备安卓阅读器（经典九部＋四书续编《大学》《中庸》＋字学《甲骨文》＋蒙学《千字文》《三字经》）：扫码直接进入下载，或点二维码下方的卡片链接。均为零权限、断网可读、字体内置；安装时 Android 若提示「未知来源」，属侧载常规提示。</p>

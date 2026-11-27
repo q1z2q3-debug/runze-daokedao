@@ -22,14 +22,14 @@
 ## 经典九部（六部有 DOI）
 - [道德经](https://q1z2q3-debug.github.io/runze-daodejing/)：道可道 · 道德经心法读本，88.6 万字，81 章 + 3 附论 + 11 附录，v3.0.1，DOI https://doi.org/10.5281/zenodo.24115947
 - [易传](https://q1z2q3-debug.github.io/daokedao-yijing/)：润泽说 道可道之易传，50.5 万字，72 卷（64 卦 + 系辞上下等），v1.50.0，DOI https://doi.org/10.5281/zenodo.24185930
-- [心经通释](https://q1z2q3-debug.github.io/daokedao-xinjing/)：润泽说 道可道之心经通释，71,207 字，36 节（含附录 A–O、附录一至六），v1.0.0，DOI https://doi.org/10.5281/zenodo.24210811
+- [心经通释](https://q1z2q3-debug.github.io/daokedao-xinjing/)：润泽说 道可道之心经通释，71,207 字，36 节（含附录 A–O、附录一至六），v1.1.0，DOI https://doi.org/10.5281/zenodo.24210811
 - [庄子](https://q1z2q3-debug.github.io/daokedao-zhuangzi/)：润泽说 道可道之庄子，29.8 万字，28 篇 + 附录（内七 / 外十五 / 杂六 / 法度），v1.33.0，DOI https://doi.org/10.5281/zenodo.24217537
 - [金刚经](https://q1z2q3-debug.github.io/daokedao-jingang/)：润泽说 道可道之金刚经，7.8 万字，32 分 + 后记 + 附录五篇，v1.0.2，DOI https://doi.org/10.5281/zenodo.24222027
-- [坛经](https://q1z2q3-debug.github.io/daokedao-tanjing/)：润泽说 道可道之坛经，4.0 万字，总序 + 凡例 + 十品 + 后记 + 附录三表，v1.2.0，DOI https://doi.org/10.5281/zenodo.24223179
+- [坛经](https://q1z2q3-debug.github.io/daokedao-tanjing/)：润泽说 道可道之坛经，4.0 万字，总序 + 凡例 + 十品 + 后记 + 附录三表，v1.2.1，DOI https://doi.org/10.5281/zenodo.24223179
 - [尚书](https://q1z2q3-debug.github.io/daokedao-shangshu/)：润泽说 道可道之尚书，26.0 万字，58 篇 + 7 附录 + 校勘台（511 条账目），v0.3.9，未送 DOI 存档
 - [孟子](https://q1z2q3-debug.github.io/daokedao-mengzi/)：润泽说 道可道之孟子，57.1 万字，261 页 + 261 图 + 卷首页与全本离线版，v0.37.0，未送 DOI 存档
 - [孝经](https://q1z2q3-debug.github.io/daokedao-xiaojing/)：润泽说 道可道之孝经，5.4 万字，18 章 + 18 图 + 卷首四件与全本离线版，v0.1.5，未送 DOI 存档
-- [论语](https://q1z2q3-debug.github.io/daokedao-lunyu/)：润泽说 道可道之论语，145.0 万字，511 课（512 页）+ 专题八篇 + 论文三篇，v0.16.43，未送 DOI 存档
+- [论语](https://q1z2q3-debug.github.io/daokedao-lunyu/)：润泽说 道可道之论语，145.0 万字，511 课（512 页）+ 专题八篇 + 论文三篇，v0.16.44，未送 DOI 存档
 
 ## 字学与蒙学
 - [润泽说 道可道之甲骨文](https://q1z2q3-debug.github.io/daokedao-jiaguwen/)：77 卷，924 字位；详解 372 条，v0.80.0
@@ -37,6 +37,8 @@
 - [润泽说 少儿启蒙国学读本·三字经](https://q1z2q3-debug.github.io/daokedao-sanzijing/)：201 课，402 页；立人—知世—劝学，v3.2
 - [润泽说 道可道之大学](https://q1z2q3-debug.github.io/daokedao-daxue/)：11 章，经一章、传十章；附图 11 页、附录 7 件，v1.0.1
 - [润泽说 道可道之中庸](https://q1z2q3-debug.github.io/daokedao-zhongyong/)：33 章，三十三章；附图 33 页、附录 7 件，v1.0.1
+- [润泽说 道可道之黄帝阴符经](https://q1z2q3-debug.github.io/daokedao-yinfujing/)：三章，三章三十一句；逐句六段体例，v1.0.0
+- [润泽说 道可道之六祖坛经 · 自性五句与风幡公案](https://q1z2q3-debug.github.io/daokedao-liuzu/)：一万二千字，说明 · 正文五节 · 并读 · 附记，v0.3.0
 
 ## 安卓离线包
 - 道德经 APK 2.9.155（28.8 MB）：https://q1z2q3-debug.github.io/runze-daokedao/apk/daodejing-2.9.155.apk
