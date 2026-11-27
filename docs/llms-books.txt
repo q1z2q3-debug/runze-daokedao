@@ -23,6 +23,13 @@
 | 孟子 | [daokedao-mengzi](https://github.com/q1z2q3-debug/daokedao-mengzi) | [阅读站](https://q1z2q3-debug.github.io/daokedao-mengzi/) · [全本离线版](https://q1z2q3-debug.github.io/daokedao-mengzi/dl/mengzi-v0.37.0-全本离线.html) · [体检报告](https://github.com/q1z2q3-debug/daokedao-mengzi/blob/main/AUDIT-v0.37.0.md) | 0.37.0 |
 | 论语 | [daokedao-lunyu](https://github.com/q1z2q3-debug/daokedao-lunyu) | [阅读站](https://q1z2q3-debug.github.io/daokedao-lunyu/) · [卷首](https://q1z2q3-debug.github.io/daokedao-lunyu/book.html) | 0.16.42 |
 
+### 道可道 · 四书续编
+
+| 书 | 仓库 | 入口 | 版本 |
+|---|---|---|---|
+| 大学 | [daokedao-daxue](https://github.com/q1z2q3-debug/daokedao-daxue) | [阅读站](https://q1z2q3-debug.github.io/daokedao-daxue/) | 1.0.1 |
+| 中庸 | [daokedao-zhongyong](https://github.com/q1z2q3-debug/daokedao-zhongyong) | [阅读站](https://q1z2q3-debug.github.io/daokedao-zhongyong/) | 1.0.1 |
+
 ### 道可道 · 字学
 
 | 书 | 仓库 | 入口 | 版本 |
@@ -34,24 +41,26 @@
 | 书 | 仓库 | 入口 | 版本 |
 |---|---|---|---|
 | 千字文 | [daokedao-qianziwen](https://github.com/q1z2q3-debug/daokedao-qianziwen) | [阅读站](https://q1z2q3-debug.github.io/daokedao-qianziwen/) | 0.5.4 |
-| 三字经 | [daokedao-sanzijing](https://github.com/q1z2q3-debug/daokedao-sanzijing) | [阅读站](https://q1z2q3-debug.github.io/daokedao-sanzijing/) | v3.2 |
+| 三字经 | [daokedao-sanzijing](https://github.com/q1z2q3-debug/daokedao-sanzijing) | [阅读站](https://q1z2q3-debug.github.io/daokedao-sanzijing/) | v3.3 |
 
 ## 安卓离线包
 
-- 道德经 APK 2.3.0（3.9 MB）：<https://q1z2q3-debug.github.io/runze-daokedao/apk/daodejing-2.3.0.apk>
-- 易传 APK 1.50.0（3.1 MB）：<https://q1z2q3-debug.github.io/runze-daokedao/apk/yijing-1.50.0.apk>
-- 心经通释 APK 1.0.0（2.4 MB）：<https://q1z2q3-debug.github.io/runze-daokedao/apk/xinjing-1.0.0.apk>
-- 庄子 APK 1.33.0（3.7 MB）：<https://q1z2q3-debug.github.io/runze-daokedao/apk/zhuangzi-1.33.0.apk>
-- 金刚经 APK 1.0.2（1.5 MB）：<https://q1z2q3-debug.github.io/runze-daokedao/apk/jingang-1.0.2.apk>
-- 坛经 APK 1.2.0（1.5 MB）：<https://q1z2q3-debug.github.io/runze-daokedao/apk/tanjing-1.2.0.apk>
-- 三字经 APK 3.2（22.3 MB）：<https://q1z2q3-debug.github.io/runze-daokedao/apk/sanzijing-3.2.apk>
-- 尚书 APK 0.3.9（643 KB，内含校勘台，新图标）：<https://q1z2q3-debug.github.io/runze-daokedao/apk/shangshu-0.3.9.apk>
-- 孟子 APK 0.37.0（3.1 MB，261 章页 + 261 图）：<https://q1z2q3-debug.github.io/runze-daokedao/apk/mengzi-0.37.0.apk>
-- 论语 APK 0.16.42（19.3 MB，511 课、插图内嵌、宋体字集内置）：<https://q1z2q3-debug.github.io/runze-daokedao/apk/lunyu-0.16.42.apk>
-- 千字文 APK 0.5.4（8.3 MB，三十三课全本 + 字源全解 + 甲骨文溯源，宋体子集）：<https://q1z2q3-debug.github.io/runze-daokedao/apk/qianziwen-0.5.4.apk>
-- 甲骨文 APK 0.80.0（8.9 MB，七十七卷 + 研究五篇，拓片内嵌、双家族宋体）：<https://q1z2q3-debug.github.io/runze-daokedao/apk/jiaguwen-0.80.0.apk>
+- 道德经 APK 2.9.155（28.8 MB）：<https://q1z2q3-debug.github.io/runze-daokedao/apk/daodejing-2.9.155.apk>
+- 易传 APK 1.50.0（5.3 MB）：<https://q1z2q3-debug.github.io/runze-daokedao/apk/yijing-1.50.0.apk>
+- 心经通释 APK 1.0.0（3.5 MB）：<https://q1z2q3-debug.github.io/runze-daokedao/apk/xinjing-1.0.0.apk>
+- 庄子 APK 1.33.0（1.7 MB）：<https://q1z2q3-debug.github.io/runze-daokedao/apk/zhuangzi-1.33.0.apk>
+- 金刚经 APK 1.0.2（2.7 MB）：<https://q1z2q3-debug.github.io/runze-daokedao/apk/jingang-1.0.2.apk>
+- 坛经 APK 1.2.1（2.4 MB）：<https://q1z2q3-debug.github.io/runze-daokedao/apk/tanjing-1.2.1.apk>
+- 三字经 APK 3.3（22.8 MB）：<https://q1z2q3-debug.github.io/runze-daokedao/apk/sanzijing-3.3.apk>
+- 尚书 APK 0.3.8（2.2 MB）：<https://q1z2q3-debug.github.io/runze-daokedao/apk/shangshu-0.3.8.apk>
+- 孟子 APK 0.37.0（3.9 MB）：<https://q1z2q3-debug.github.io/runze-daokedao/apk/mengzi-0.37.0.apk>
+- 论语 APK 0.16.43（18.4 MB）：<https://q1z2q3-debug.github.io/runze-daokedao/apk/lunyu-0.16.43.apk>
+- 千字文 APK 0.5.4（7.9 MB）：<https://q1z2q3-debug.github.io/runze-daokedao/apk/qianziwen-0.5.4.apk>
+- 甲骨文 APK 0.80.0（8.5 MB）：<https://q1z2q3-debug.github.io/runze-daokedao/apk/jiaguwen-0.80.0.apk>
+- 大学 APK 1.0.1（16.6 MB）：<https://q1z2q3-debug.github.io/runze-daokedao/apk/daxue-1.0.1.apk>
+- 中庸 APK 1.0.1（7.6 MB）：<https://q1z2q3-debug.github.io/runze-daokedao/apk/zhongyong-1.0.1.apk>
 
-十二部书皆有安卓安装包；网页阅读版仍是主入口，包内为同一份内容。总站下载入口：<https://q1z2q3-debug.github.io/runze-daokedao/#apk>
+十四部书皆有安卓安装包；网页阅读版仍是主入口，包内为同一份内容。总站下载入口：<https://q1z2q3-debug.github.io/runze-daokedao/#apk>
 
 ## 机器读取
 
