@@ -215,18 +215,18 @@ EXTRA_BOOKS = [
 ]
 
 APK_BOOKS = [
-    dict(key="daodejing", title="道德经", ver="2.9.155", size="30.2 MB", file="daodejing-2.9.155.apk"),
-    dict(key="yijing", title="易传", ver="1.50.0", size="3.1 MB", file="yijing-1.50.0.apk"),
-    dict(key="xinjing", title="心经通释", ver="1.0.0", size="2.4 MB", file="xinjing-1.0.0.apk"),
-    dict(key="zhuangzi", title="庄子", ver="1.33.0", size="1.8 MB", file="zhuangzi-1.33.0.apk"),
-    dict(key="jingang", title="金刚经", ver="1.0.2", size="1.5 MB", file="jingang-1.0.2.apk"),
+    dict(key="daodejing", title="道德经", ver="2.9.155", size="28.8 MB", file="daodejing-2.9.155.apk"),
+    dict(key="yijing", title="易传", ver="1.50.0", size="3 MB", file="yijing-1.50.0.apk"),
+    dict(key="xinjing", title="心经通释", ver="1.0.0", size="2.3 MB", file="xinjing-1.0.0.apk"),
+    dict(key="zhuangzi", title="庄子", ver="1.33.0", size="1.7 MB", file="zhuangzi-1.33.0.apk"),
+    dict(key="jingang", title="金刚经", ver="1.0.2", size="1.4 MB", file="jingang-1.0.2.apk"),
     dict(key="tanjing", title="坛经", ver="1.2.0", size="1.5 MB", file="tanjing-1.2.0.apk"),
-    dict(key="sanzijing", title="三字经", ver="3.2", size="22.4 MB", file="sanzijing-3.2.apk"),
-    dict(key="shangshu", title="尚书", ver="0.3.8", size="2.3 MB", file="shangshu-0.3.8.apk"),
-    dict(key="mengzi", title="孟子", ver="0.37.0", size="4.1 MB", file="mengzi-0.37.0.apk"),
-    dict(key="lunyu", title="论语", ver="0.16.43", size="19.3 MB", file="lunyu-0.16.43.apk"),
-    dict(key="qianziwen", title="千字文", ver="0.5.4", size="8.3 MB", file="qianziwen-0.5.4.apk"),
-    dict(key="jiaguwen", title="甲骨文", ver="0.80.0", size="8.9 MB", file="jiaguwen-0.80.0.apk"),
+    dict(key="sanzijing", title="三字经", ver="3.2", size="22.8 MB", file="sanzijing-3.2.apk"),
+    dict(key="shangshu", title="尚书", ver="0.3.8", size="2.2 MB", file="shangshu-0.3.8.apk"),
+    dict(key="mengzi", title="孟子", ver="0.37.0", size="3.9 MB", file="mengzi-0.37.0.apk"),
+    dict(key="lunyu", title="论语", ver="0.16.43", size="18.4 MB", file="lunyu-0.16.43.apk"),
+    dict(key="qianziwen", title="千字文", ver="0.5.4", size="7.9 MB", file="qianziwen-0.5.4.apk"),
+    dict(key="jiaguwen", title="甲骨文", ver="0.80.0", size="8.5 MB", file="jiaguwen-0.80.0.apk"),
 ]
 
 APK_MAP = {b["key"]: b for b in APK_BOOKS}
