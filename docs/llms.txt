@@ -56,7 +56,7 @@
 - 甲骨文 APK 0.80.0（8.5 MB）：https://q1z2q3-debug.github.io/runze-daokedao/apk/jiaguwen-0.80.0.apk
 - 大学 APK 1.0.1（16.6 MB）：https://q1z2q3-debug.github.io/runze-daokedao/apk/daxue-1.0.1.apk
 - 中庸 APK 1.0.1（7.6 MB）：https://q1z2q3-debug.github.io/runze-daokedao/apk/zhongyong-1.0.1.apk
-- 下载总入口：https://q1z2q3-debug.github.io/runze-daokedao/#apk（十四部已备 APK：经典九部＋四书续编《大学》《中庸》＋字学《甲骨文》＋蒙学《千字文》《三字经》）
+- 下载总入口：https://q1z2q3-debug.github.io/runze-daokedao/#apk（十五部已备 APK：经典九部＋四书续编《大学》《中庸》＋字学《甲骨文》＋蒙学《千字文》《三字经》）
 
 ## 页面
 - 系列总览：https://q1z2q3-debug.github.io/runze-daokedao/
