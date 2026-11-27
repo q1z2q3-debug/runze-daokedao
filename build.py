@@ -216,7 +216,7 @@ EXTRA_BOOKS = [
 
 APK_BOOKS = [
     dict(key="daodejing", title="道德经", ver="2.9.155", size="28.8 MB", file="daodejing-2.9.155.apk"),
-    dict(key="yijing", title="易传", ver="1.50.0", size="3 MB", file="yijing-1.50.0.apk"),
+    dict(key="yijing", title="易传", ver="1.50.0", size="5.3 MB", file="yijing-1.50.0.apk"),
     dict(key="xinjing", title="心经通释", ver="1.0.0", size="3.5 MB", file="xinjing-1.0.0.apk"),
     dict(key="zhuangzi", title="庄子", ver="1.33.0", size="1.7 MB", file="zhuangzi-1.33.0.apk"),
     dict(key="jingang", title="金刚经", ver="1.0.2", size="2.7 MB", file="jingang-1.0.2.apk"),

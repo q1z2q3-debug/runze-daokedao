@@ -37,7 +37,7 @@
 
 ## 安卓离线包
 - 道德经 APK 2.9.155（28.8 MB）：https://q1z2q3-debug.github.io/runze-daokedao/apk/daodejing-2.9.155.apk
-- 易传 APK 1.50.0（3 MB）：https://q1z2q3-debug.github.io/runze-daokedao/apk/yijing-1.50.0.apk
+- 易传 APK 1.50.0（5.3 MB）：https://q1z2q3-debug.github.io/runze-daokedao/apk/yijing-1.50.0.apk
 - 心经通释 APK 1.0.0（3.5 MB）：https://q1z2q3-debug.github.io/runze-daokedao/apk/xinjing-1.0.0.apk
 - 庄子 APK 1.33.0（1.7 MB）：https://q1z2q3-debug.github.io/runze-daokedao/apk/zhuangzi-1.33.0.apk
 - 金刚经 APK 1.0.2（2.7 MB）：https://q1z2q3-debug.github.io/runze-daokedao/apk/jingang-1.0.2.apk
