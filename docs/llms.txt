@@ -30,7 +30,7 @@
 - [孟子](https://q1z2q3-debug.github.io/daokedao-mengzi/)：润泽说 道可道之孟子，57.1 万字，261 页 + 261 图 + 卷首页与全本离线版，v0.37.0，未送 DOI 存档
 - [孝经](https://q1z2q3-debug.github.io/daokedao-xiaojing/)：润泽说 道可道之孝经，5.4 万字，18 章 + 18 图 + 卷首四件与全本离线版，v0.1.5，未送 DOI 存档
 - [论语](https://q1z2q3-debug.github.io/daokedao-lunyu/)：润泽说 道可道之论语，145.0 万字，511 课（512 页）+ 专题八篇 + 论文三篇，v0.16.44，未送 DOI 存档
-- [春秋](https://q1z2q3-debug.github.io/daokedao-chunqiu/)：润泽说 道可道之春秋，待计，255 篇（十二公）；已刊 CJ001 隐公元年，v0.1.0，未送 DOI 存档
+- [春秋](https://q1z2q3-debug.github.io/daokedao-chunqiu/)：润泽说 道可道之春秋，待计，255 篇（十二公）；已刊 CJ001–CJ002，v0.1.1，未送 DOI 存档
 
 ## 字学与蒙学
 - [润泽说 道可道之诗经](https://q1z2q3-debug.github.io/daokedao-shijing/)：200 / 305 篇，200 篇 + 400 图 + 200 段朗读，v0.3.115
