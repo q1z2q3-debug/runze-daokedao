@@ -210,6 +210,13 @@ BOOKS = [
 ]
 
 EXTRA_BOOKS = [
+    dict(key="shijing", no="17", group="经部", title="润泽说 道可道之诗经",
+         sub="国风已收 113 篇，全书 305 篇；一篇一页，十一节同构，一篇二图一段朗读",
+         chars="113 / 305 篇", struct="113 篇 + 226 图 + 113 段朗读",
+         ver="v0.3.92",
+         site="https://q1z2q3-debug.github.io/daokedao-shijing/",
+         repo="https://github.com/q1z2q3-debug/daokedao-shijing",
+         note="底本《毛诗正义》经文，参校朱熹《诗集传》、王先谦《诗三家义集疏》。每篇十一节：解题、经文、韵读、字义与名物、今译、章旨、诗教、分寸与边界、存疑、跨典、双卡与图；图一写名物，图二写义理，手写 SVG 760×540。当前周南至魏风 113 篇已上线，唐风起续收。"),
     dict(key="jiaguwen", no="10", group="字学", title="润泽说 道可道之甲骨文",
          sub="七十七卷，按事类分卷，逐字增补",
          chars="77 卷", struct="924 字位；详解 372 条",
@@ -486,6 +493,7 @@ def build_index():
 <p style="margin:0;color:#3A342C;">{b['note']}</p></div>
 <div class="meta">{b['chars']}<br>{b['struct']}<br>{b['ver']}<br><a href="{b['site']}" style="font-size:13px;">进入阅读</a>{apk_link(b['key'])}</div></div>"""
     extra_rows_sishu = "".join(extra_row(b) for b in EXTRA_BOOKS if b["group"] == "四书")
+    extra_rows_jingbu = "".join(extra_row(b) for b in EXTRA_BOOKS if b["group"] == "经部")
     extra_rows_zi = "".join(extra_row(b) for b in EXTRA_BOOKS if b["group"] == "字学")
     extra_rows_meng = "".join(extra_row(b) for b in EXTRA_BOOKS if b["group"] == "蒙学")
     extra_rows_zhuan = "".join(extra_row(b) for b in EXTRA_BOOKS if b["group"] == "专题")
@@ -539,6 +547,10 @@ def build_index():
 <h2>道可道 · 四书续编</h2>
 <p class="small">《孟子》《论语》在经典九部之内，《大学》《中庸》续入四书一系，各自独立成库、同样零权限断网可读。</p>
 <div class="list">{extra_rows_sishu}</div>
+
+<h2>道可道 · 经部新编</h2>
+<p class="small">《诗经》三百五篇，一篇一页，十一节同构；国风周南至魏风 113 篇已上线，唐风起续收。每篇二图、一段原文朗读，图一写名物，图二写义理。</p>
+<div class="list">{extra_rows_jingbu}</div>
 
 <h2>道可道 · 字学与蒙学</h2>
 <p class="small">经典九部之外，字学与蒙学同归「道可道」名下：甲骨文是字源总卷，千字文与三字经是蒙学读本，各自独立成库。</p>
