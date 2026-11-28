@@ -32,7 +32,7 @@
 - [论语](https://q1z2q3-debug.github.io/daokedao-lunyu/)：润泽说 道可道之论语，145.0 万字，511 课（512 页）+ 专题八篇 + 论文三篇，v0.16.44，未送 DOI 存档
 
 ## 字学与蒙学
-- [润泽说 道可道之诗经](https://q1z2q3-debug.github.io/daokedao-shijing/)：180 / 305 篇，180 篇 + 360 图 + 180 段朗读，v0.3.113
+- [润泽说 道可道之诗经](https://q1z2q3-debug.github.io/daokedao-shijing/)：190 / 305 篇，190 篇 + 380 图 + 190 段朗读，v0.3.114
 - [润泽说 道可道之甲骨文](https://q1z2q3-debug.github.io/daokedao-jiaguwen/)：77 卷，924 字位；详解 372 条，v0.80.0
 - [润泽说 蒙学之千字文](https://q1z2q3-debug.github.io/daokedao-qianziwen/)：33 课，三十三课，依句意分课，v0.5.4
 - [润泽说 少儿启蒙国学读本·三字经](https://q1z2q3-debug.github.io/daokedao-sanzijing/)：201 课，402 页；立人—知世—劝学，v3.3
